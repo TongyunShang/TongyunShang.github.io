@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>About Me</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  	
+  	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+	<style type="text/css">
+		h1{
+			/*background-color: #E8DFE0;*/
+			text-align: center;
+		}
+	</style>
+
+
+</head>
+
+<body>	
+	<div class="container:fluid " >
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h1>About Me</h1>
+				</div>									
+			</div>			
+	</div>
+		
+		<header>		
+		<nav><div class="container" id="bnavigation">
+			<div class="row">								
+				<div class="col-sm-4">
+					<a href="portfolio(homepage).html">Homepage</a>					
+				</div>
+				<div class="col-sm-8 text-right">
+					<a href="portfolio(aboutme).html">About Me</a>
+					<a href="portfolio(projects).html">Projects</a>
+					<a href="portfolio(contactme).html">Contact Me</a>																			
+				</div>				
+			</div>			
+		</nav></div>		
+	</header>
+
+	<section class="container me">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2>Me</h2>				
+			</div>			
+		</div>
+		<div class="row bottom-sm">
+			<div class="col-sm-6">
+				<div class="myimg">
+					<img src="images/tongyun.jpg">
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="col-sm-12 facts">
+					<ul><h3>Tongyun</h3>
+						<li><p>Specialization: HCI</p></li>
+						<li><p>Hobbies: Architecture, maps, reading</p></li>
+						<li><p>Favorite writer: Jack London, O.Henry</p></li>
+						<li><p>Favorite architect: Maya Lin</p></li>
+					</ul>
+				</div>
+				<div class="col-sm-12 resume">
+					<ul><h3>Resume</h3></ul>
+						<p><a href="others/Resume_TongyunShang.pdf" target="_blank">Resume_TongyunShang</a></p>
+				</div>
+			</div>
+		</div> 		
+	</section>
+
+	<section>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h3 class="col-sm-12">Background Info</h3>
+					<p class="col-sm-12" id="bginfo">
+						I am Tongyun Shang, a first year gruaduate student in University of Michigan-Ann Arbor, and major in HCI. I finished my Engineering Bachelor's degree in Beijing,2016, and my major at that time was Automation. So I have backgrounds of programming, for example, C,C++ and Java. Besides, I have once minored in Finance for 2 years and had several internships in fund companies, but found that I was not so into it. Instead, I love sketching and painting, so as designing and that's why I study HCI now. 
+					</p>
+				</div>
+				<div class="col-sm-6">
+					<h3 class="col-sm-12">Interests</h3>
+					<p class="col-sm-12" id="interst">
+						I am a fan of Architecture, and thus most of my spare time were spent on reading Architecture books and watching relevant documentories or cases. Additionally, I'm interested in volunteering very much. I've participated in various volunteering activities, and what impressed me the most was that I've teaching high school students in Hunan Province logic and Architecture for a month in summer, 2016. Good design to me is the design can serve people in daily life, show caring to people and have warmth. I wish thay I could apply my  skills, my creativity, my passion and my caring of people to my design, becoming a caring designer who create for people, not only designer myself.
+					</p>										
+				</div>		 	
+			</div>						
+		</div>				
+		
+		
+	</section>
+
+	<footer class="container" id="bfooter">
+	    <div class="row">
+	      <p class="col-sm-4">Address: 105 S South State Street, Ann Arbor, MI 48109</p>
+	      <ul class="col-sm-8 ">
+	        <li class="col-sm-1">
+	          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+	        </li>
+	        <li class="col-sm-1">
+	          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+	        </li>
+	        <li class="col-sm-1">
+	          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+	        </li>
+	        <li class="col-sm-1">
+	          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg">
+	        </li>
+	      </ul>
+	    </div>
+  	</footer>
+
+	<script>
+	console.log("hi");
+    $("#header").load("portfolio(header).html");
+    $("#footer").load("portfolio(footer).html");
+	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+</body>
+</html>
