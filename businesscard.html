@@ -22,21 +22,11 @@
 </head>
 
 <body>
-	<header class="container:fluid">
-		<div class="row">
-			<div class="col-sm-12 text-left">
-		      <a class="btn btn-secondary" href="portfolio(projects).html">Back to Projects</a>
-		    </div>
-			<div class="col-sm-12 titleall">
-				<div class="col-sm-12  title">
-				<h1>My Business Card</h1>
-				<div class="col-sm-12 title-bottom">
-				<p>class: SI 520: Graphic Design</p>
-				<p>tools: photoshop, illustrater</p>
-				<p>time: 10/2016</p>
-			</div>
-		</div>
-	</header>
+	<header id="header"></header>
+	<script>
+		$("#header").load("portfolio(homepage).html #header");
+	</script>
+	
 	<content class="container ">
 			<div class="row project-wrapper">
 				<div class="col-sm-12">
@@ -49,15 +39,9 @@
 
 	</content>
 
-	<footer class="container" id="bfooter">
-	    <div class="row">
-	      	<div class="col-sm-6 text-left">
-		      <a class="btn btn-secondary" href="alphabet.html">Previous Project</a>
-		    </div>
-		    <div class="col-sm-6 text-right">
-		      <a class="btn btn-secondary" href="businesscard.html">Next Project</a>
-		    </div>
-	    </div>
-  	</footer>
+	<footer id="footer"></footer>
+	<script>
+		$("#footer").load("portfolio(homepage).html #bfooter");
+	</script>
 </body>
 </html>
