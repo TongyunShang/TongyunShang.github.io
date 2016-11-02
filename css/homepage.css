@@ -9,6 +9,8 @@ body
   background-size: cover;
   height: 100%;
   background-attachment: fixed;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .logo{
@@ -113,11 +115,19 @@ section.container.me{
       position:fixed;
       bottom: 0px;
       width:100%;
+      padding-right: 0;
+      margin-right: 0;
 }
 footer {
   color: #746F6C;
   font-size: 12px;
   padding: 20px 0;
+  padding-right: 0;
+  margin-right: 0;
+}
+footer#bfooter.container{
+    padding-right: 0;
+    margin-right: 0;
 }
 
 footer .col-sm-8 {
