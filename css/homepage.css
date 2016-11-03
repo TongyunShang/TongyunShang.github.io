@@ -1,10 +1,10 @@
 body
  {
   /*position: absolute;*/
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: 300;
   color: white;
-  background-image: url("https://scontent-ort2-1.xx.fbcdn.net/t31.0-8/14890439_292950221104324_5352924586411140427_o.jpg");
+  background-image: url("https://scontent-ord1-1.xx.fbcdn.net/t31.0-8/14890439_292950221104324_5352924586411140427_o.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12,6 +12,8 @@ body
   background-attachment: fixed;
   max-width: 100%;
   overflow-x: hidden;
+  font-size: 20px;
+  text-shadow: 0.5px 0.5px 0.5px #000000;
 }
 
 .logo{
@@ -53,10 +55,22 @@ h1 {
   margin: 0;
   color: #fff;
 }
-h2,h3{
+h2{
   text-shadow: 0.85px 0.85px 0.85px #000000;
+  font-size: 40px;
+  font-weight: 500;
+  /*padding: 20px 0px;
+  margin: 0;*/
+  color: #fff;
 }
-
+h3{
+  text-shadow: 0.85px 0.85px 0.85px #000000;
+  font-size: 30px;
+  font-weight: 500;
+  /*padding: 20px 0px;
+  margin: 0;*/
+  color: #fff;
+}
 .jumbotron{
   background: rgba(0, 0, 0, 0);
   padding-top: 10%;

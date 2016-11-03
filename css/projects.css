@@ -1,16 +1,19 @@
 body
  {
   /*position: absolute;*/
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 450;
   color: white;
-  background-image: url("https://scontent-ort2-1.xx.fbcdn.net/t31.0-8/14890439_292950221104324_5352924586411140427_o.jpg");
+  background-image: url("https://scontent-ord1-1.xx.fbcdn.net/t31.0-8/14890439_292950221104324_5352924586411140427_o.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100%;
   background-attachment: fixed;
    max-width: 100%;
   overflow-x: hidden;
+  font-size:20px;
+  text-shadow: 0.5px 0.5px 0.5px #000000;
 }
 h1 {
   text-shadow: 1px 1px 1px #000000;
@@ -36,6 +39,7 @@ div.row.project-wrapper{
 	width:100%;			
 }
 .item{
+	background: rgba(255, 255, 255, 0.6);  
 	align-items: center;
 	  margin: 0 0 30px;
 	 padding: 1em;
