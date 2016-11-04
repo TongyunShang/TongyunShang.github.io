@@ -180,7 +180,7 @@ body
       color: #746F6C;
         text-decoration: none;
     }
-    header ul #e{
+    header ul .e{
     display: inline-block;
   }
     footer ul .add{
