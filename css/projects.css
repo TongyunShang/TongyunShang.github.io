@@ -1,91 +1,48 @@
-body
- {
-  /*position: absolute;*/
-  font-family: 'Helvetica', sans-serif;
-  font-weight: 450;
-  color: white;
-  background-image: url("https://scontent-ord1-1.xx.fbcdn.net/t31.0-8/14890439_292950221104324_5352924586411140427_o.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  background-attachment: fixed;
-   max-width: 100%;
-  overflow-x: hidden;
-  font-size:20px;
-  text-shadow: 0.5px 0.5px 0.5px #000000;
+h1.projectheading{
+font-size: 40px;
 }
-h1 {
-  text-shadow: 1px 1px 1px #000000;
-  font-size: 40px;
-  font-weight: 700;
-  padding: 20px 0px;
-  margin: 0;
-  color: #fff;
-}
-header{
-	padding: 20px 0;
-	/*background-color: #fbd1d5; */
+div.col-sm-12.title-bottom{
+display: flex;	
+align-items: center;
+justify-content: center;
 }
 div.project-wrapper{
 	align-items: center;
 	margin: 1em;
-	padding:1em;   	
+	padding:1em;  	
 }
 div.row{
 	margin:1em;
 }
-div.row.project-wrapper{
-	width:100%;			
-}
 .item{
 	background: rgba(255, 255, 255, 0.6);  
 	align-items: center;
-	  margin: 0 0 30px;
-	 padding: 1em;
+	margin: 0 0 30px;
+	padding: 1em;
 }
 #bfooter{
-      background: rgba(255, 255, 255, 0.6);      
+      background: rgba(255, 255, 255, 0);      
       position:fixed;
       bottom: 0px;
       width:100%;
 }
-footer .col-sm-6.text-right {
+footer.col-sm-6.text-right {
     display: inline-block;
     justify-content: flex-end;
 }
 
 @media only screen and (min-width: 320px) {
-		div.row.project-wrapper{
-			padding-left: 0em;
-			width:100%;			
-		}
-		.titleall{
-			margin-top: 0;
-			padding-left: 4em;
+		#bfooter div.row {
+			padding: 0;
+			margin:0; 
 		}
 }
-
-@media only screen and (min-width: 425px) {
-		div.row.project-wrapper{
-			padding-left: 0em;
-			width:100%;			
-		}
-		.titleall{
-			margin-top: 0;
-			padding-left: 7.5em;
-		}
-}
-
 @media only screen and (min-width: 768px) {
-		div.row.project-wrapper{
-			width: 75%;
-			height: 75%;
-			padding-left: 22em;
-			margin:1em;
+		.item{
+			display: inline-block;
+			width: 40%;
+			height: 40%;
+			margin-left: 6.5%;
 		}
-		.titleall{
-			margin-top: 0;
-			padding-left: 18em;
-		}
+
 }
