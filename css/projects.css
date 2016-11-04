@@ -1,6 +1,9 @@
 h1.projectheading{
 font-size: 40px;
 }
+.back{
+	font-size: 16px;
+}
 div.col-sm-12.title-bottom{
 display: flex;	
 align-items: center;
@@ -21,23 +24,46 @@ div.row{
 	padding: 1em;
 }
 #bfooter{
-      background: rgba(255, 255, 255, 0);      
-      position:fixed;
-      bottom: 0px;
-      width:100%;
+      background: rgba(255, 255, 255, 0);
+      font-size: 16px;
 }
+
 footer.col-sm-6.text-right {
     display: inline-block;
     justify-content: flex-end;
 }
 
 @media only screen and (min-width: 320px) {
+		header a{
+			color: #746F6C;
+		  	text-decoration: none;
+		}
 		#bfooter div.row {
 			padding: 0;
 			margin:0; 
 		}
+		#bfooter a{
+			color: #746F6C;
+		  	text-decoration: none;
+		}
 }
 @media only screen and (min-width: 768px) {
+		header a{
+			color: #ffffff;
+		  	text-decoration: none;
+		}
+		header a:hover{
+			color: #746F6C;
+		    text-decoration: none;
+		}
+		#bfooter a{
+			color: #ffffff;
+		  	text-decoration: none;
+		}
+		#bfooter a:hover{
+			color: #746F6C;
+		    text-decoration: none;
+		}
 		.item{
 			display: inline-block;
 			width: 40%;

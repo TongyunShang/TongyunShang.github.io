@@ -1,18 +1,4 @@
-body
- {
-  font-family: 'Helvetica', sans-serif;
-  font-weight: 300;
-  color: white;
-  background-image: url("https://scontent-ord1-1.xx.fbcdn.net/t31.0-8/14890439_292950221104324_5352924586411140427_o.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  background-attachment: fixed;
-  max-width: 100%;
-  overflow-x: hidden;
-  font-size: 20px;
-  text-shadow: 0.5px 0.5px 0.5px #000000;
-}
+
 .logo{
 
       height: 50px;
@@ -34,12 +20,13 @@ footer .row {
   display: flex;
   align-items: center;
 }
-
 header nav .col-sm-8 {
   display: flex;
   justify-content: flex-end;
 }
-
+.nav.nav-tabs-nav-justified a:hover {
+    background:rgba(0,0,0,0);
+}
 header a {
   padding:0px 20px;
   margin: 0;
@@ -78,14 +65,7 @@ section .row img {
   width: 100%;
   
 }
-div#bnavigation a{
-  color: #FFFFFF;
-    text-decoration: none;
-}
-div#bnavigation a:hover{
-  color: #746F6C;
-    text-decoration: none;
-}
+
 div.div-projects{
   padding-top: 2em;
 }
@@ -137,14 +117,64 @@ footer li img {
 
 
 @media only screen and (min-width: 320px) {
+    body{
+      background-image:none;
+      background-color: #B1ADAA;
+      color: white;
+      font-family: 'Helvetica', sans-serif;
+      font-weight: 300;
+    }
+    div#bnavigation a{
+      font-size: 16px;
+      color: #746F6C;
+      text-decoration: none;
+    }
+    div.col-sm-8.text-right{
+      padding-left: 2em;
+      padding-right: 0em;
+    }
     footer ul .add{
-  width: 100%;
-}
-  footer ul .icons{
+      width: 100%;
+    }
+    footer ul .icons{
       width: 40px;
+    }
+    #e a{
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+}
+@media only screen and (min-width: 375px) {
+    div.col-sm-8.text-right{
+      padding-left: 5em;
+    }
+  }
+@media only screen and (min-width: 425px) {
+body
+ {
+  background-image: url("https://scontent-ord1-1.xx.fbcdn.net/t31.0-8/14890439_292950221104324_5352924586411140427_o.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-size: 20px;
+  text-shadow: 0.5px 0.5px 0.5px #000000;
+}
+    div.col-sm-8.text-right{
+      padding-left: 7.5em;
     }
 }
 @media only screen and (min-width: 768px) {
+    div#bnavigation a{
+      color: #ffffff;
+      text-decoration: none;
+    }
+    div#bnavigation a:hover{
+      color: #746F6C;
+        text-decoration: none;
+    }
     header ul #e{
     display: inline-block;
   }
