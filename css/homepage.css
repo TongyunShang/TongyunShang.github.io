@@ -139,7 +139,7 @@ footer li img {
     footer ul .icons{
       width: 40px;
     }
-    .e a{
+    li.e a{
       padding-top: 0;
       padding-bottom: 0;
     }
@@ -156,7 +156,7 @@ footer li img {
 @media only screen and (min-width: 425px) {
 body
  {
-  background-image: url("https://scontent-ord1-1.xx.fbcdn.net/t31.0-8/14890439_292950221104324_5352924586411140427_o.jpg");
+  background: url("bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
