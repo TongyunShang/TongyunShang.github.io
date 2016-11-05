@@ -19,6 +19,7 @@
  	
   	<link rel="stylesheet" type="text/css" href="css/projects.css">
   	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+  	<link rel="stylesheet" href="dist/css/lightbox.min.css">
   	<style>
   		footer#footer{
   			background: rgba(255,255,255,0); 
@@ -50,14 +51,15 @@
 	</header>
 
 			<div class="project-wrapper">				
-					<div class="item"><img src="images/businesscard1.png" alt="#"></div>				
+					<div class="item"><a  href="images/businesscard1.png" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img src="images/businesscard1.png" alt="" /></a></div>				
 				
-					<div class="item"><img src="images/businesscard2.png" alt="#"></div>
+					<div class="item"><a  href="images/businesscard2.png" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img src="images/businesscard2.png" alt="" /></a></div>
 			</div>
 
 	<footer id="footer"></footer>
 	<script>
 		$("#footer").load("alphabet.html #bfooter");
 	</script>
+	<script src="dist/js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
