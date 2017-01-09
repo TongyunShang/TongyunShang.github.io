@@ -23,6 +23,7 @@
 } 
 .homepage header{
   position: fixed;
+  z-index: 3;
 }
 .homepage .menu
 {
@@ -73,10 +74,7 @@ div a img.sm_off{
 .sm_on, .sm:hover .sm_off{
    display:inline-block
 }
-.aboutme .myimg{
-  height:70%;
-  width:70%;
-}
+
 .aboutme h1,h2,ul{
   text-align: center;
 }
@@ -88,14 +86,7 @@ div a img.sm_off{
 .aboutme p{
   margin-bottom: 2em;
 }
-.aboutme .me{ 
-  display: block;
-  padding-top: 7em;
-}
-.aboutme div.info{
-  display: block;
-  padding-top: 3em;
-}
+
 .logo{
   padding-top: 1em;
   padding-left: 0;
@@ -143,13 +134,7 @@ header a {
   padding:0px 20px;
   margin: 0;
 }
-h1 {
-  font-size: 60px;
-  font-weight: 700;
-  padding: 20px 0px;
-  margin: 0;
-  color: #fff;
-}
+
 h2{
   font-size: 40px;
   font-weight: 500;
@@ -222,9 +207,7 @@ h3{
   color: #ffffff;
   background-color: #5d5d5d;
 }
-section.container.me{
-  padding-bottom: 30px;
-}
+
 .myprojects a {
   text-decoration: none;
 }
@@ -316,6 +299,37 @@ button, input, textarea {
       font-family: 'Helvetica', sans-serif;
       font-weight: 300;
     }
+    h1 {
+      z-index: 2;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+  div.row.div-projects{
+    padding-top:2em; 
+    padding-bottom: 2em;
+  }
+  .aboutme .me{ 
+    display: block;
+    padding-top: 0;
+  }
+  .aboutme div.info{
+  display: block;
+  padding: 2em;
+  padding-top: 3em;
+}
+  .aboutme .ty{
+    margin-top: 1em;
+    padding-bottom: 2em;
+  }
+  .aboutme .myimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:80%;
+  width:80%;
+}
     div#bnavigation a{
       font-size: 16px;
       color: #746F6C;
@@ -330,8 +344,12 @@ button, input, textarea {
       padding-top: 0;
       padding-bottom: 0;
     }
+    .myprojects h3.title{
+      color: #a3a3a3;
+      font-size: 14px;
 }
-@media only screen and (min-width: 320px) {
+}
+@media only screen and (min-width: 425px) {
     .aboutme .myimg{
       margin-left: auto;
       margin-right: auto;
@@ -357,6 +375,30 @@ body
   font-size: 20px;
   /*text-shadow: 0.5px 0.5px 0.5px #000000;*/
 }
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  padding: 20px 0px;
+  margin: 0;
+}
+.aboutme div.info{
+  padding:0;
+  padding-top: 1em;
+}
+.aboutme .ty{
+    margin-top: 3em;
+    padding: 1em;  }
+.aboutme .me{ 
+  display: block;
+  padding:2em;
+}
+.aboutme .myimg{
+  height:80%;
+  width:80%;
+}
+.myprojects h3.title{
+      font-size: 16px;
+}
     div.col-sm-8.text-right{
       padding-left: 7.5em;
     }
@@ -366,5 +408,13 @@ div.div-projects{
   padding-right: 2em;
 }
 }
-
-
+@media only screen and (min-width: 1024px) {
+  .aboutme div.info{
+  padding:0;
+  padding-top: 7em;
+}
+  .aboutme .myimg{
+  height:70%;
+  width:70%;
+}
+}
