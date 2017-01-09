@@ -1,13 +1,59 @@
+@font-face{
+  font-family: 'Centurygothic';
+  src: url('ufonts.com_century-gothic.ttf') format('truefont');
+  font-family: 'BaskervilleOldFace';
+  src: url('ufonts.com_baskerville-old-face.ttf') format('truefont');
+  font-family: 'Calibri W01 Light';
+  src: url("raleway_thin-webfont.ttf") format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+
+}
+body {
+	background-color: #e6e6eb;
+	font-family: 'Centurygothic';
+	font-size: 15px;
+	text-decoration: none;
+}
+ul
+{
+	padding-left: 0;
+list-style-type: none;
+}
+.bookmap, html{
+	height: 100%;
+}
 h1.projectheading{
-font-size: 40px;
+	margin:0;
+	font-size: 35px;
 }
 .back{
-	font-size: 16px;
+	font-size: 30px;
 }
-div.col-sm-12.title-bottom{
-display: flex;	
-align-items: center;
-justify-content: center;
+.contact p{
+	border: solid 2px;
+	width: 100px;
+	height: 30px;
+	line-height: 1.5;
+}
+.intro p{
+	font-family: sans-serif;
+	color: #858794;
+	font-size: 15px;
+	font-weight: lighter;
+}
+.intro b{
+	font-weight: 500;
+	font-size: 14px;
+}
+.content p,
+.ab p{
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+div .aab{
+	padding-top: 3em;
+}
+div .text{
+	line-height: 1.5;
 }
 div.project-wrapper{
 	align-items: center;
@@ -15,7 +61,10 @@ div.project-wrapper{
 	padding:1em;  	
 }
 div.row{
-	margin:1em;
+	margin:2em;
+}
+div .aaa{
+	padding-top: 3em;
 }
 .item{
 	background: rgba(255, 255, 255, 0.6);  
@@ -27,45 +76,153 @@ div.row{
 	width:100%;
 	height:100%;
 }
-#bfooter{
-      background: rgba(255, 255, 255, 0);
-      font-size: 16px;
-}
-
-footer.col-sm-6.text-right {
-    display: inline-block;
-    justify-content: flex-end;
-}
 
 @media only screen and (min-width: 320px) {
+	div .contact p{
+		margin-top:2em;
+		margin-left: 30%; 
+	}
+	div .aab{
+	padding-top: 0;
+	}
+	div .ab{
+		height: 100%;
+		background-color: white;
+	}
+	.ab div.text-center{
+		padding: 1em;
+	}
+	div #feature2{
+		background-color: #858794;
+	}
+	div #guide{
+		background-color: #E1CFAA;
+		padding-bottom: 2em;
+	}
+	.ac iframe{
+		width:193.024px;
+		height:341.504px;
+	}
+	.footer{
+	padding-bottom: 2em;
+	}
+	.prev, .next{
+		display: inline-block;
+	}
+	.prev{
+		padding-left: 2em;
+		float: left;
+	}
+	.next{
+		padding-right: 2em;
+		float: right;
+	}
 		header a{
 			color: #746F6C;
 		  	text-decoration: none;
 		}
-		#bfooter div.row {
-			padding: 0;
-			margin:0; 
-		}
-		#bfooter a{
-			color: #746F6C;
+
+		.footer a{
+			color: #FCB41C;
 		  	text-decoration: none;
 		}
+	#guide img{
+		width: 100%;
+		height: 100%;
+		padding: 1em;
+	}
+	#guide h3{
+		margin:0;
+		margin-top:1em;
+	}
+	.ac iframe{
+		padding: 1em;
+	}
+}
+#play{
+	z-index: 3;
+	position: absolute;
+	left: 5%;
+}
+@media only screen and (min-width: 425px) {
+	#guide img{
+		width: 70%;
+		height: 70%;
+	}
 }
 @media only screen and (min-width: 768px) {
+	div .contact p{
+		margin-top:0;
+	}
+	div .intro{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 3em;
+	}
+	div .ab{
+	display: block;
+	align-items: center;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	}
+	div .aab{
+	padding-top: 3em;
+	}
+	.ac iframe{
+		width:301.6px;
+		height:533.6px;
+	}
+	div .ac,
+	div #guide{
+	padding-top: 4em;
+	padding-bottom: 4em;	
+	}
+	#guide h3{
+		margin:0;
+	}
+	.prev, .next {
+    position: fixed;
+    bottom: -50px;
+    width: 320px;
+    font-size: 1.3rem;
+    transition: all .2s ease;
+	}
+	.prev {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    text-align: right;
+	}
+	.next {
+    right: 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: right top;
+    transform-origin: right top;
+	}
+	.prev a, .next a{
+		display: block;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    transition: all .2s ease;
+	}
 		header a{
 			color: #ffffff;
 		  	text-decoration: none;
+		  	transition: all .2s ease;
 		}
 		header a:hover{
-			color: #746F6C;
+			color: #5d5d5d;
 		    text-decoration: none;
 		}
-		#bfooter a{
-			color: #ffffff;
+		.footer a{
+			color: #FCB41C;
 		  	text-decoration: none;
 		}
-		#bfooter a:hover{
-			color: #746F6C;
+		.footer a:hover{
+			color: #5d5d5d;
 		    text-decoration: none;
 		}
 		.item{
@@ -74,5 +231,14 @@ footer.col-sm-6.text-right {
 			height: 40%;
 			margin-left: 6.5%;
 		}
+	#guide img{
+		width: 30%;
+		height: 30%;
+	}
+	#play{
+	z-index: 3;
+	position: absolute;
+	left: 15%;
+}
 
 }
