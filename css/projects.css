@@ -43,7 +43,13 @@ h1.projectheading{
 .idhatshop .intro p{
 	color: #d6a7b1;
 }
-
+.idhatshop div#feature2{
+	padding-top: 0;
+}
+.idhatshop #feature2 h3{
+	margin-top: 1em;
+	margin-bottom: 0;
+}
 .intro b{
 	font-weight: 500;
 	font-size: 14px;
@@ -154,7 +160,7 @@ div .aaa{
 }
 @media only screen and (min-width: 425px) {
 	
-	#guide img{
+	.bookmap #guide img{
 		width: 70%;
 		height: 70%;
 	}
@@ -248,7 +254,7 @@ div .aaa{
 			height: 40%;
 			margin-left: 6.5%;
 		}
-	#guide img{
+	.bookmap #guide img{
 		width: 30%;
 		height: 30%;
 	}
@@ -257,5 +263,20 @@ div .aaa{
 	position: absolute;
 	left: 15%;
 }
-
+	.idhatshop #hatshop img{
+		width: 648px;
+		height: 377.61px;
+	}
+	.idhatshop #guide img{
+		width: 708px;
+		height: 515.88px;
+	}
+	.idhatshop .ac img{
+		width: 648px;
+		height: 486px;
+	}
+	.idhatshop #tag img{
+		width: 630px;
+		height: 206.19px;
+	}
 }
