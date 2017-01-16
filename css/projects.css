@@ -43,12 +43,36 @@ h1.projectheading{
 .idhatshop .intro p{
 	color: #d6a7b1;
 }
-.idhatshop div#feature2{
+.idhatshop div#feature2,
+.openair div#feature2{
 	padding-top: 0;
 }
-.idhatshop #feature2 h3{
+.idhatshop #feature2 h3,
+.openair #feature2 h3{
 	margin-top: 1em;
 	margin-bottom: 0;
+}
+.openair .intro p{
+	color: #577599;
+}
+.openair h4{
+	margin-top: 0;
+	margin-bottom: 1em;
+	color: #5d5d5d;
+}
+.openair img{
+	transition: all .25s ease-in-out;
+	display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.25);
+}
+.openair img:hover{
+	box-shadow: 0 16px 48px rgba(0,0,0,0.25);
+    -ms-transform: translateY(-8px);
+    transform: translateY(-8px);
 }
 .intro b{
 	font-weight: 500;
@@ -271,7 +295,8 @@ div .aaa{
 		width: 708px;
 		height: 515.88px;
 	}
-	.idhatshop .ac img{
+	.idhatshop .ac img
+	{
 		width: 648px;
 		height: 486px;
 	}
