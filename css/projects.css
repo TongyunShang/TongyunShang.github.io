@@ -48,6 +48,10 @@ h1.projectheading{
 .umsi div.web{
 	padding-top: 0;
 }
+.saa div#feature2{
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
 .idhatshop #feature2 h3,
 .openair #feature2 h3,
 .umsi .web h3{
@@ -93,11 +97,16 @@ h1.projectheading{
     -ms-transform: translateY(-8px);
     transform: translateY(-8px);
 }
+.saa .intro p{
+	color: #B88037;
+}
 .intro b{
 	font-weight: 500;
 	font-size: 14px;
 }
 .content p,
+.content ul,
+.saa #feature2 ul,
 .ab p{
 	font-family: sans-serif;
 	font-weight: lighter;
@@ -331,4 +340,12 @@ div .aaa{
 		width: 648px;
 		height: 1251.52px;
 	}
+	.saa #graph img{
+		width: 648px;
+		height: 242.34px;
+	}
+	.saa #chart img{
+		width: 648px;
+		height: 86.98px;
+	}	
 }
