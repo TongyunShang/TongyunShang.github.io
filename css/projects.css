@@ -45,7 +45,8 @@ h1.projectheading{
 }
 .idhatshop div#feature2,
 .openair div#feature2,
-.umsi div.web{
+.umsi div.web,
+.alphabet div#feature2{
 	padding-top: 0;
 }
 .saa div#feature2{
@@ -96,6 +97,23 @@ h1.projectheading{
 	box-shadow: 0 16px 48px rgba(0,0,0,0.25);
     -ms-transform: translateY(-8px);
     transform: translateY(-8px);
+}
+.alphabet img{
+	transition: all .25s ease-in-out;
+	display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.25);
+}
+.alphabet img:hover{
+	box-shadow: 0 16px 48px rgba(0,0,0,0.25);
+    -ms-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+.alphabet .intro p{
+	color: #377275;
 }
 .saa .intro p{
 	color: #B88037;
@@ -215,6 +233,10 @@ div .aaa{
 	.bookmap #guide img{
 		width: 70%;
 		height: 70%;
+	}
+	.alphabet #feature2 img{
+		width: 255px;
+		height: 226.66px;
 	}
 }
 @media only screen and (min-width: 768px) {
@@ -347,5 +369,13 @@ div .aaa{
 	.saa #chart img{
 		width: 648px;
 		height: 86.98px;
+	}
+	.alphabet #al-cp img{
+		width: 648px;
+		height: 851.36px;
+	}
+	.alphabet #alphabet img{
+		width: 648px;
+		height: 990.7px;
 	}	
 }
