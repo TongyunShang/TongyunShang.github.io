@@ -220,6 +220,17 @@ div .aaa{
 		height: 226.66px;
 	}
 }
+@media only screen and (max-width: 600px) {
+	
+	h1.projectheading{
+		font-size: 22px;
+		
+	}
+	div.row.aaa{
+		
+		margin:0;
+	}
+}
 @media only screen and (min-width: 768px) {
 	#id-cp{
 	width: 310px;
