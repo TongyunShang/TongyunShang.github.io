@@ -21,11 +21,8 @@
 .myprojects{
   height: 100%;
 } 
-.homepage header{
-  position: fixed;
-  z-index: 3;
-}
-.homepage .menu
+
+.homepage .menu1
 {
   display: block;
 }
@@ -184,14 +181,7 @@ h3{
   opacity: 1;
     background-color:#6e6e6e;
 }
-.jumbotron{
-  background: rgba(0, 0, 0, 0);
-  padding-top: 20%;
-}
-.jumbotron h2 {
-  font-size:40px;
-  margin: 0 0 20px;
-}
+
 .me img{
   margin: 0 0 30px;
   width: 100%;  
@@ -306,6 +296,19 @@ button, input, textarea {
   margin: 0;
   color: #fff;
 }
+  .jumbotron{
+  background: rgba(0, 0, 0, 0);
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.jumbotron h1 {
+  font-size:30px;
+  margin: 0 0 10px;
+}
+.jumbotron h2 {
+  font-size:20px;
+  margin: 0 0 20px;
+}
   div.row.div-projects{
     padding-top:2em; 
     padding-bottom: 2em;
@@ -348,6 +351,86 @@ button, input, textarea {
       color: #a3a3a3;
       font-size: 14px;
 }
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:1.5em;
+  right:1em;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0.5em;
+  right:0.5em;
+  padding:13px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{ 
+  z-index:1; 
+  font-weight:bold; 
+  font-size:0.8em; 
+  width:100%; 
+  background:#5d5d5d;  
+  position:absolute; 
+  text-align:center;
+}
+.menu ul {
+  margin: 0; 
+  padding: 0; 
+  list-style-type: none; 
+  list-style-image: none;
+}
+.menu li {
+  display: block;   
+  padding:15px 0 15px 0; 
+  border-bottom:#1d1f20 1px solid;
+}
+.menu li:hover{
+  display: block;    
+  background: #c1c1c1; 
+  padding:15px 0 15px 0; 
+  border-bottom:#1d1f20 1px solid;
+}
+.menu ul li a { 
+  text-decoration:none;  
+  margin: 0px; color:#fff;
+}
+.menu ul li a:hover {  
+  color: #fff; 
+  text-decoration:none;
+}
+.menu a{
+  text-decoration:none; 
+  color:white;}
+.menu a:hover{
+  text-decoration:none; 
+  color:white;
+}
+
+.glyphicon-home{
+  color:white; 
+  font-size:1.5em; 
+  margin-top:5px; 
+  margin:0 auto;
+}
+
 }
 @media only screen and (min-width: 425px) {
     .aboutme .myimg{
@@ -362,6 +445,40 @@ button, input, textarea {
       padding-bottom: 0px;
     }
   }
+@media screen and (max-width: 700px) {
+    nav{
+      display: none;
+    }
+    .homepage img.logo{
+      width: 96px;
+      height: 107.2px;
+    }
+
+}
+@media screen and (min-width: 700px) {
+    .homepage .menu,
+    .homepage .header{
+      display: none;
+    }
+    .homepage header{
+  position: fixed;
+  z-index: 3;
+}
+.jumbotron{
+  background: rgba(0, 0, 0, 0);
+  padding-top: 40%;
+  padding-bottom: 30%;
+}
+.jumbotron h1 {
+  font-size:60px;
+  margin: 0 0 10px;
+}
+.jumbotron h2 {
+  font-size:40px;
+  margin: 0 0 20px;
+}
+
+}
 @media only screen and (min-width: 768px) {
 body
  {
@@ -381,6 +498,7 @@ h1 {
   padding: 20px 0px;
   margin: 0;
 }
+
 .aboutme div.info{
   padding:0;
   padding-top: 1em;
@@ -409,6 +527,10 @@ div.div-projects{
 }
 }
 @media only screen and (min-width: 1024px) {
+  .jumbotron{
+  background: rgba(0, 0, 0, 0);
+  padding-top: 20%;
+}
   .aboutme div.info{
   padding:0;
   padding-top: 7em;

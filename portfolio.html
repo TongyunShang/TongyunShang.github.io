@@ -14,11 +14,13 @@
   	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 		<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   	
   	<link rel="stylesheet" type="text/css" href="css/homepage.css">
   	<link href="//db.onlinewebfonts.com/c/144003a4a173013fbc704e393ee76265?family=Calibri+W01+Light" rel="stylesheet" type="text/css"/>
+  	
   	
 </head>
 <body>
@@ -28,19 +30,33 @@
 			<a href="#homepage"><img src="images/tylogo.png" class="logo" alt="logo"></a>
 	</header>
 	<nav>						
-			<a class="about menu" href="#aboutme">
+			<a class="about menu1" href="#aboutme">
 				<div class="menu-link"><span class="title">About.</span>
 				<div class="bulb"><img src="images/bulb1.png" width="70%" height="70%"></div></div>				
 			</a>		
-			<a class="projects menu" href="#projects">
+			<a class="projects menu1" href="#projects">
 				<div class="menu-link"><span class="title">Projects.</span>
 				<div class="bulb"><img src="images/bulb1.png" width="70%" height="70%"></div></div>
 			</a>
-			<a class="contact menu" href="#contact">
+			<a class="contact menu1" href="#contact">
 				<div class="menu-link"><span class="title">Contact.</span>
 				<div class="bulb"><img src="images/bulb1.png" width="70%" height="70%"></div></div>
 			</a>
-	</nav>		
+	</nav>
+
+	<div class="header">
+  		<button class="hamburger">&#9776;</button>
+  		<button class="cross">&#735;</button>
+	</div>
+
+<div class="menu">
+  <ul>
+    <a href="#"><li>LINK ONE</li></a>
+    <a href="#"><li>LINK TWO</li></a>
+    <a href="#"><li>LINK THREE</li></a>
+  </ul>
+</div>
+
 	<a name="homepage"></a>
 	<section class="jumbotron" >
 		<div class="container">
@@ -206,7 +222,23 @@
 	</section>
 	</div>
 	<!--Contact-->
-	
-	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript">
+  		$(".cross").hide();
+		$(".menu").hide();
+		$(".hamburger").click(function() {
+		$(".menu").slideToggle("slow", function() {
+		$(".hamburger").hide();
+		$(".cross").show();
+		});
+		});
+
+		$(".cross").click(function() {
+		$(".menu").slideToggle("slow", function() {
+		$(".cross").hide();
+		$(".hamburger").show();
+		});
+		});
+  	</script>
 </body>
 </html>
