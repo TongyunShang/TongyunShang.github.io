@@ -118,6 +118,9 @@ h1.projectheading{
 .saa .intro p{
 	color: #B88037;
 }
+.info .intro p{
+	color: #5d5d5d;
+}
 .intro b{
 	font-weight: 500;
 	font-size: 14px;
@@ -377,5 +380,9 @@ div .aaa{
 	.alphabet #alphabet img{
 		width: 648px;
 		height: 990.7px;
+	}
+	.info #poster img{
+		width: 648px;
+		height: 1910.03px;
 	}	
 }
