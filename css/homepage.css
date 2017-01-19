@@ -13,15 +13,17 @@
     margin-left: auto;
     margin-right: auto;
 }
-.homepage, html{
+.homepage, 
+.projects,
+.contactme{
   height:100%;
   font-family: 'Centurygothic';
   color: #ffffff;
 }
+
 .myprojects{
   height: 100%;
 } 
-
 .homepage .menu1
 {
   display: block;
@@ -48,9 +50,7 @@
   font-family: sans-serif;
   color: #5d5d5d;
 }
-.contactme{
-  height: 70%;
-}
+
 ul li,
 div a img.sm{
   display: inline;
@@ -460,10 +460,11 @@ button, input, textarea {
     .homepage .header{
       display: none;
     }
-    .homepage header{
+ .homepage header
+{
   position: fixed;
   z-index: 3;
-}
+}   
 .jumbotron{
   background: rgba(0, 0, 0, 0);
   padding-top: 40%;
@@ -492,6 +493,8 @@ body
   font-size: 20px;
   /*text-shadow: 0.5px 0.5px 0.5px #000000;*/
 }
+
+
 h1 {
   font-size: 60px;
   font-weight: 700;
@@ -530,6 +533,12 @@ div.div-projects{
   .jumbotron{
   background: rgba(0, 0, 0, 0);
   padding-top: 20%;
+}
+html{
+  height: 100%;
+}
+.contactme{
+  height: 70%;
 }
   .aboutme div.info{
   padding:0;
