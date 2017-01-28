@@ -27,6 +27,16 @@
 		  color: #FFF;
 		}
   	</style>
+
+  	<!--<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+  	<script type="text/javascript">
+  		$("nav a").each(function() {
+            // checks if its the same on the address bar
+	        if(url == (this.href)) { 
+	            $(this).closest("li").addClass("active");
+	        }
+	    });
+  	</script>-->
   	
 </head>
 <body >
@@ -238,7 +248,7 @@
 	</div>
 	<!--Contact-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	
 
 	<script type="text/javascript">
   		$(".cross").hide();
@@ -263,13 +273,7 @@
 		function parallax(){
 		  var scrolled = $(window).scrollTop();
 		  $('.bg').css('top',-(scrolled*0.3)+'px');
-		}
-
-		for (var i = 0; i < document.links.length; i++) {
-		    if (document.links[i].href == document.URL) {
-		        document.links[i].className = 'active';
-		    }
-		}
+		}		
 			
   	</script>
 
