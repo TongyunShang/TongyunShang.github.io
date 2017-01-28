@@ -20,24 +20,31 @@
   font-family: 'Centurygothic';
   color: #ffffff;
 }
-
 .myprojects{
   height: 100%;
 } 
-.homepage .menu1
-{
-  display: block;
+
+nav ul li a:hover {
+    background-color: #FCB41C;
+    color: #FFF;
 }
-.homepage .menu-link{
-  display: block;
-    padding: 20px 0;
-    padding-top: 10px;
-    padding-right: 0px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    background-repeat: no-repeat;
-    color: #ffffff;
+.homepage ul li a {
+    display: block;
+    height: 50px;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .87em;
+    color: #EEE;
 }
+.homepage ul li {
+    display: table-cell;
+}
+.homepage ul{
+    float: right;
+    margin-bottom: 0;
+}
+
 .homepage div .col-sm-4{
   padding-left: 0;
 }
@@ -83,53 +90,60 @@ div a img.sm_off{
 .aboutme p{
   margin-bottom: 2em;
 }
-
 .logo{
-  padding-top: 1em;
   padding-left: 0;
-  height: 30%;
-  width: 30%;   
+  height: 15%;
+  width: 15%;   
 }
 
 .homepage nav{
-    z-index: 1;
     position: fixed;
-    right: 2rem;
-    top: 20px;
-    text-align: right;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(37,37,37,.8);
+    box-shadow: rgba(37,37,37,.2) 0;
+    opacity: .9;
+    -webkit-transition: box-shadow .3s,top .3s,opacity .2s;
+    -moz-transition: box-shadow .3s,top .3s,opacity .2s;
+    -o-transition: box-shadow .3s,top .3s,opacity .2s;
+    transition: box-shadow .3s,top .3s,opacity .2s;
+    padding-right: 40px; 
 }
-.homepage span{
-    display: inline-block;
-    opacity: 0;
-    font-size: 1.5rem;
-    transition: all .2s ease;
-      transition-property: all;
-      transition-duration: 0.5s;
-      transition-timing-function: ease;
-      transition-delay: initial;
-    padding-right: 10px;
-    top: -5px;
-    position: relative;
-    color: #5d5d5d;
+.homepage nav:hover {
+    opacity: 1.5;
 }
-.homepage .menu-link:hover span{
-    opacity: 1;
+nav ul li a.current {
+  background-color: #FCB41C;
+  color: #FFF;
 }
-.homepage .bulb{
-    display: inline-block;
-    text-align: center;
+
+
+.homepage nav figure{
+  margin: 0;
+    margin-left: 20px;
+    position: absolute;
+    top: 0px;
+    left: 9px;
+}
+.jumbotron figure.icon{
+   display: inline-block;
+}
+.jumbotron .icon img{ 
+    width: 200px;
+    height: 200px;
+}
+.jumbotron .resume
+{
+  padding-top: 40px;
+  padding-left: 0;
+  font-size: 40px;
+}
+.jumbotron .lg
+{
+  padding-right: 0;
 }
 a div img.off{
   display: none;
-}
-a:visited{ 
-  color: rgba(0,0,0,0);
-  opacity: 1;
-}
-
-header a {
-  padding:0px 20px;
-  margin: 0;
 }
 
 h2{
@@ -296,7 +310,7 @@ button, input, textarea {
   margin: 0;
   color: #fff;
 }
-  .jumbotron{
+.jumbotron{
   background: rgba(0, 0, 0, 0);
   padding-top: 4em;
   padding-bottom: 4em;
@@ -309,6 +323,7 @@ button, input, textarea {
   font-size:30px;
   margin: 0 0 20px;
 }
+
   div.row.div-projects{
     padding-top:2em; 
     padding-bottom: 2em;
@@ -440,13 +455,13 @@ button, input, textarea {
     div.col-sm-8.text-right{
       padding-left: 5em;
     }
-    header#header{
+    figure #header{
       padding-top: 0px;
       padding-bottom: 0px;
     }
   }
 @media screen and (max-width: 700px) {
-    nav{
+    nav ul{
       display: none;
     }
     .homepage img.logo{
@@ -460,7 +475,7 @@ button, input, textarea {
     .homepage .header{
       display: none;
     }
- .homepage header
+ .homepage nav figure
 {
   position: fixed;
   z-index: 3;
@@ -471,34 +486,40 @@ button, input, textarea {
   padding-bottom: 30%;
 }
 .jumbotron h1 {
-  font-size:60px;
+  font-size:40px;
   margin: 0 0 10px;
 }
-.jumbotron h2 {
-  font-size:40px;
-  margin: 0 0 20px;
-}
+
 
 }
 @media only screen and (min-width: 768px) {
 body
  {
-  background: url("../images/bg.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  background-attachment: fixed;
-  max-width: 100%;
-  overflow-x: hidden;
-  font-size: 20px;
-  /*text-shadow: 0.5px 0.5px 0.5px #000000;*/
+  background-color: white;
+  
 }
-
-
+.bg {
+  background: url('../images/pencil.png') repeat;
+  position: fixed;
+  width: 100%;
+  height: 300%;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.homepage #overall{
+  background-color: #e6e6e6;
+  padding:  2em;
+  border:1px solid #e6e6e6;
+  border-radius: 25px;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.25);
+    -ms-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
 h1 {
   font-size: 60px;
   font-weight: 700;
-  padding: 20px 0px;
+  /*padding: 20px 0px;*/
   margin: 0;
 }
 
@@ -530,7 +551,7 @@ div.div-projects{
 }
 }
 @media only screen and (min-width: 1024px) {
-  .jumbotron{
+.jumbotron{
   background: rgba(0, 0, 0, 0);
   padding-top: 20%;
 }

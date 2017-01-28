@@ -20,66 +20,83 @@
   	
   	<link rel="stylesheet" type="text/css" href="css/homepage.css">
   	<link href="//db.onlinewebfonts.com/c/144003a4a173013fbc704e393ee76265?family=Calibri+W01+Light" rel="stylesheet" type="text/css"/>
-  	
+
+  	<style type="text/css">
+  		nav ul li a.active {
+		  background-color: #FCB41C;
+		  color: #FFF;
+		}
+  	</style>
   	
 </head>
-<body>
+<body >
 	<!--Homepage-->
-	<div class="homepage">										
-	<header>		
-			<a href="#homepage"><img src="images/tylogo.png" class="logo" alt="logo"></a>
-	</header>
-	<nav>						
-			<a class="about menu1" href="#aboutme">
-				<div class="menu-link"><span class="title">About.</span>
-				<div class="bulb"><img src="images/bulb1.png" width="70%" height="70%"></div></div>				
-			</a>		
-			<a class="projects menu1" href="#projects">
-				<div class="menu-link"><span class="title">Projects.</span>
-				<div class="bulb"><img src="images/bulb1.png" width="70%" height="70%"></div></div>
-			</a>
-			<a class="contact menu1" href="#contact">
-				<div class="menu-link"><span class="title">Contact.</span>
-				<div class="bulb"><img src="images/bulb1.png" width="70%" height="70%"></div></div>
-			</a>
-	</nav>
+<div class="homepage" id="homepage">											
+		<div class="bg"></div>
+		<nav id="nav">
+			<figure><a href="#homepage"><img src="images/tylogo.png" class="logo" alt="logo"></a></figure>
+			<ul>						
+			<li><a class="about menu1" href="http://tongyunshang.me/#aboutme">About.</a></li>		
+			<li><a class="projects menu1" href="http://tongyunshang.me/#projects">Projects.</a></li>
+			<li><a class="contact menu1" href="http://tongyunshang.me/#contact">Contact.</a></li>
+			</ul>
+		</nav>
+
 
 	<div class="header">
   		<button class="hamburger">&#9776;</button>
   		<button class="cross">&#735;</button>
 	</div>
 
-<div class="menu">
-  <ul>
-    <a href="#aboutme"><li>About.</li></a>
-    <a href="#projects"><li>Projects.</li></a>
-    <a href="#contact"><li>Contact.</li></a>
-  </ul>
-</div>
 
-	<a name="homepage"></a>
-	<section class="jumbotron" >
-		<div class="container">
-      		<div class="row text-center">
-      			<h1>Tongyun Shang</h1>
-        		<h2>Selected Projects</h2>
-        		<a class="btn btn-primary" href="#projects">See all</a>
-      		</div>
-    	</div>
-		
-	</section>
+	<div class="menu">
+	  <ul>
+	    <a href="#aboutme"><li>About.</li></a>
+	    <a href="#projects"><li>Projects.</li></a>
+	    <a href="#contact"><li>Contact.</li></a>
+	  </ul>
 	</div>
+
+	<section class="jumbotron">
+		<div class="container">
+      		<div class="row">
+      			<div class="col-sm-2"></div>
+      			<div class="col-sm-8 " id="overall">
+      				<div class="col-sm-4 text-right lg">
+      					<figure class="icon ">
+						<img src="images/tylogo.png">
+						</figure>
+      				</div>
+					<div class="col-sm-8 text-left resume">
+      					<h1><font color="#000000" size="6">Welcome to my portfolio!</font></h1>
+      					<p><font face="sans-serif" color="#5d5d5d" size="3">&nbsp;&nbsp;&nbsp;&nbsp;This is Tongyun Shang.<br>&nbsp;&nbsp;&nbsp;&nbsp;I am a/an
+      					UX/
+      					Interaction/
+      					Graphic/
+      					Web Designer.
+      					</p>
+      				</div>
+      				<div class="col-sm-12 text-center">
+      					<a class="btn btn-primary" href="others/resume.pdf" target="_blank">Resume.</a>
+      				</div>
+      			</div>
+      			<div class="col-sm-2 parallax__group"></div>
+      		</div>
+    	</div>		
+	</section>
+
+</div>
 	<!--Homepage-->
 
 	<!--About Me-->
-	<div class="aboutme" ><a name="aboutme"></a>	
+	<div class="aboutme" id="aboutme">	
 	<section class="container me">
 		<div class="row">
 			<div class="col-sm-6 info">
 				<h1><font face="Centurygothic" color="#000000" size="6">About Me</font></h1>
 				<h2 class="col-sm-12"><font color="#5d5d5d" size="4.5">UX/Graphic/Web Designer</font></h2>
 					<div class="col-lg-2"></div>
-					<p class="col-lg-8 col-sm-12 text-center" >
+					<p class="col-lg-8 col-sm-12 text-center">
 						I am Tongyun Shang, a first year gruaduate student in University of Michigan-Ann Arbor, and major in HCI. I finished my Bachelor's degree of Engineering in Beijing, 2016. I majored in Automa on, so I have background of coding. Addionally, I minored in Finance for 2 years, but found that I was not so into it. Instead, I love sketching, paintng, designing and that's why I study in HCI now. 
 					</p>
 					<div class="col-lg-2"></div>
@@ -108,8 +125,7 @@
 	<!--About Me-->
 
 	<!--Projects-->
-	<a name="projects"></a>
-	<div class="myprojects">
+	<div class="myprojects" id="projects">
 	<div class="container pr">
 			<div class="row">
 				<div class="col-sm-12 text-center">
@@ -151,14 +167,14 @@
 		<div class="col-xs-6 col-md-4 pr">
 	      	<a href="saa.html" >
 	      	<div class="image"><img width="120px" height="120px" src="images/jazz.png" alt="businesscard"></div>
-	        <h3 class="title">File Management at UMich SAA Office</h3>	        
+	        <h3 class="title">File Management for UMich SAA Office</h3>	        
 	       </a>
 	    </div>
 
 	    <div class="col-xs-6 col-md-4 pr">
 	      	<a href="alphabet.html">
 	      	<div class="image"><img  width="120px" height="51.99px" src="images/alpha.png" alt="alphabet"></div>
-	        <h3 class="title">Alphabet of Famous Architects</h3>	        
+	        <h3 class="title">Famous Architects Alphabet Poster</h3>	        
 	       </a>
 	    </div>
 
@@ -175,7 +191,7 @@
 	<!--Projects-->
 
 	<!--Contact-->
-	<div class="contactme " ><a name="contact"></a>	
+	<div class="contactme" id="contact">
 	<section class="container">
 		<div class="row">
 			<div class="col-sm-12 text-center">
@@ -213,7 +229,6 @@
 		<div class="row end">
 			<div class="col-xs-12 text-right">tonguns@umich.edu<br>
 			(734)-881-0648<br>
-			Ann Arbor, MI 48104
 			</div>
 			<div class="col-xs-12 text-left">
 				<font size="2">&copy; 2016 tongyun</font>
@@ -223,6 +238,8 @@
 	</div>
 	<!--Contact-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+
 	<script type="text/javascript">
   		$(".cross").hide();
 		$(".menu").hide();
@@ -239,6 +256,22 @@
 		$(".hamburger").show();
 		});
 		});
+
+		$(window).scroll(function(e){
+		  parallax();
+		});
+		function parallax(){
+		  var scrolled = $(window).scrollTop();
+		  $('.bg').css('top',-(scrolled*0.3)+'px');
+		}
+
+		for (var i = 0; i < document.links.length; i++) {
+		    if (document.links[i].href == document.URL) {
+		        document.links[i].className = 'active';
+		    }
+		}
+			
   	</script>
+
 </body>
 </html>
