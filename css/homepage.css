@@ -48,7 +48,6 @@ nav ul li a:hover {
 .homepage div .col-sm-4{
   padding-left: 0;
 }
-.aboutme,
 .contactme,
 .myprojects
 {
@@ -58,7 +57,18 @@ nav ul li a:hover {
   font-family: sans-serif;
   color: #5d5d5d;
 }
-
+.aboutme .about
+{
+  height:100%;
+  background-color: #e6e6e6;
+  font-size: 15px;
+  font-family: sans-serif;
+  border:1px solid #e6e6e6;
+  border-radius: 25px;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.25);
+    -ms-transform: translateY(-8px);
+    transform: translateY(-8px);
+} 
 ul li,
 div a img.sm{
   display: inline;
@@ -96,7 +106,13 @@ div a img.sm_off{
   height: 15%;
   width: 15%;   
 }
-
+.aboutme .info a{
+  text-decoration: none;
+  color: #5d5d5d; 
+}
+.aboutme .info a:hover{
+  color: #FCB41C; 
+}
 .homepage nav{
     position: fixed;
     width: 100%;
@@ -113,8 +129,6 @@ div a img.sm_off{
 .homepage nav:hover {
     opacity: 1.5;
 }
-
-
 
 .homepage nav figure{
   margin: 0;
@@ -531,6 +545,8 @@ h1 {
 .aboutme .me{ 
   display: block;
   padding:2em;
+  margin-top: 6em;
+  margin-bottom: 4em;
 }
 .aboutme .myimg{
   height:80%;
@@ -566,5 +582,6 @@ html{
   .aboutme .myimg{
   height:70%;
   width:70%;
+}
 }
 }
