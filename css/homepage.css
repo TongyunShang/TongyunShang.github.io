@@ -14,7 +14,7 @@
     margin-right: auto;
 }
 .homepage, 
-.projects,
+
 .contactme{
   height:100%;
   font-family: 'Centurygothic';
@@ -48,8 +48,7 @@ nav ul li a:hover {
 .homepage div .col-sm-4{
   padding-left: 0;
 }
-.contactme,
-.myprojects
+.contactme
 {
   height:100%;
   background-color: #e6e6e6;

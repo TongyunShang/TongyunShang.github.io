@@ -13,6 +13,84 @@ body {
 	font-size: 15px;
 	text-decoration: none;
 }
+#wrapper{
+	background-color: white;
+	position: relative;
+  padding:  2em;
+  border:1px solid #e6e6e6;
+  border-radius: 25px;
+  margin-top: 3em;
+  height: 300vh;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.25);
+    -ms-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+
+.project-desc-title h1 {
+	color: black;
+	font-size: 50px;
+	margin-top: 80px;
+    margin-bottom: 80px;
+    width: 90%;
+    margin-left: 5%;
+    font-weight: 400;
+}
+
+.project-desc-title h1, .project-intro, .project-mob-title {
+    font-family: "Centurygothic";
+    text-align: center;
+}
+.project-infos {
+	width: 100%;
+	display: block;
+	color: black;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 740px;
+}
+.project-description, 
+.project-right {
+	color: black;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: messinasansregular;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ng-binding{
+	margin-left: auto;
+    margin-right: auto;
+}
+.project-desc-title h2{
+	margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 400;
+	font-size: 30px;
+	color: #FCB41C;
+	padding-left: 1.7em;
+}
+.project-link {
+    margin-top: 50px;
+}
+.project-right {
+	padding-right: 0;
+}
+.project-description{
+	padding-left: 0;
+}
+.r-item {
+	margin-left: 3em;
+    margin-bottom: 30px;
+}
+.r-item-name {
+    margin-bottom: 0;
+}
+.project-link a, .r-item-name {
+    font-size: 15px;
+    font-family: Conv_CircularStd-Medium;
+    font-weight: bold;
+}
 ul
 {
 	padding-left: 0;

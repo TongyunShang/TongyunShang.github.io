@@ -4,133 +4,210 @@
 	<meta charset="utf-8">
 	<meta name='viewport' content="width=device-width initial-scale=1" >
 	<title>Books Map APP</title>
-	<link rel="icon" href="images/tylogo.png" type="image/x-icon">
+	<link rel="icon" href="images/tylogo.png" type="image/x-icon" >
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'> 	
-  	<link rel="stylesheet" type="text/css" href="css/projects.css">
+  	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   	
-  	<!-- lightbox -->
+  	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+  	<link href="//db.onlinewebfonts.com/c/144003a4a173013fbc704e393ee76265?family=Calibri+W01+Light" rel="stylesheet" type="text/css"/>
+  	<link rel="stylesheet" type="text/css" href="css/projects.css">
   	<link rel="stylesheet" href="dist/css/lightbox.min.css">
 
+  	<style type="text/css">
+  		nav ul li a.active {
+		  background-color: #FCB41C;
+		  color: #FFF;
+		}
+  	</style>
+
+  	<!--<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+  	<script type="text/javascript">
+  		$("nav a").each(function() {
+            // checks if its the same on the address bar
+	        if(url == (this.href)) { 
+	            $(this).closest("li").addClass("active");
+	        }
+	    });
+  	</script>-->
+  	
 </head>
+<body >
 
-<body>
-	<div class="bookmap">
-	<header class="container aa" id="header">
-		<div class="row aaa">
-			<div class="col-xs-3 col-sm-3 text-center back">
-		      <a href="index.html">&#x276e;</a>
-		    </div>
-			<div class="col-xs-9 col-sm-6 text-center">
-				<h1 class="projectheading">Books Map APP</h1>
-			</div>
-			<div class="col-xs-12 col-sm-3 text-center contact">
-				<a href="index.html#contact"><p>CONTACT</p></a>
-			</div>
-		</div>
-		<div class="row aab">
-			<div class="col-sm-6 col-md-4 intro">
-				<ul><font color="black" face="sans-serif" size="4">INTRODUCTION</font>
-				<li><p>11/2016</p></li>
-				<li><p><b>SKILL:</b><br>UX Design</p></li>
-				<li><p><b>TOOL:</b><br>Adobe Xd</p></li>				
-				<li><p><b>LINK:</b><br><a href="https://xd.adobe.com/view/52c34aa7-11fe-419f-b397-e6dba3baee89/">booksmap</a></p></li>
-				</ul>
-			</div>
-			<div class="col-sm-6 col-md-8 content">
-				<div class="text">
-					<font color="black" face="sans-serif" size="4">PROBLEM STATEMENT</font><br><br>
-					<p>I created an application that enables students in UMich to find inexpensive used books, or sell idled books to others.</p>
-				</div><br>
-				<div class="text">
-					<font color="black" face="sans-serif" size="4">DESIGN PHILOSOPHY</font><br><br>
-					<p>User-Centered design.</p>
-				</div><br>
-				<div class="text">
-					<font color="black" face="sans-serif" size="4">OVERVIEW SOLUTION</font><br><br>
-					<img  src="images/overview.png" id="bm-ov">
-				</div><br><br>
-			</div>
-		</div>
-	</header>
+<div class="homepage" id="homepage">											
+		<div class="bg"></div>
+		<nav id="nav">
+			<figure><a href="http://tongyunshang.me/#homepage"><img src="images/tylogo.png" class="logo" alt="logo"></a></figure>
+			<ul>						
+			<li><a class="resume1 menu1" href="others/resume.pdf" target="_blank">Resume.</a></li>		
+			<li><a class="projects menu1" href="http://tongyunshang.me/#projects">Work.</a></li>
+			<li><a class="about menu1" href="http://tongyunshang.me/#aboutme">About.</a></li>
+			</ul>
+		</nav>
 
-	<div class="container-fluid ab">
-		<div class="row">
-			<div class="col-sm-6 col-md-3 text-center">
-				<a  href="images/home1.png" data-lightbox="example-set" data-title="Find your interests"><img width="193.024" height="341.504" src="images/home1.png" alt="#"/></a>
-			</div>
-			<div class="col-sm-6 col-md-3 text-center">
-				<a  href="images/home2.png" data-lightbox="example-set" data-title="Tailered Homepage depends on your interests" ><img width="193.024" height="341.504" src="images/home2.png" alt="#"/></a>
-			</div>
-			<div class="col-sm-6 col-md-3 text-center">
-				<a  href="images/home3.png" data-lightbox="example-set" data-title="interests Edit Page" ><img width="193.024" height="341.504" src="images/home3.png" alt="#"/></a>
-			</div>
-			<div class="col-sm-6 col-md-3 text-center">
-				<font color="black" face="sans-serif" size="4">KEY FREATURE 1:</font><br>
-				<p class="text-center"><font color="#5d5d5d" face="serif" size="5">Interests.</font></p><br>
-				<font color="#858794" face="sans-serif" class="text-left"><p>Users will be asked to selet their interest topics when registered. Then the homepage will be tailerd depending on their interests, on which useres can scroll down to see all interests categories or swipe to see all the books under this interest. Of course they can edit interests and check all the books under each later on.</p></font>
-				<font color="#5d5d5d" face="serif" size="3">&#x276e;&nbsp;&nbsp;click to see images</font>
-			</div>
-		</div>		
+	<div class="header">
+  		<button class="hamburger">&#9776;</button>
+  		<button class="cross">&#735;</button>
 	</div>
 
-	<div class="container-fluid ab" id="feature2">
-		<div class="row">
-			<div class="col-sm-6 col-md-3 text-center">
-				<font color="black" face="sans-serif" size="4">KEY FREATURE 2:</font><br>
-				<p class="text-center"><font color="#5d5d5c" face="serif" size="5">Map.</font></p><br>
-				<font color="#e6e6eb" face="sans-serif" class="text-left"><p>When have chosen one book from the bookshelf, users will be led to a list of all the users who have this book. With a click on the map icon, the location of those users will be shown on a map. Then they can see details of each individual book.</p></font>
-				<font color="#5d5d5c" face="serif" size="3">click to see images&nbsp;&nbsp;&#x276F;</font>
-			</div>
-			<div class="col-sm-6 col-md-3 text-center">
-				<a  href="images/map1.png" data-lightbox="example-set" data-title="List of all users who have the book."><img width="193.024" height="341.504" src="images/map1.png" alt="#"/></a>
-			</div>
-			<div class="col-sm-6 col-md-3 text-center">
-				<a  href="images/map2.png" data-lightbox="example-set" data-title="Map of all the users' location." ><img width="193.024" height="341.504" src="images/map2.png" alt="#"/></a>
-			</div>
-			<div class="col-sm-6 col-md-3 text-center">
-				<a  href="images/map3.png" data-lightbox="example-set" data-title="Distance shown on each interface of individual book." ><img width="193.024" height="341.504" src="images/map3.png" alt="#"/></a>
-			</div>
+
+	<div class="menu">
+	  <ul>
+	    <a href="others/resume.pdf" target="_blank"><li>Resume.</li></a>
+	    <a href="#projects"><li>Work.</li></a>
+	    <a href="#aboutme"><li>About.</li></a>
+	  </ul>
+	</div>
+
+	
+	<div class="container">
+    <div class="row">
+      <div class="col-sm-1"></div>
+
+      <div class="col-sm-10 " id="wrapper">
+      			
+          <div class="project-desc-title col-sm-12"><h1 class="ng-binding">BooksMap Mobile APP</h1></div>	
+
+          <div class="col-sm-12 project-infos">
+              <div class="project-description col-sm-2"></div>
+              <div class="project-description col-sm-6">
+                  <div ng-bind-html="project.description" class="ng-binding">
+                  In this project, I prototyped an application that enables students in UMich to find inexpensive used books, or sell idled books to others. There are three unique features of this APP: using map to locate nearby users and contact them; providing 2 options for users to post or search information via <i>Have</i> or <i>Need</i>; pricing/paying with a dinner/concert/movie, etc., which both buyers and sellers can accept or not.
+                  </div>
+                  <div class="project-link">
+                    <a href="">
+                      <img class="video-picto ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'" src="images/svg/icone_film.svg">
+                      <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
+                        <span ng-if="global.lang=='en'" class="ng-scope">See the movie</span>
+                      </div>
+                    </a>
+                  </div>
+              </div>
+
+              <div class="project-right col-sm-4">
+
+                <div class="r-item ng-scope" ng-if="project.client!=null"> 
+                    <div class="r-item-name">
+                      Target Population 
+                    </div>
+                    <span ng-bind-html="project.client" class="ng-binding">
+                      Students in Umichigan
+                    </span>
+                </div>
+
+                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
+                    <div class="r-item-name">
+                      Skill
+                    </div>
+                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
+                      Interaction Design.<br>Paper Prototyping.<br>Storyboarding. 
+                    </div>
+                </div>
+
+                <div class="r-item ng-scope" ng-if="project.role.length>0">
+                  <div class="r-item-name">
+                    <span ng-if="global.lang=='en'" class="ng-scope">
+                      Tool
+                    </span>
+                  </div> 
+                  <div class="p-role ng-binding ng-scope" ng-repeat="r in project.role">
+                    Adobe XD.
+                  </div>
+                  
+                </div>
+
+              </div>
+          </div>
+          <!--INTRO-->
+
+          <div class="project-desc-title col-sm-12 ">
+            <div class="project-description col-sm-1"></div>
+            <h2 class="ng-binding col-sm-11 text-left">Problem Statement</h2>
+          </div> 
+
+          <div class="col-sm-12 project-infos">
+              <div class="project-description col-sm-2"></div>
+              <div class="project-description col-sm-10">
+                  <div ng-bind-html="project.description" class="ng-binding">
+                  Students often find books through three methods: borrowing in libraries, buying in bookstores or purchasing online. However, books in libraries are often in shortage, those in bookstores might be expensive, and it takes time shipping if purchased online. What if students want to get books instantly and in proper cost? Meanwhile, there are some students who have trouble dealing with their idled books, which still look new but wouldn’t be used anymore. So how could those students meet with each other?
+                  </div> 
+              </div>      
+          </div>
+
+
+          <div class="project-desc-title col-sm-12 ">
+            <div class="project-description col-sm-1"></div>
+            <h2 class="ng-binding col-sm-11 text-left">Solution Overview</h2>
+          </div>
+
+          <div class="col-sm-12 project-infos">
+              <div class="project-description col-sm-2"></div>
+              <div class="project-description col-sm-10">
+                  <div ng-bind-html="project.description" class="ng-binding">
+                  What I am trying to do is providing those students an access to inexpensive books as fast as possible while others dealing with their idled books. I will create an application, where both sides of students can share their information of books they have/want, prices they feel comfortable with and locations they would like to exchange the books, etc. By doing so, they can reach the nearest users who have or need a book and would like to meet with them.
+                  This application would only work when there are a lot of users, so I decide to firstly narrow down the community to just students on central campus, where larger amount of students stay. But my target community is not limited to students on central campus.
+                  </div> 
+              </div>      
+          </div>
+
+
+
+      </div>
+
+      <div class="col-sm-1"></div>
+    </div>
+  </div>		
+
+
+</div>
+
+<div class="footer">
+          <div class="prev">
+          <a href="book.html">&#x276e;&nbsp;Previous</a>
+        </div>
+        <div class="next">
+          <a href="idhatshop.html">Next &nbsp;&#x276f;</a>
+        </div>
+    </div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	
+
+	<script type="text/javascript">
+  		$(".cross").hide();
+		$(".menu").hide();
+		$(".hamburger").click(function() {
+		$(".menu").slideToggle("slow", function() {
+		$(".hamburger").hide();
+		$(".cross").show();
+		});
+		});
+
+		$(".cross").click(function() {
+		$(".menu").slideToggle("slow", function() {
+		$(".cross").hide();
+		$(".hamburger").show();
+		});
+		});
+
+		$(window).scroll(function(e){
+		  parallax();
+		});
+		function parallax(){
+		  var scrolled = $(window).scrollTop();
+		  $('.bg').css('top',-(scrolled*0.3)+'px');
+		}		
 			
-		</div>		
-	</div>
+  	</script>
 
-	<div class="container-fluid ac" id="guide">
-			<h3 class="text-center">How to play with Book Map?</h3><br>
-			<div class="col-xs-12 text-center">
-				<img width="30%" height="30%" src="images/guide.jpg">
-			</div>
-    </div>
-
-    <h3 class="text-center" id="play">PLAY NOW!</h3>
-
-	<div class="container-fluid ac">
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<iframe width="301.6" height="533.6" src="https://xd.adobe.com/embed/52c34aa7-11fe-419f-b397-e6dba3baee89/" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-    </div>
-
-		<div class="footer">
-	      	<div class="prev">
-		      <a href="book.html">&#x276e;&nbsp;Previous</a>
-		    </div>
-		    <div class="next">
-		      <a href="idhatshop.html">Next	&nbsp;&#x276f;</a>
-		    </div>
-		</div>
-  	<!-- lightbox -->
-  	<script src="dist/js/lightbox-plus-jquery.min.js"></script>
-  	</div>
 </body>
 </html>
