@@ -14,7 +14,6 @@
     margin-right: auto;
 }
 .homepage, 
-
 .contactme{
   height:100%;
   font-family: 'Centurygothic';
@@ -91,6 +90,9 @@ div a img.sm_off{
 
 .aboutme h1,h2,ul{
   text-align: center;
+}
+.list li{
+  text-align: left;
 }
 
 .aboutme h2.col-sm-12{

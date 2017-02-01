@@ -43,14 +43,14 @@
 </head>
 <body >
 
-<div class="homepage" id="homepage">											
+<div class="homepage" id="bookmap">											
 		<div class="bg"></div>
 		<nav id="nav">
-			<figure><a href="http://tongyunshang.me/#homepage"><img src="images/tylogo.png" class="logo" alt="logo"></a></figure>
+			<figure><a href="index.html"><img src="images/tylogo.png" class="logo" alt="logo"></a></figure>
 			<ul>						
 			<li><a class="resume1 menu1" href="others/resume.pdf" target="_blank">Resume.</a></li>		
-			<li><a class="projects menu1" href="http://tongyunshang.me/#projects">Work.</a></li>
-			<li><a class="about menu1" href="http://tongyunshang.me/#aboutme">About.</a></li>
+			<li><a class="projects menu1" href="index.html#projects">Work.</a></li>
+			<li><a class="about menu1" href="index.html#aboutme">About.</a></li>
 			</ul>
 		</nav>
 
@@ -77,7 +77,7 @@
       			
           <div class="project-desc-title col-sm-12"><h1 class="ng-binding">BooksMap Mobile APP</h1></div>	
 
-          <div class="col-sm-12 project-infos">
+          <div class="col-sm-12 project-infos" id="intro">
               <div class="project-description col-sm-2"></div>
               <div class="project-description col-sm-6">
                   <div ng-bind-html="project.description" class="ng-binding">
@@ -85,7 +85,7 @@
                   </div>
                   <div class="project-link">
                     <a href="">
-                      <img class="video-picto ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'" src="images/svg/icone_film.svg">
+                      <!--<img class="video-picto ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'" src="images/svg/icone_film.svg">-->
                       <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
                         <span ng-if="global.lang=='en'" class="ng-scope">See the movie</span>
                       </div>
@@ -154,11 +154,128 @@
               <div class="project-description col-sm-10">
                   <div ng-bind-html="project.description" class="ng-binding">
                   What I am trying to do is providing those students an access to inexpensive books as fast as possible while others dealing with their idled books. I will create an application, where both sides of students can share their information of books they have/want, prices they feel comfortable with and locations they would like to exchange the books, etc. By doing so, they can reach the nearest users who have or need a book and would like to meet with them.
-                  This application would only work when there are a lot of users, so I decide to firstly narrow down the community to just students on central campus, where larger amount of students stay. But my target community is not limited to students on central campus.
-                  </div> 
+                  <br>This application would only work when there are a lot of users, so I decide to firstly narrow down the community to just students on central campus, where larger amount of students stay. But my target community is not limited to students on central campus. To avoid the situation users cannot find books they want and then never come back to use this APP again, I give users alternative option to post their needs first. Additionally, in order to attract more users and make this platform interesting, I will add one feature where users can price/pay their books with a dinner/concert/movie, etc. 
+                  </div>
               </div>      
           </div>
 
+
+          <div class="project-desc-title col-sm-12 ">
+            <div class="project-description col-sm-1"></div>
+            <h2 class="ng-binding col-sm-11 text-left">Walkthrough</h2>
+          </div>
+
+          <div class="col-sm-12 project-infos">
+              <div class="project-description col-sm-2"></div>
+              <div class="project-description col-sm-10">
+                  <div ng-bind-html="project.description" class="ng-binding">
+                   Users can sell or purchase books through two main methods, one is their interests and the other is searching on map. During this process, they can sort the information by time, by price or by proximity in dropdown menu.  
+                  </div>
+                  <div class="col-sm-12 text-center book-overview">
+                    <img src="images/overview.png" id="bm-ov">
+                  </div>
+                  <div class="col-sm-12 heading3">
+                    <h3>KEY FREATURE 1: Interests.</h3><br>
+                   Users will be asked to selet their interest topics when registered. Then the homepage will be tailerd depending on their interests, on which useres can scroll down to see all interests categories or swipe to see all the books under this interest. Of course they can edit interests and check all the books under each later on.
+                    <font color="#5d5d5d" face="serif" size="3">(click on images)</font>  
+                  </div>
+                      <div class="col-sm-6 col-md-4 text-center image-wrapper">
+                        <a  href="images/home1.png" data-lightbox="example-set" data-title="Find your interests"><img width="154.42" height="273.2" src="images/home1.png" alt="#"/></a>
+                        <br><br><i>Find your interests.</i>
+                      </div>
+                      <div class="col-sm-6 col-md-4 text-center image-wrapper">
+                        <a  href="images/home2.png" data-lightbox="example-set" data-title="Tailered Homepage depends on your interests" ><img width="154.42" height="273.2" src="images/home2.png" alt="#"/></a>
+                        <br><br><i>Tailored Home Page.</i>
+                      </div>
+                      <div class="col-sm-6 col-md-4 text-center image-wrapper">
+                        <a  href="images/home3.png" data-lightbox="example-set" data-title="interests Edit Page" ><img width="154.42" height="273.2" src="images/home3.png" alt="#"/></a>
+                        <br><br><i>Interests Edit Page.</i>
+                      </div>
+
+                  <div class="col-sm-12 heading3">
+                    <h3>KEY FREATURE 2: Map.</h3><br>
+                   When have chosen one book from the bookshelf, users will be led to a list of all the users who have this book. With a click on the map icon, the location of those users will be shown on a map. Then they can see details of each individual book.
+                    <font color="#5d5d5d" face="serif" size="3">(click on images)</font>  
+                  </div>
+                      <div class="col-sm-6 col-md-4 text-center image-wrapper">
+                        <a  href="images/map1.png" data-lightbox="example-set" data-title="List of all users who have the book."><img width="154.42" height="273.2" src="images/map1.png" alt="#"/></a>
+                        <br><br><i>User List Page.</i>
+                      </div>
+                      <div class="col-sm-6 col-md-4 text-center image-wrapper">
+                        <a  href="images/map2.png" data-lightbox="example-set" data-title="Map of all the users' location."><img width="154.42" height="273.2" src="images/map2.png" alt="#"/></a>
+                        <br><br><i>Map Page.</i>
+                      </div>
+                      <div class="col-sm-6 col-md-4 text-center image-wrapper">
+                        <a  href="images/map3.png" data-lightbox="example-set" data-title="Distance shown on each interface of individual book." ><img width="154.42" height="273.2" src="images/map3.png" alt="#"/></a>
+                        <br><br><i>Book Info Page.</i>
+                      </div>
+    
+                  <div class="col-sm-12 heading3">
+                    <h3>KEY FREATURE 3: Information Sorting.</h3><br>
+                   Users can sort information listed below by their price, update time or proximity. Then all the information will be reordered.
+                    <font color="#5d5d5d" face="serif" size="3">(click on images)</font>  
+                  </div>
+                      <div class="col-sm-6 text-center image-wrapper">
+                        <a  href="images/sort1.png" data-lightbox="example-set" data-title="Dropdown Menu."><img width="193px" height="432.89px" src="images/sort1.png" alt="#"/></a>
+                        <br><br><i>Dropdown Menu.</i>
+                      </div>
+                      <div class="col-sm-6 text-center image-wrapper">
+                        <a  href="images/sort2.png" data-lightbox="example-set" data-title="Book List after sorting."><img width="193px" height="432.89px" src="images/sort2.png" alt="#"/></a>
+                        <br><br><i>Book List after sorting.</i>
+                      </div>
+              </div>      
+          </div>
+          
+
+          <div class="project-desc-title col-sm-12 ">
+            <div class="project-description col-sm-1"></div>
+            <h2 class="ng-binding col-sm-11 text-left">Design Process</h2>
+          </div>
+
+          <div class="col-sm-12 project-infos">
+              <div class="project-description col-sm-2"></div>
+              <div class="project-description col-sm-10">
+              
+                  <div class="col-sm-12 heading3">
+                    <h3>Initial Design.</h3><br>
+                   I want to build an application, where users from both sides could exchange their information directly. Users can post their second-hand books on this application with different tags, while others can use tags to search for books with distance shown next to each item. And then they can contact with any other user off-line.Additionally, my project also encompasses a function that users can rent out and borrow books at desk in libraries, where there is a bookshelf to put second-books and a librarian in charge of the whole operation. Information of those books will also be put in this application with distance as an option for users. This application also provides book information from libraries and bookstores as alternatives for comparisons. This idea was generated from one of my sketch in storyboard (Figure 1).
+                  </div>
+                  <div class="col-sm-12 text-center book-overview">
+                    <img src="images/storyboard.png" width="100%" height="100%">
+                    <br><br><i>Figure 1. Sketch in 8 solutions’ storyboard</i>
+                  </div>
+                  <div class="col-sm-12 heading3">
+                    <h3>Critical Features.</h3><br>
+                   <ul class="list">
+                     <li>&bull;&nbsp;&nbsp;Directly connect users who need books with those who can provide idled second-hand books</li><br>
+                     <li>&bull;&nbsp;&nbsp;Provide information retrieving feature of “Second-hand Books Library”</li><br>
+                     <li>&bull;&nbsp;&nbsp;Provide information of the same books from school libraries and bookstores</li><br>
+                   </ul>
+                  </div>
+                  <div class="col-sm-12 heading3">
+                    <h3>Reflection & Changes.</h3><br>
+                   According to the reading the Design of Everyday Things by Donald A.Norman, well-designed products should be clearly used with lessinstructions or even without any text-based information. Just thevisual, acoustic information themselves, being consistent with as many as possible of the four constraints, are enough to guide users to utilize them properly. I can’t agree more on Donald’s standpoint, so consider it as my most important design philosophy.
+                   <br>However, it is hard to achieve. After I built my paper prototypes(Figure 2 & 3) and showed them to my peers, they felt really confusedabout each feature, even though I explained all the time. Good design should be introductions the products themselves, but I explained a lot because they were way too much complex.
+                  </div>
+
+                      <div class="col-sm-12 text-center image-wrapper">
+                        <a  href="images/figure2.png" data-lightbox="example-set" data-title="Find your interests"><img width="90%" height="90%" src="images/figure2.png" alt="#"/></a>
+                        <br><br><i>Figure 2. Too much content in one page and a lot of text near each button</i>
+                      </div>
+                      <div class="col-sm-12 text-center image-wrapper">
+                        <a  href="images/figure3.png" data-lightbox="example-set" data-title="Tailered Homepage depends on your interests" ><img width="90%" height="90%" src="images/figure3.png" alt="#"/></a>
+                        <br><br><i>Figure 3. Crowed layout makes users hard to understand</i>
+                      </div>
+                      
+
+                  
+            </div>      
+          </div>
+                        
+
+                          
+                  
+              
 
 
       </div>
@@ -181,7 +298,7 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	
-
+  <script src="dist/js/lightbox-plus-jquery.min.js"></script>
 	<script type="text/javascript">
   		$(".cross").hide();
 		$(".menu").hide();

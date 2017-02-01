@@ -20,7 +20,7 @@ body {
   border:1px solid #e6e6e6;
   border-radius: 25px;
   margin-top: 3em;
-  height: 300vh;
+  height: 100%;
   box-shadow: 0 16px 48px rgba(0,0,0,0.25);
     -ms-transform: translateY(-8px);
     transform: translateY(-8px);
@@ -63,12 +63,16 @@ body {
     margin-right: auto;
 }
 .project-desc-title h2{
-	margin-top: 100px;
-    margin-bottom: 50px;
+	margin-top: 1.5em;
+    margin-bottom: 1em;
     font-weight: 400;
 	font-size: 30px;
 	color: #FCB41C;
 	padding-left: 1.7em;
+}
+#intro{
+	margin-bottom: 130px;
+	margin-top: 50px;
 }
 .project-link {
     margin-top: 50px;
@@ -91,26 +95,35 @@ body {
     font-family: Conv_CircularStd-Medium;
     font-weight: bold;
 }
+.book-overview {
+	padding-top: 2em;
+}
+.heading3 h3{
+	font-size: 20px;
+	font-family: "Robot",sans-serif;
+	font-weight: 600;
+	margin-top: 1.5em;
+	margin-bottom:0;
+	padding-left: 0;
+
+}
+.heading3{
+	padding: 0;
+}
+
+.image-wrapper{
+	padding-top:2em;
+}
 ul
 {
 	padding-left: 0;
 list-style-type: none;
 }
-.bookmap, html{
-	height: 100%;
-}
+
+
 h1.projectheading{
 	margin:0;
 	font-size: 35px;
-}
-.back{
-	font-size: 30px;
-}
-.contact p{
-	border: solid 2px;
-	width: 100px;
-	height: 30px;
-	line-height: 1.5;
 }
 .intro p{
 	font-family: sans-serif;
@@ -451,5 +464,6 @@ div .aaa{
 	.info #poster img{
 		width: 648px;
 		height: 1910.03px;
-	}	
+	}
+
 }
