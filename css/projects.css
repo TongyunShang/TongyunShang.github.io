@@ -310,6 +310,9 @@ div .aaa{
 		width: 255px;
 		height: 226.66px;
 	}
+	.footer a{
+		font-size: 16px;
+	}
 }
 @media only screen and (max-width: 600px) {
 	
@@ -398,12 +401,15 @@ div .aaa{
 		    text-decoration: none;
 		}
 		.footer a{
-			color: #FCB41C;
+			color: #5d5d5d;
 		  	text-decoration: none;
+		  	
 		}
 		.footer a:hover{
-			color: #5d5d5d;
+			color: #FCB41C;
 		    text-decoration: none;
+		   
+   
 		}
 		.item{
 			display: inline-block;
