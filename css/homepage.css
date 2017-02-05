@@ -206,7 +206,7 @@ h3{
 }
 .pr:hover .image{
     opacity: 1;
-    background-color:#5d5d5d;
+    background-color:#b3b3b3;
     border-radius: 25px;
   box-shadow: 0 16px 48px rgba(0,0,0,0.25);
     -ms-transform: translateY(-8px);
