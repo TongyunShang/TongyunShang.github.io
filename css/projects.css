@@ -75,7 +75,7 @@ body {
 	margin-top: 50px;
 }
 .project-link {
-    margin-top: 50px;
+    margin-top: 35px;
 }
 .project-right {
 	padding-right: 0;
@@ -94,9 +94,20 @@ body {
     font-size: 15px;
     font-family: Conv_CircularStd-Medium;
     font-weight: bold;
+    text-decoration: none;
+    
+}
+.project-link a{
+	color: #5d5d5d;
+}
+.project-link a:hover{
+	color: #FCB41C;
 }
 .book-overview {
 	padding-top: 2em;
+}
+.book-demo{
+	margin-bottom: 4em;
 }
 .heading3 h3{
 	font-size: 20px;
@@ -403,7 +414,7 @@ div .aaa{
 		.footer a{
 			color: #5d5d5d;
 		  	text-decoration: none;
-		  	
+
 		}
 		.footer a:hover{
 			color: #FCB41C;
