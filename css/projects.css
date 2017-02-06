@@ -9,7 +9,7 @@
 }
 body {
 	background-color: #e6e6eb;
-	font-family: 'Centurygothic';
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 15px;
 	text-decoration: none;
 }
@@ -33,13 +33,14 @@ body {
     margin-bottom: 80px;
     width: 90%;
     margin-left: 5%;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .project-desc-title h1, .project-intro, .project-mob-title {
-    font-family: "Centurygothic";
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
 }
+
 .project-infos {
 	width: 100%;
 	display: block;
@@ -53,7 +54,7 @@ body {
 	color: black;
     font-size: 16px;
     line-height: 27px;
-    font-family: messinasansregular;
+    font-family: 'Quicksand',sans-serif;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -65,7 +66,7 @@ body {
 .project-desc-title h2{
 	margin-top: 1.5em;
     margin-bottom: 1em;
-    font-weight: 400;
+    font-weight: 600;
 	font-size: 30px;
 	color: #FCB41C;
 	padding-left: 1.7em;
@@ -92,7 +93,7 @@ body {
 }
 .project-link a, .r-item-name {
     font-size: 15px;
-    font-family: Conv_CircularStd-Medium;
+    font-family: 'Quicksand',sans-serif;
     font-weight: bold;
     text-decoration: none;
     
@@ -111,7 +112,7 @@ body {
 }
 .heading3 h3{
 	font-size: 20px;
-	font-family: "Robot",sans-serif;
+	font-family: 'Josefin Sans',sans-serif;
 	font-weight: 600;
 	margin-top: 1.5em;
 	margin-bottom:0;
@@ -137,7 +138,7 @@ h1.projectheading{
 	font-size: 35px;
 }
 .intro p{
-	font-family: sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	color: #858794;
 	font-size: 15px;
 	font-weight: lighter;
@@ -209,7 +210,7 @@ h1.projectheading{
 .content ul,
 .saa #feature2 ul,
 .ab p{
-	font-family: sans-serif;
+	font-family: 'Quicksand',sans-serif;
 	font-weight: lighter;
 }
 div .aab{
