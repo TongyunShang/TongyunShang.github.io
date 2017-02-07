@@ -1,11 +1,5 @@
 @font-face{
-  font-family: 'Centurygothic';
-  src: url('ufonts.com_century-gothic.ttf') format('truefont');
-  font-family: 'BaskervilleOldFace';
-  src: url('ufonts.com_baskerville-old-face.ttf') format('truefont');
-  font-family: 'Calibri W01 Light';
-  src: url("raleway_thin-webfont.ttf") format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-
+  
 }
 body {
 	background-color: #e6e6eb;
