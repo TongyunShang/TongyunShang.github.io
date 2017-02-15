@@ -53,6 +53,9 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.method{
+	padding-right: 0;
+}
 .ng-binding{
 	margin-left: auto;
     margin-right: auto;

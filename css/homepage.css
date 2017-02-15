@@ -22,7 +22,9 @@ nav ul li a:hover {
     background-color: #FCB41C;
     color: #FFF;
 }
-.homepage ul li a {
+#nav ul li a,
+.aboutme ul li a,
+.menu ul li a{
     display: block;
     height: 50px;
     padding: 14px 20px;
@@ -31,10 +33,14 @@ nav ul li a:hover {
     font-size: .87em;
     color: #EEE;
 }
-.homepage ul li {
+#nav ul li,
+.aboutme ul li,
+.menu ul li {
     display: table-cell;
 }
-.homepage ul{
+#nav ul,
+.aboutme ul,
+.menu ul{
     float: right;
     margin-bottom: 0;
 }
@@ -62,7 +68,9 @@ nav ul li a:hover {
     -ms-transform: translateY(-8px);
     transform: translateY(-8px);
 } 
-ul li,
+.bg ul li,
+.aboutme ul li,
+.menu ul li,
 div a img.sm{
   display: inline;
 }
@@ -83,7 +91,10 @@ div a img.sm_off{
    display:inline-block
 }
 
-.aboutme h1,h2,ul{
+.aboutme h1,h2,
+.bg ul,
+.aboutme ul,
+.menu ul{
   text-align: center;
 }
 .list li{
