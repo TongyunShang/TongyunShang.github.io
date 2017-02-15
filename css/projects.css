@@ -67,7 +67,7 @@ body {
 }
 #intro{
 	margin-bottom: 130px;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 .project-link {
     margin-top: 35px;
@@ -167,7 +167,7 @@ h1.projectheading{
 .openair img,
 .info #poster img,
 .alphabet img,
-.umsi .web img{
+.umsi img{
 	transition: all .25s ease-in-out;
 	display: block;
     max-width: 100%;
@@ -179,7 +179,7 @@ h1.projectheading{
 .openair img:hover,
 .info #poster img:hover,
 .alphabet img:hover,
-.umsi .web img:hover{
+.umsi img:hover{
 	box-shadow: 0 16px 48px rgba(0,0,0,0.25);
     -ms-transform: translateY(-8px);
     transform: translateY(-8px);
