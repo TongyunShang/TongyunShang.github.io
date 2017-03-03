@@ -206,21 +206,6 @@
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                <div class="project-category text-faded">
-                                    Usability Evaluation
-                                </div>
-                                <div class="project-name">
-                                    Website Evaluation for LSA Honors Program
-                                </div>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/honors.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
                             <div class="caption-content">                                
                                 <div class="project-category text-faded">
                                     Graphic Design
@@ -234,7 +219,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <div class="project-category text-faded">
@@ -246,6 +231,21 @@
                             </div>
                         </div>
                         <img src="img/portfolio/poster.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="project-category text-faded">
+                                    Usability Evaluation
+                                </div>
+                                <div class="project-name">
+                                    Website Evaluation for LSA Honors Program<br>(in progress)
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/honors.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -582,7 +582,7 @@
                             <div class="row col-sm-12 project-infos" id="intro">
                               <div class="project-description col-sm-8">
                                   <div ng-bind-html="project.description" class="ng-binding">
-                                  In this project, our team came up recommendations for Student Academic Affairs (SAA) in the University of Michigan College of Literature, Science and Arts (LSA) to alleviate the file management problem. We broke down the problem into 3 parts: technology (how to use Google Drive & M+ Box), naming protocol and implementation. My role was diving into the implementation section, finding out reasons why staff in SAA not following naming protocel and proposed recommendations.
+                                  In this project, our team came up recommendations for Student Academic Affairs (SAA) in the University of Michigan College of Literature, Science and Arts (LSA) to alleviate the file management problem. We broke down the problem into 3 parts: technology (how to use Google Drive and M+ Box), naming protocol and implementation. My role was diving into the implementation section, finding out reasons why staff in SAA not following naming protocel and proposed recommendations.
                                   </div>
                                   <div class="project-link">
                                     <a href="https://lsa.umich.edu/lsa/faculty-staff/student-academic-affairs.html" target="_blank">
@@ -816,7 +816,6 @@
                                       <br><br>
                                     </div>
                                   </div>
-
                       
                               </div>      
                           </div>
@@ -926,7 +925,7 @@
                               </div>      
                           </div>
 
-                          <div class="container-fluid openair " id="feature2" style="background-color: white">
+                          <div class="container-fluid openair" id="feature2" style="background-color: white">
                             <div class="row openair">
                               <div class="col-sm-12 col-md-6 text-center">
                                 <br><h4 style="color: #5d5d5d; font-size:150%;"><b>before</b></h4>
@@ -1327,66 +1326,8 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade honors" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Website Evaluation for LSA Honors Program<br>(in progress)</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/honors.png" class="img-responsive img-centered" alt="">
-                            
-                            <!--intro-->
-                            <div class="col-sm-12 project-infos" id="intro">
-                              <div class="project-description col-sm-8">
-                                  <div ng-bind-html="project.description" class="ng-binding">
-                                  In this project, our team utilized Usability Test skills to come up with recommendations for LSA Honors Program to improve their website experience.
-                                  </div>
-                                  <div class="project-link">
-                                    <a href="https://lsa.umich.edu/honors" target="_blank">
-                                      <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
-                                        <span ng-if="global.lang=='en'" class="ng-scope">See Honors Program Website.</span>
-                                      </div>
-                                    </a>
-                                  </div>
-                              </div>
-
-                              <div class="project-right col-sm-4">
-
-                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
-                                    <div class="r-item-name">
-                                      Client
-                                    </div>
-                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
-                                      LSA Honors Program at the University of Michigan. 
-                                    </div>
-                                </div>
-                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
-                                    <div class="r-item-name">
-                                      Skills
-                                    </div>
-                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
-                                      Needs Assessment and Usability Evaluation.<br>Usability Test.<br>Heuristics Evaluation.<br>Competitive Evaluation. 
-                                    </div>
-                                </div>
-
-                          </div>
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade msi" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <div class="portfolio-modal modal fade msi" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -1492,7 +1433,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade poster" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade poster" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -1639,6 +1580,66 @@
             </div>
         </div>
     </div>
+    <div class="portfolio-modal modal fade honors" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Website Evaluation for LSA Honors Program<br>(in progress)</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/honors.png" class="img-responsive img-centered" alt="">
+                            
+                            <!--intro-->
+                            <div class="col-sm-12 project-infos" id="intro">
+                              <div class="project-description col-sm-8">
+                                  <div ng-bind-html="project.description" class="ng-binding">
+                                  In this project, our team utilized Usability Test skills to come up with recommendations for LSA Honors Program to improve their website experience.
+                                  </div>
+                                  <div class="project-link">
+                                    <a href="https://lsa.umich.edu/honors" target="_blank">
+                                      <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
+                                        <span ng-if="global.lang=='en'" class="ng-scope">See Honors Program Website.</span>
+                                      </div>
+                                    </a>
+                                  </div>
+                              </div>
+
+                              <div class="project-right col-sm-4">
+
+                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
+                                    <div class="r-item-name">
+                                      Client
+                                    </div>
+                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
+                                      LSA Honors Program at the University of Michigan. 
+                                    </div>
+                                </div>
+                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
+                                    <div class="r-item-name">
+                                      Skills
+                                    </div>
+                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
+                                      Needs Assessment and Usability Evaluation.<br>Usability Test.<br>Heuristics Evaluation.<br>Competitive Evaluation. 
+                                    </div>
+                                </div>
+
+                          </div>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
