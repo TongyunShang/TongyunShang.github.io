@@ -143,16 +143,16 @@
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">                                
+                            <div class="caption-content">
                                 <div class="project-category text-faded">
-                                    UX Design
+                                    Web Design
                                 </div>
                                 <div class="project-name">
-                                    BooksMap Mobile Application Mockups
+                                    Work Order System<br>(in progress)
                                 </div>
                             </div>
                         </div>
-                        <img height="650px" width="900px" src="img/portfolio/booksmap.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/skyspecs.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -160,14 +160,14 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <div class="project-category text-faded">
-                                    Contextual Inquiry
+                                    Mobile App Design
                                 </div>
                                 <div class="project-name">
-                                    File Management Consulting for Student Academic Affairs (SAA)
+                                    BooksMap
                                 </div>
                             </div>
                         </div>
-                        <img src="img/portfolio/file.png" class="img-responsive" alt="">
+                        <img height="650px" width="900px" src="img/portfolio/booksmap.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -178,7 +178,7 @@
                                     Web Design
                                 </div>
                                 <div class="project-name">
-                                    Summit IDG Web Redesign
+                                    OpenAir Challenge 2016
                                 </div>
                             </div>
                         </div>
@@ -190,14 +190,14 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <div class="project-category text-faded">
-                                    Graphic Design
+                                    UX Consulting
                                 </div>
                                 <div class="project-name">
-                                    ID HatShop Logo Design
+                                    File Management
                                 </div>
                             </div>
                         </div>
-                        <img src="img/portfolio/idHatShop.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/file.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -220,14 +220,14 @@
                         <div class="caption">
                             <div class="caption-content">                                
                                 <div class="project-category text-faded">
-                                    Graphic Design
+                                    UX Research
                                 </div>
                                 <div class="project-name">
-                                    UMSI Website Interface Redesign
+                                    Website Evaluation<br>(in progress)
                                 </div>
                             </div>
                         </div>
-                        <img src="img/portfolio/umsiweb.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/honors.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -238,43 +238,15 @@
                                     Graphic Design
                                 </div>
                                 <div class="project-name">
-                                    Famous Architects Alphabet Poster
+                                    Miscellaneous Designs
                                 </div>
                             </div>
                         </div>
                         <img src="img/portfolio/poster.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="project-category text-faded">
-                                    UX Design
-                                </div>
-                                <div class="project-name">
-                                    WorkOrder System Design for SkySpecs Drone <br>(in progress)
-                                </div>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/skyspecs.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="project-category text-faded">
-                                    Usability Evaluation
-                                </div>
-                                <div class="project-name">
-                                    Website Evaluation for LSA Honors Program<br>(in progress)
-                                </div>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/honors.png" class="img-responsive" alt="">
-                    </a>
-                </div>
+                
+                
                 
 
 
@@ -347,7 +319,75 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>BooksMap Mobile Application Mockups</h2>
+                            <h2>Work Order System Web Design</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/skyspecs.png" class="img-responsive img-centered" alt="">
+                            
+                            <!--intro-->
+                            <div class="col-sm-12 project-infos" id="intro">
+                              <div class="project-description col-sm-8">
+                                  <div ng-bind-html="project.description" class="ng-binding">
+                                  In this project, our team need to build a workorder system for SkySpecs Drone to streamline their workflow. My role in this team is to do user research and deisgn the web system, including the architecture as well as the interfaces.  
+                                  </div>
+                                  <div class="project-link">
+                                    <a href="https://www.skyspecs.com/" target="_blank">
+                                      <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
+                                        <span ng-if="global.lang=='en'" class="ng-scope">See SkySpecs Website.</span>
+                                      </div>
+                                    </a>
+                                  </div>
+                              </div>
+
+                              <div class="project-right col-sm-4">
+
+                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
+                                    <div class="r-item-name">
+                                      Client
+                                    </div>
+                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
+                                      SkySpecs Drone. 
+                                    </div>
+                                </div>
+                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
+                                    <div class="r-item-name">
+                                      Skills
+                                    </div>
+                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
+                                      UX Design.<br>Usability Evaluation.<br>Competitive Analysis.<br>Contextual Inquiry.<br>Information Architecture.<br>Graphic Design. 
+                                    </div>
+                                </div>
+                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
+                                    <div class="r-item-name">
+                                      Tools
+                                    </div>
+                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
+                                      Adobe Suite. 
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>BooksMap Mobile App Design</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/booksmap.png" class="img-responsive img-centered" alt="">                            
                             
@@ -575,7 +615,120 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <div class="portfolio-modal modal fade saa" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                        	<h2>OpenAir Challenge 2016</h2>
+                            <h3>Summit IDG Web Accessibility Redesign</h3>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/summit.png" class="img-responsive img-centered" alt="">
+
+                            <!--Intro-->
+                            <div class="col-sm-12 project-infos" id="intro">
+                              <div class="project-description col-sm-8">
+                                  <div ng-bind-html="project.description" class="ng-binding">
+                                  In this team project, we redesigned the Summit IDG website using Wordpress template. My role was to build framework for each page, study how to use plug-ins and then build the homepage. During this process, I mainly focused on the Accessibility Web Design: aria tags, color contrast, alternative text, etc. Additionally, I followed the modern trend to include hero image, free space, minimal text, sliders. social media icons. etc.  
+                                  </div>
+                                  <div class="project-link">
+                                    <a href="http://www.summitidg.org/" target="_blank">
+                                      <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
+                                        <span ng-if="global.lang=='en'" class="ng-scope">Summit IDG Website.</span>
+                                      </div>
+                                    </a>
+                                    <a href="http://utc.knowbility.org/" target="_blank">
+                                      <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
+                                        <span ng-if="global.lang=='en'" class="ng-scope">See Redesigned Website.</span>
+                                      </div>
+                                    </a>
+                                  </div>
+                              </div>
+
+                              <div class="project-right col-sm-4">
+
+                                <div class="r-item ng-scope" ng-if="project.client!=null"> 
+                                    <div class="r-item-name">
+                                      Client 
+                                    </div>
+                                    <span ng-bind-html="project.client" class="ng-binding">
+                                      Summit IDG
+                                    </span>
+                                </div>
+
+                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
+                                    <div class="r-item-name">
+                                      Skill
+                                    </div>
+                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
+                                      Web Design.<br>Accessibility Design. 
+                                    </div>
+                                </div>
+
+                                <div class="r-item ng-scope" ng-if="project.role.length>0">
+                                  <div class="r-item-name">
+                                    <span ng-if="global.lang=='en'" class="ng-scope">
+                                      Tool
+                                    </span>
+                                  </div> 
+                                  <div class="p-role ng-binding ng-scope" ng-repeat="r in project.role">
+                                    HTML5.<br>CSS.<br>Wordpress.
+                                  </div>                                 
+                                </div>
+                              </div>
+                          </div>
+
+                          <!--Content-->
+                          <div class="project-desc-title col-sm-12 ">
+                            <h2 class="ng-binding col-sm-11 text-left">Homepage</h2>
+                          </div> 
+
+                          <div class="col-sm-12 project-infos">
+                              <div class="project-description">
+                                  <div ng-bind-html="project.description" class="ng-binding">
+                                  I added a hero image on the top with their logotype and messages on it, conveying clear identity emphasis. I moved the Upcoming Events from side bar to the center, reducing the maxima from 10 to 3, with a Google Map showing event location on the right. I removed the Recent Donation section from sidebar, Blog and Atheletes from Navigation, added Facebook Feed on the right side and Honor 22 as our client requested. I changed the wording from "Apply Now!" to "Get Involved", none "Donations" to verb. "Donate", calling for action. Besides, I added "War Affected Mind" and tagline "To Support, Aid, and Honor" under orgnisation name to emphasize their mission. To reduece the repeated information of social media icons, I only kept facebook and twitter icons and moved them to the navigation for emphasis. For the Athletes Introduction section, I reduced the overall numbers, enlarged the images, cut off text, making information clearer and more readable.<br>
+                                  As for overall style, I made the homepage a shorter scrolling page with less text, more free space, clear color contrast and invisible accessible design.
+                                  </div> 
+                              </div>      
+                          </div>
+
+                          <div class="container-fluid openair" id="feature2" style="background-color: white">
+                            <div class="row openair">
+                              <div class="col-sm-12 col-md-6 text-center">
+                                <br><h4 style="color: #5d5d5d; font-size:150%;"><b>before</b></h4>
+                                <img width="90%" height="90%" src="img/portfolio/idghome1.png" alt="#"/>
+                              </div>
+                              <div class="col-sm-12 col-md-6 text-center">
+                                <br><h4 style="color: #5d5d5d; font-size:150%;"><b>after</b></h4>
+                                <img width="90%" height="90%" src="img/portfolio/idghome.png" alt="#"/>
+                              </div>
+                            </div>    
+                          </div>
+
+                          <div class="end">
+                            <div class="project-link text-center">
+                                    <a href="http://utc.knowbility.org/" target="_blank">
+                                        <span>See More Details.</span>
+                                    </a>
+                            </div>
+                          </div>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -855,323 +1008,6 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade saa" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Summit IDG Web Redesign</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/summit.png" class="img-responsive img-centered" alt="">
-
-                            <!--Intro-->
-                            <div class="col-sm-12 project-infos" id="intro">
-                              <div class="project-description col-sm-8">
-                                  <div ng-bind-html="project.description" class="ng-binding">
-                                  In this team project, we redesigned the Summit IDG website using Wordpress template. My role was to build framework for each page, study how to use plug-ins and then build the homepage. During this process, I mainly focused on the Accessibility Web Design: aria tags, color contrast, alternative text, etc. Additionally, I followed the modern trend to include hero image, free space, minimal text, sliders. social media icons. etc.  
-                                  </div>
-                                  <div class="project-link">
-                                    <a href="http://www.summitidg.org/" target="_blank">
-                                      <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
-                                        <span ng-if="global.lang=='en'" class="ng-scope">Summit IDG Website.</span>
-                                      </div>
-                                    </a>
-                                    <a href="http://utc.knowbility.org/" target="_blank">
-                                      <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
-                                        <span ng-if="global.lang=='en'" class="ng-scope">See Redesigned Website.</span>
-                                      </div>
-                                    </a>
-                                  </div>
-                              </div>
-
-                              <div class="project-right col-sm-4">
-
-                                <div class="r-item ng-scope" ng-if="project.client!=null"> 
-                                    <div class="r-item-name">
-                                      Client 
-                                    </div>
-                                    <span ng-bind-html="project.client" class="ng-binding">
-                                      Summit IDG
-                                    </span>
-                                </div>
-
-                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
-                                    <div class="r-item-name">
-                                      Skill
-                                    </div>
-                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
-                                      Web Design.<br>Accessibility Design. 
-                                    </div>
-                                </div>
-
-                                <div class="r-item ng-scope" ng-if="project.role.length>0">
-                                  <div class="r-item-name">
-                                    <span ng-if="global.lang=='en'" class="ng-scope">
-                                      Tool
-                                    </span>
-                                  </div> 
-                                  <div class="p-role ng-binding ng-scope" ng-repeat="r in project.role">
-                                    HTML5.<br>CSS.<br>Wordpress.
-                                  </div>                                 
-                                </div>
-                              </div>
-                          </div>
-
-                          <!--Content-->
-                          <div class="project-desc-title col-sm-12 ">
-                            <h2 class="ng-binding col-sm-11 text-left">Homepage</h2>
-                          </div> 
-
-                          <div class="col-sm-12 project-infos">
-                              <div class="project-description">
-                                  <div ng-bind-html="project.description" class="ng-binding">
-                                  I added a hero image on the top with their logotype and messages on it, conveying clear identity emphasis. I moved the Upcoming Events from side bar to the center, reducing the maxima from 10 to 3, with a Google Map showing event location on the right. I removed the Recent Donation section from sidebar, Blog and Atheletes from Navigation, added Facebook Feed on the right side and Honor 22 as our client requested. I changed the wording from "Apply Now!" to "Get Involved", none "Donations" to verb. "Donate", calling for action. Besides, I added "War Affected Mind" and tagline "To Support, Aid, and Honor" under orgnisation name to emphasize their mission. To reduece the repeated information of social media icons, I only kept facebook and twitter icons and moved them to the navigation for emphasis. For the Athletes Introduction section, I reduced the overall numbers, enlarged the images, cut off text, making information clearer and more readable.<br>
-                                  As for overall style, I made the homepage a shorter scrolling page with less text, more free space, clear color contrast and invisible accessible design.
-                                  </div> 
-                              </div>      
-                          </div>
-
-                          <div class="container-fluid openair" id="feature2" style="background-color: white">
-                            <div class="row openair">
-                              <div class="col-sm-12 col-md-6 text-center">
-                                <br><h4 style="color: #5d5d5d; font-size:150%;"><b>before</b></h4>
-                                <img width="90%" height="90%" src="img/portfolio/idghome1.png" alt="#"/>
-                              </div>
-                              <div class="col-sm-12 col-md-6 text-center">
-                                <br><h4 style="color: #5d5d5d; font-size:150%;"><b>after</b></h4>
-                                <img width="90%" height="90%" src="img/portfolio/idghome.png" alt="#"/>
-                              </div>
-                            </div>    
-                          </div>
-
-                          <div class="end">
-                            <div class="project-link text-center">
-                                    <a href="http://utc.knowbility.org/" target="_blank">
-                                        <span>See More Details.</span>
-                                    </a>
-                            </div>
-                          </div>
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade hat" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>ID HatShop Logo Design</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/idHatShop.png" class="img-responsive img-centered" alt="">
-                            
-                            <!--intro-->
-                            <div class="col-sm-12 project-infos" id="intro">
-                              <div class="project-description col-sm-8">
-                                  <div ng-bind-html="project.description" class="ng-binding">
-                                  In this project, I designed a logo for ID Hatshop, a small hatseller who customizes hat for customers. In phase one, I collected other logotypes designed for similar organizations. Then brainstormed, sketched and turned my 3 best sketches into logotype using Adobe Illustrator. In phase two, I finalized my logotype (including typeface) from the 3 sketches in phase one and completed the design. My design also included the typography guide, logotype scalability, mandatory free space guide, 6 variants of color conversions, the logo on the building facade and brand tag design.
-                                  </div>
-                                  <div class="project-link">
-                                    <a href="https://www.facebook.com/ID-Hat-Shop-183357755008390/" target="_blank">
-                                      <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
-                                        <span ng-if="global.lang=='en'" class="ng-scope">See ID Hatshop Facebook.</span>
-                                      </div>
-                                    </a>
-                                  </div>
-                              </div>
-
-                              <div class="project-right col-sm-4">
-
-                                <div class="r-item ng-scope" ng-if="project.client!=null"> 
-                                    <div class="r-item-name">
-                                      Client 
-                                    </div>
-                                    <span ng-bind-html="project.client" class="ng-binding">
-                                      ID Hatshop
-                                    </span>
-                                </div>
-
-                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
-                                    <div class="r-item-name">
-                                      Skill
-                                    </div>
-                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
-                                      Graphic Design. 
-                                    </div>
-                                </div>
-
-                                <div class="r-item ng-scope" ng-if="project.role.length>0">
-                                  <div class="r-item-name">
-                                    <span ng-if="global.lang=='en'" class="ng-scope">
-                                      Tool
-                                    </span>
-                                  </div> 
-                                  <div class="p-role ng-binding ng-scope" ng-repeat="r in project.role">
-                                    Adobe Illustrator.<br>Adobe Photoshop.
-                                  </div>                                 
-                                </div>
-                              </div>
-                          </div>
-
-                            <!--content-->
-                            <div class="project-desc-title col-sm-12 ">
-                                        <h2 class="ng-binding col-sm-11 text-left">Concept</h2>
-                                      </div>
-
-                                      <div class="col-sm-12 project-infos">
-                                          <div class="project-description">
-                                              <div class="col-sm-12 heading3">
-                                                <h3>Overall Style: Minimalism.</h3><br>
-                                                As our client wanted to have a clean and modern logo, I tried to simplify the woman on their business card to be more like a logo, and added modern elements on it -- the Monotype Corsiva typeface.                      
-                                              </div>  
-                                              <div class="col-sm-12 heading3">
-                                                <h3>Typeface: Monotype Corsiva.</h3><br>
-                                               I chose Monotype Corsiva as the font on the logo, a more complex style compared to the rest pf the logo, because I thought a simple logo paired with complex typeface maintains an elequent balance. This typeface also looks hand-written but is more readable, as well as looking modern. The font-size of this signature is 90pt, which is readable but not overemphasized.                      
-                                              </div>
-                                              <div class="col-sm-12 heading3">
-                                                <h3>Color Palette</h3><br>
-                                               I wanted to design a logo which would be fashionable yet keep some of the original elements from their business card. Looking at their current business card, I loved the color pallete -a mix of dark blue and red colors - and the woman on the card, and then I chose to maintain these elements in a new design.                     
-                                              </div>
-                                          </div>      
-                                      </div>
-                                      
-
-                                      <div class="project-desc-title col-sm-12 ">
-                                        <h2 class="ng-binding col-sm-11 text-left">Design Process</h2>
-                                      </div>
-
-                                      <div class="col-sm-12 project-infos">
-                                          <div class="project-description">
-                                          
-                                              <div class="col-sm-12 heading3">
-                                                <h3>Sketches.</h3><br>
-                                               After I studied the logotypes of the competitors, I brainstormed and sketched the following rough logotypes (Figure 1).
-                                              </div>
-                                              <div class="col-sm-12 text-center book-overview">
-                                                <img src="img/portfolio/sketch.png" width="90%" height="90%">
-                                                <br><br><i>Figure 1. Sketches of rough logotype.</i>
-                                              </div>
-                                              <div class="col-sm-12 heading3">
-                                                <h3>Rough Logotype.</h3><br>
-                                                I chose 3 logotypes from my sketches and created them in Adobe Illustrator. I used Segoe Script for those logos, becasue the script is stylish. Since the customer wanted something simple but fasionable, I chose a fancy typeface to accompany the simple logo, each logo involved a simple design. If both were simple, it would be dull. 
-                                              </div>
-                                                  <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                                    <a  href="img/portfolio/option1.png" data-lightbox="example-set" data-title="Figure 2. Option I"><img width="100%" height="100%" src="img/portfolio/option1.png" alt="#"/></a>
-                                                    <br><br><i>Figure 2. Option I</i>
-                                                  </div>
-                                                  <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                                    <a  href="img/portfolio/option2.png" data-lightbox="example-set" data-title="Figure 3. Option II"><img width="100%" height="100%" src="img/portfolio/option2.png" alt="#"/></a>
-                                                    <br><br><i>Figure 3. Option II</i>
-                                                  </div>
-                                                  <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                                    <a  href="img/portfolio/option3.png" data-lightbox="example-set" data-title="Figure 4. Option III"><img width="100%" height="100%" src="img/portfolio/option3.png" alt="#"/></a>
-                                                    <br><br><i>Figure 4. Option III</i>
-                                                  </div>
-                                              <div class="col-sm-12 heading3">
-                                                <h3>Phase II.</h3><br>
-                                               After receiving feedback on the logotype, I decided to keep the elements of red lips and hat covering the lady's eyes and reformed those elementsto a more elegant design, something that would evoke beauty and admiration. Based on the sketch below, I created the final logo. 
-                                              </div>
-                                              <div class="col-sm-12 text-center book-overview">
-                                                <img src="img/portfolio/sketch1.JPG" width="90%" height="90%">
-                                                <br><br><i>Figure 5. Finalized sketch</i>
-                                              </div>
-                                              <div class="col-sm-12 heading3">
-                                               <br>Furthermore, I reduced the previous color palette to only two colors (Figure 6), simplifying the message. I also substituted a new typeface -- Monotype Corsiva -- which still belongs to the script family, but is more readable.
-                                              </div>
-                                              <div class="col-sm-12 text-center book-overview">
-                                                <img src="img/portfolio/color1.png" width="50%" height="50%">
-                                                <br><br><i>Figure 6. New Color Palette</i>
-                                              </div>
-                                        </div>      
-                                      </div>
-                                                    
-                                      <div class="project-desc-title col-sm-12 ">
-                                        <h2 class="ng-binding col-sm-11 text-left">Logotype Guide</h2>
-                                      </div>
-
-                                      <div class="col-sm-12 project-infos">
-                                          <div class="project-description">
-                                          
-                                              <div class="col-sm-12 heading3">
-                                                <h3>Free Space Guide.</h3><br>
-                                               I created the free space guide based on 1/6 of the length of the logo width (Figure 7).
-                                              </div>
-                                              <div class="col-sm-12 text-center book-overview">
-                                                <img src="img/portfolio/guide.png" width="90%" height="90%">
-                                                <br><br><i>Figure 7. Mandatory free space guide.</i>
-                                              </div>
-                                              <div class="col-sm-12 heading3">
-                                                <h3>Variants of Color Conversions.</h3><br>
-                                                To visualize alternative color schemes, I created 6 color conversion variants: CMYK on white background (Figure 8); CMYK reversed or adjusted on black background (Figure 9); Grayscale on white background (Figure 10); Grayscale on black background (Figure 11); Black only on white background (Figure 12); White only on black background (Figure 13).
-                                              </div>
-                                                  <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                                    <a  href="img/portfolio/con1.png" data-lightbox="example-set" data-title="Figure 8. CMYK on white background"><img width="100%" height="100%" src="img/portfolio/con1.png" alt="#"/></a>
-                                                    <br><br><i>Figure 8. CMYK on white BG</i>
-                                                  </div>
-                                                  <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                                    <a  href="img/portfolio/con2.png" data-lightbox="example-set" data-title="Figure 9. CMYK adjusted on black background"><img width="100%" height="100%" src="img/portfolio/con2.png" alt="#"/></a>
-                                                    <br><br><i>Figure 9. CMYK on black BG</i>
-                                                  </div>
-                                                  <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                                    <a  href="img/portfolio/con3.png" data-lightbox="example-set" data-title="Figure 10. Grayscale on white background"><img width="100%" height="100%" src="img/portfolio/con3.png" alt="#"/></a>
-                                                    <br><br><i>Figure 10. Grayscale on white BG</i>
-                                                  </div>
-                                                  <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                                    <a  href="img/portfolio/con4.png" data-lightbox="example-set" data-title="Figure 11. Grayscale on black background"><img width="100%" height="100%" src="img/portfolio/con4.png" alt="#"/></a>
-                                                    <br><br><i>Figure 11. Grayscale on black BG</i>
-                                                  </div>
-                                                  <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                                    <a  href="img/portfolio/con5.png" data-lightbox="example-set" data-title="Figure 12. Black only on white background"><img width="100%" height="100%" src="img/portfolio/con5.png" alt="#"/></a>
-                                                    <br><br><i>Figure 12. Black only on white BG</i>
-                                                  </div>
-                                                  <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                                    <a  href="img/portfolio/con6.png" data-lightbox="example-set" data-title="Figure 13. White only on black background"><img width="100%" height="100%" src="img/portfolio/con6.png" alt="#"/></a>
-                                                    <br><br><i>Figure 13. White only on black BG</i>
-                                                  </div>
-                                              <div class="col-sm-12 heading3">
-                                                <h3>Logo on Building Facade.</h3><br>
-                                               I used Adobe Photoshop to attach one of the 6 variants -- Figure 9. CMYK reversed conversion -- onto ID Hatshop's actual building facade.
-                                              </div>
-                                              <div class="col-sm-12 text-center book-overview">
-                                                <img src="img/portfolio/facade.png" width="90%" height="90%">
-                                                <br><br><i>Figure 8. Building Facade.</i>
-                                              </div>
-                                              <div class="col-sm-12 heading3">
-                                                <h3>Logo on Brand Tag</h3><br>
-                                               I also included realistic logotype size recommendations for a tag design.
-                                              </div>
-                                              <div class="col-sm-12 text-center book-overview end">
-                                                <img src="img/portfolio/tag.png" width="100%" height="100%">
-                                                <br><br><i>Figure 9. Paper Tag.</i>
-                                              </div>
-                                        </div>      
-                                      </div>
-
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="portfolio-modal modal fade bike" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -1340,326 +1176,7 @@
         </div>
     </div>
     
-    <div class="portfolio-modal modal fade msi" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>UMSI Website Interface Redesign</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/umsiweb.png" class="img-responsive img-centered" alt="">
-                            <!--intro-->
-                            <div class="col-sm-12 project-infos" id="intro">
-                              <div class="project-description col-sm-8">
-                                  <div ng-bind-html="project.description" class="ng-binding">
-                                  In this project, I redesigned the website for University of Michigan School of Information (UMSI). In phase one, I reiewed the website of a peer institution and collected screenshots of 2 sites whose design I'd hope to see on the UMSI website. Besed on those content, I prepared two ideas for UMSI homepage redesign and stocked relevant images. In phase two, I repositioned, resized the informational blocks from current UMSI website and added elements consistent with current design trends including minimalism, free apace, hero image, etc.
-                                  </div>
-                                  <div class="project-link">
-                                    <a href="https://www.si.umich.edu/" target="_blank">
-                                      <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
-                                        <span ng-if="global.lang=='en'" class="ng-scope">See current UMSI website.</span>
-                                      </div>
-                                    </a>
-                                  </div>
-                              </div>
-
-                              <div class="project-right col-sm-4">
-
-                                <div class="r-item ng-scope" ng-if="project.client!=null"> 
-                                    <div class="r-item-name">
-                                      Client 
-                                    </div>
-                                    <span ng-bind-html="project.client" class="ng-binding">
-                                      University of Michigan School of Information (UMSI).
-                                    </span>
-                                </div>
-
-                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
-                                    <div class="r-item-name">
-                                      Skill
-                                    </div>
-                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
-                                      Graphic Design. 
-                                    </div>
-                                </div>
-
-                                <div class="r-item ng-scope" ng-if="project.role.length>0">
-                                  <div class="r-item-name">
-                                    <span ng-if="global.lang=='en'" class="ng-scope">
-                                      Tool
-                                    </span>
-                                  </div> 
-                                  <div class="p-role ng-binding ng-scope" ng-repeat="r in project.role">
-                                    Adobe Illustrator.<br>Adobe Photoshop.
-                                  </div>
-                                </div>
-                              </div>
-                          </div>
-                          <!--content-->
-                          <div class="project-desc-title col-sm-12 ">
-                            <h2 class="ng-binding col-sm-11 text-left">Concept</h2>
-                          </div>
-
-                          <div class="col-sm-12 project-infos">
-                              <div class="project-description">
-                                  <div class="col-sm-12 heading3"> 
-                                    <h3>Modern Trends.</h3><br>
-                                    I include big hero images on the top of the page, video content and relevant images for each section. By utilizing other trends, I use minimal text, sliders, organized but not stubborn arrangements for various content, and liberal free space. Additionally, I encompass social media icons in three different places, one is in the “share” drop down menu in navigation, another one is in the “Social Media Feeds”, and the last one is in footer. Furthermore, calling for “GIVE” is also very necessary, so I put the GIVE button on the very top.                     
-                                  </div>
-                                  <div class="col-sm-12 heading3">
-                                    <h3>Color Palette.</h3><br>
-                                   The color palette I choose is from our UMichigan Website Homepage, which uses blue, yellow and gray. I also keep some similar elements from UMich homepage: transparent backgrounds, UMSI News rectangle elements, and Social Media Feeds layout. This is for keep consistency for evoking the feeling that UMSI is part of UMichigan but has our own characteristics.                      
-                                  </div>
-                                  <div class="col-sm-12 text-center book-overview">
-                                    <img width="100%" height="100%" src="img/portfolio/umsi-cp.png">
-                                    <br><br>
-                                  </div> 
-                                  <div class="col-sm-12 heading3">
-                                    <h3>Typeface: Century Gothic pair with Myriad pro.</h3><br>
-                                   Century Gothic looks neat and modern style as title which is consistent with UMSI's mission to engage people in useing technology to build a better world, while the Myriad pro is more readable for visitors.                      
-                                  </div>
-                              </div>      
-                          </div>
-                          
-                          <div class="col-sm-12 text-center book-overview umsi">
-                                    <h4 style="color: #5d5d5d; font-size:150%;"><b>before</b></h4>
-                                    <br><img width="90%" height="90%" src="img/portfolio/umsiweb1.png" alt="umsi redesign">
-                                    <br><br>
-                          </div> 
-                          <div class="col-sm-12 text-center book-overview umsi end">
-                                    <h4 style="color: #5d5d5d; font-size:150%;"><b>after</b></h4>
-                                    <br><img width="90%" height="90%" src="img/portfolio/umsiweb0.png" alt="umsi redesign">
-                                    <br><br>
-                          </div> 
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade poster" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Famous Architects Alphabet Poster</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/poster1.png" class="img-responsive img-centered" alt="">
-                            
-                            <!--intro-->
-                            <div class="col-sm-12 project-infos" id="intro">
-                              <div class="project-description col-sm-8">
-                                  <div ng-bind-html="project.description" class="ng-binding">
-                                  In this project, I designed an English Alphabet Poster whose theme was Famouse Architects. I choosed the most widely-used names of architects, for example, Zaha- first name of Zaha Hadid and Khan- last name of Louis Khan. I picked black- the favorite color of architects as the basic color and script-look as the typeface. This poster is for everyone who is engaged or interested in Architecture including myself to know and remember those world famous architects.
-                                  </div>
-                                  
-                              </div>
-
-                              <div class="project-right col-sm-4">
-
-                                <div class="r-item ng-scope" ng-if="project.client!=null"> 
-                                    <div class="r-item-name">
-                                      Target Population 
-                                    </div>
-                                    <span ng-bind-html="project.client" class="ng-binding">
-                                      Architects.<br> Designers.<br>Architecture buffs.
-                                    </span>
-                                </div>
-
-                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
-                                    <div class="r-item-name">
-                                      Skill
-                                    </div>
-                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
-                                      Graphic Design. 
-                                    </div>
-                                </div>
-
-                                <div class="r-item ng-scope" ng-if="project.role.length>0">
-                                  <div class="r-item-name">
-                                    <span ng-if="global.lang=='en'" class="ng-scope">
-                                      Tool
-                                    </span>
-                                  </div> 
-                                  <div class="p-role ng-binding ng-scope" ng-repeat="r in project.role">
-                                    Adobe Illustrator.<br>Adobe Photoshop.
-                                  </div>
-                                  
-                                </div>
-
-                              </div>
-                          </div>
-
-                            <!--content-->
-                            <div class="project-desc-title col-sm-12 ">
-                                <h2 class="ng-binding col-sm-11 text-left">Concept</h2>
-                              </div>
-
-                              <div class="col-sm-12 project-infos alphabet">
-                                  <div class="project-description">
-                                      <div class="col-sm-12 heading3">
-                                        <h3>Color Palette</h3><br>
-                                      Architects like simple color and always dark color, such as black and gray. As a fan of Architecture, I wanted to keep this style of architects but added some lively bright colors to avoid dullness. I first looked through many color palettes on Adobe Color CC and choosed this classical one below as my basic color pallete. And generated more colors based on Monochromatic Harmony.                      
-                                      </div>
-                                      <div class="col-sm-12 text-center book-overview">
-                                        <img width="100%" height="100%" src="img/portfolio/cccolor.png" alt="idhatshop">
-                                        <br><br>
-                                      </div>
-                                      <div class="col-sm-12 heading3">
-                                        <h3>Typeface: Segoe Print.</h3><br>
-                                       Architects are doing sketches all the time, so I wanted the font to be like their handwriting letters. Font Segoe Print is styled and is based on handwriting letters, and at the same time it is clear to read.                      
-                                      </div> 
-                                      <div class="col-sm-12 text-center book-overview">
-                                        <img width="100%" height="100%" src="img/portfolio/alphabet.png" alt="idhatshop">
-                                        <br><br><i>Famous Architects Alphabet Poster (Tabloid 11X17”).</i>
-                                      </div>                             
-                                  </div>      
-                              </div>
-                              
-
-                              <div class="project-desc-title col-sm-12 ">
-                                <h2 class="ng-binding col-sm-11 text-left">Design Process</h2>
-                              </div>
-
-                              <div class="col-sm-12 project-infos alphabet">
-                                  <div class="project-description">
-                                  
-                                      <div class="col-sm-12 heading3">
-                                        <h3>Sketches.</h3><br>
-                                       I sketched the overall layout and color arrangement of this poster. Beside, I also sketched out the designs for 4 models. 
-                                      </div>
-                                      <div class="col-sm-12 text-center book-overview">
-                                        <img src="img/portfolio/alphabet2.png" width="90%" height="90%">
-                                        <br><br><i>Alphabet Sketches of Layout and Models.</i>
-                                      </div>
-                                      <div class="col-sm-12 text-center book-overview">
-                                        <img src="img/portfolio/al-cp.png" width="90%" height="90%">
-                                        <br><br><i>Color Palette.</i>
-                                      </div>
-                                      
-
-                                      <div class="col-sm-12 heading3">
-                                        <h3>Models.</h3><br>
-                                        I first created models for N, W, I, A, O, and modules that contain longest (V for Van de Rohe) and shortest words (R for Rem). The first step after I selected the images of those architecs was masking those pictures with color palette and thick letters in Photoshop. And then I placed them in Illustrator and kept consistent layout for each model, including the alignment of capital letters, words and masked images. 
-                                      </div>
-                                      
-                                          <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                            <a  href="img/portfolio/a.png" data-lightbox="example-set" data-title="Figure 2. Option I"><img width="100%" height="100%" src="img/portfolio/a.png" alt="#"/></a>
-                                            
-                                          </div>
-                                          <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                            <a  href="img/portfolio/a1.png" data-lightbox="example-set" data-title="Figure 3. Option II"><img width="100%" height="100%" src="img/portfolio/a1.png" alt="#"/></a>
-                                            
-                                          </div>
-                                          <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                            <a  href="img/portfolio/a2.png" data-lightbox="example-set" data-title="Figure 4. Option III"><img width="100%" height="100%" src="img/portfolio/a2.png" alt="#"/></a>
-                                            
-                                          </div>
-                                          <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                            <a  href="img/portfolio/a3.png" data-lightbox="example-set" data-title="Figure 2. Option I"><img width="100%" height="100%" src="img/portfolio/a3.png" alt="#"/></a>
-                                            
-                                          </div>
-                                          <div class="col-sm-6 col-md-4 text-center image-wrapper">
-                                            <a  href="img/portfolio/a4.png" data-lightbox="example-set" data-title="Figure 3. Option II"><img width="100%" height="100%" src="img/portfolio/a4.png" alt="#"/></a>
-                                            
-                                          </div>
-                                          <div class="col-sm-6 col-md-4 text-center image-wrapper end">
-                                            <a  href="img/portfolio/a5.png" data-lightbox="example-set" data-title="Figure 4. Option III"><img width="100%" height="100%" src="img/portfolio/a5.png" alt="#"/></a>
-                                            
-                                          </div>
-                                </div>      
-                              </div>
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>WorkOrder System Design for SkySpecs Drone <br>(in progress)</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/skyspecs.png" class="img-responsive img-centered" alt="">
-                            
-                            <!--intro-->
-                            <div class="col-sm-12 project-infos" id="intro">
-                              <div class="project-description col-sm-8">
-                                  <div ng-bind-html="project.description" class="ng-binding">
-                                  In this project, our team need to build a workorder system for SkySpecs Drone to streamline their workflow. My role in this team is to do user research and deisgn the web system, including the architecture as well as the interfaces.  
-                                  </div>
-                                  <div class="project-link">
-                                    <a href="https://www.skyspecs.com/" target="_blank">
-                                      <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
-                                        <span ng-if="global.lang=='en'" class="ng-scope">See SkySpecs Website.</span>
-                                      </div>
-                                    </a>
-                                  </div>
-                              </div>
-
-                              <div class="project-right col-sm-4">
-
-                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
-                                    <div class="r-item-name">
-                                      Client
-                                    </div>
-                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
-                                      SkySpecs Drone. 
-                                    </div>
-                                </div>
-                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
-                                    <div class="r-item-name">
-                                      Skills
-                                    </div>
-                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
-                                      UX Design.<br>Usability Evaluation.<br>Competitive Analysis.<br>Contextual Inquiry.<br>Information Architecture.<br>Graphic Design. 
-                                    </div>
-                                </div>
-                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
-                                    <div class="r-item-name">
-                                      Tools
-                                    </div>
-                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
-                                      Adobe Suite. 
-                                    </div>
-                                </div>
-                          </div>
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- <div class="portfolio-modal modal fade honors" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade honors" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -1673,9 +1190,9 @@
                         <div class="modal-body">
                             <h2>Website Evaluation for LSA Honors Program<br>(in progress)</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/honors.png" class="img-responsive img-centered" alt="">-->
+                            <img src="img/portfolio/honors.png" class="img-responsive img-centered" alt="">
                             
-                            <!--intro--> <!--
+                            <!--intro--> 
                             <div class="col-sm-12 project-infos" id="intro">
                               <div class="project-description col-sm-8">
                                   <div ng-bind-html="project.description" class="ng-binding">
@@ -1709,7 +1226,8 @@
                                     </div>
                                 </div>
 
-                          </div>
+                          	  </div>
+                          	</div>
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -1717,7 +1235,145 @@
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
+</div>
+    <div class="portfolio-modal modal fade poster" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>A Collection of Miscellaneous Designs.</h2>
+                            <hr class="star-primary">
+
+                            <!--work1-->
+                            <img src="img/portfolio/poster1.png" class="img-responsive img-centered" alt="">                          
+                            <div class="col-sm-12 project-infos" id="intro">
+                              <div class="project-description col-sm-8">
+                                  <div ng-bind-html="project.description" class="ng-binding">
+                                  <h3>Famous Architects Alphabet Poster</h3>
+                                  In this project, I designed an English Alphabet Poster whose theme was Famouse Architects. I choosed the most widely-used names of architects, for example, Zaha- first name of Zaha Hadid and Khan- last name of Louis Khan. I picked black- the favorite color of architects as the basic color and script-look as the typeface. This poster is for everyone who is engaged or interested in Architecture including myself to know and remember those world famous architects.
+                                  </div>
+                                  
+                              </div>
+
+                              <div class="project-right col-sm-4">
+
+                                <div class="r-item ng-scope" ng-if="project.client!=null"> 
+                                    <div class="r-item-name">
+                                      Audience 
+                                    </div>
+                                    <span ng-bind-html="project.client" class="ng-binding">
+                                      Architects.<br> Designers.<br>Architecture buffs.
+                                    </span>
+                                </div>
+
+                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
+                                    <div class="r-item-name">
+                                      Skill & Tools
+                                    </div>
+                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
+                                      Graphic Design. <br>Adobe Creative Suite.
+                                    </div>
+                                </div>                               
+
+                              </div>
+                          </div>
+
+                          <!--work2-->
+                            <img src="img/portfolio/idHatShop.png" class="img-responsive img-centered" alt="">
+                            <div class="col-sm-12 project-infos" id="intro">
+                              <div class="project-description col-sm-8">
+                                  <div ng-bind-html="project.description" class="ng-binding">
+                                  <h3>ID HatShop Logo Design</h3>
+                                  In this project, I designed a logo for ID Hatshop, a small hatseller who customizes hat for customers. In phase one, I collected other logotypes designed for similar organizations. Then brainstormed, sketched and turned my 3 best sketches into logotype using Adobe Illustrator. In phase two, I finalized my logotype (including typeface) from the 3 sketches in phase one and completed the design. My design also included the typography guide, logotype scalability, mandatory free space guide, 6 variants of color conversions, the logo on the building facade and brand tag design.
+                                  </div>
+                                  <!--<div class="project-link">
+                                    <a href="https://www.facebook.com/ID-Hat-Shop-183357755008390/" target="_blank">
+                                      <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
+                                        <span ng-if="global.lang=='en'" class="ng-scope">See ID Hatshop Facebook.</span>
+                                      </div>
+                                    </a>
+                                  </div>-->
+                              </div>
+
+                              <div class="project-right col-sm-4">
+
+                                <div class="r-item ng-scope" ng-if="project.client!=null"> 
+                                    <div class="r-item-name">
+                                      Client 
+                                    </div>
+                                    <span ng-bind-html="project.client" class="ng-binding">
+                                      ID Hatshop.
+                                    </span>
+                                </div>
+
+                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
+                                    <div class="r-item-name">
+                                      Skill & Tool
+                                    </div>
+                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
+                                      Graphic Design.<br>Adobe Creative Suite.
+                                    </div>
+                                </div>                               
+                              </div>
+                          </div> 
+
+                          	<!--work3-->
+                            <img src="img/portfolio/umsiweb.png" class="img-responsive img-centered" alt="">
+                            <div class="col-sm-12 project-infos end" id="intro">
+                              <div class="project-description col-sm-8">
+                                  <div ng-bind-html="project.description" class="ng-binding">
+                                  <h3>UMSI Website Interface Redesign</h3>
+                                  In this project, I redesigned the website for University of Michigan School of Information (UMSI). In phase one, I reiewed the website of a peer institution and collected screenshots of 2 sites whose design I'd hope to see on the UMSI website. Besed on those content, I prepared two ideas for UMSI homepage redesign and stocked relevant images. In phase two, I repositioned, resized the informational blocks from current UMSI website and added elements consistent with current design trends including minimalism, free apace, hero image, etc.
+                                  </div>
+                                  <!--<div class="project-link">
+                                    <a href="https://www.si.umich.edu/" target="_blank">
+                                      <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
+                                        <span ng-if="global.lang=='en'" class="ng-scope">See current UMSI website.</span>
+                                      </div>
+                                    </a>
+                                  </div>-->
+                              </div>
+
+                              <div class="project-right col-sm-4">
+
+                                <div class="r-item ng-scope" ng-if="project.client!=null"> 
+                                    <div class="r-item-name">
+                                      Client 
+                                    </div>
+                                    <span ng-bind-html="project.client" class="ng-binding">
+                                      University of Michigan School of Information (UMSI).
+                                    </span>
+                                </div>
+
+                                <div class="r-item ng-scope" ng-if="project.support.length>0"> 
+                                    <div class="r-item-name">
+                                      Skill & Tool
+                                    </div>
+                                    <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
+                                      Graphic Design.<br> Adobe Creative Suite. 
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
     
     
 
