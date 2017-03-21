@@ -327,15 +327,20 @@
                             <div class="col-sm-12 project-infos" id="intro">
                               <div class="project-description col-sm-8">
                                   <div ng-bind-html="project.description" class="ng-binding">
-                                  In this project, our team need to build a workorder system for SkySpecs Drone to streamline their workflow. My role in this team is to do user research and deisgn the web system, including the architecture as well as the interfaces.  
+                                  <h3>About the Project</h3>
+                                  SkySpecs is an aerospace company deploys autonomous drones to provide safe, affordable, and automated wind turbine inspections for the WindEnergy Industry. We built a work order system for SkySpecs Drone to streamline their workflow. This is a website that can be fully utilized by SkySpecs Emploees and their customers to record, check and share information of inspections, customers and turbines, etc.    
                                   </div>
-                                  <div class="project-link">
+                                  <div ng-bind-html="project.description" class="ng-binding">
+                                  <h3>My Role</h3>
+                                  My role in this team is user researcher and UX/UI designer. I work closely with another designer and the web development subteam. I designed the information architecture and came up with work flows and interface layouts. 
+                                  </div>
+                                  <!--<div class="project-link">
                                     <a href="https://www.skyspecs.com/" target="_blank">
                                       <div class="p-link-t ng-scope" ng-if="project.node_name=='abc-de-l-homme'||project.node_name=='reborn'">
                                         <span ng-if="global.lang=='en'" class="ng-scope">See SkySpecs Website.</span>
                                       </div>
                                     </a>
-                                  </div>
+                                  </div>-->
                               </div>
 
                               <div class="project-right col-sm-4">
@@ -345,23 +350,23 @@
                                       Client
                                     </div>
                                     <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
-                                      SkySpecs Drone. 
+                                      <a href="https://www.skyspecs.com/" target="_blank">SkySpecs Drone.</a> 
                                     </div>
                                 </div>
                                 <div class="r-item ng-scope" ng-if="project.support.length>0"> 
                                     <div class="r-item-name">
-                                      Skills
+                                      Practice Areas
                                     </div>
                                     <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
-                                      UX Design.<br>Usability Evaluation.<br>Competitive Analysis.<br>Contextual Inquiry.<br>Information Architecture.<br>Graphic Design. 
+                                      UX Research.<br>UX/UI Design.<br>Information Architecture.<br>Usability Evaluation.
                                     </div>
                                 </div>
                                 <div class="r-item ng-scope" ng-if="project.support.length>0"> 
                                     <div class="r-item-name">
-                                      Tools
+                                      Team
                                     </div>
                                     <div class="p-support ng-binding ng-scope" ng-repeat="s in project.support"> 
-                                      Adobe Suite. 
+                                      Poheng Chen<br>Saketh Thoutireddy<br>Shuvro Guha<br>Yashas Vaidya<br>Yiann Chen 
                                     </div>
                                 </div>
                               </div>
