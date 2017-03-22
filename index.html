@@ -26,6 +26,7 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Karla|Lora|Questrial|Quicksand:400,500,700" rel="stylesheet">
     <!-- Lightbox -->
     <link rel="stylesheet" href="dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,6 +44,7 @@
       ga('send', 'pageview');
 
     </script>
+    
 
 </head>
 
@@ -372,6 +374,104 @@
                               </div>
                           </div>
 
+                          <!--Content-->
+                            <div class="project-desc-title col-sm-12 ">
+                                <h2 class="ng-binding col-sm-11 text-left">Problem Statement</h2>
+                            </div> 
+
+                              <div class="col-sm-12 project-infos">
+                                  <div class="project-description ">
+                                      <div ng-bind-html="project.description" class="ng-binding">
+                                      The workflow of SkySpecs includes  6 steps can be seen in figure 1. They receive a request by phone, schedule via Google Calendar and take notes via spreadsheet (haven't used it for a while),  etc. However, there is only one web portal for the 5th step to store a collection of uploaded data and annotation, which means for the rest of the process there is no platform/system to track records or check progress. With the growth of the company, customers and corresponding inspections are increasing which necessitates a system to streamline their workflow and run business systematically and more efficiently. 
+                                      </div>
+                                      <img src="img/portfolio/SkySpecs WorkFlow.png" class="img-responsive img-centered" alt="">
+                                      <br><p class="figures"><b>figure 1.</b> SkySpecs Workflow</p>
+                                  </div>      
+                              </div>
+                              <div class="project-desc-title col-sm-12 ">
+                                <h2 class="ng-binding col-sm-11 text-left">Users & Stakeholders</h2>
+                            </div> 
+
+                              <div class="col-sm-12 project-infos">
+                                  <div class="project-description ">
+                                      <div ng-bind-html="project.description" class="ng-binding">
+                                      We have performed research with our client's management and operation team to ideate, validate concepts and gather feedback. The Work Order System is used for both SkySpecs crew as well as their customers but they have different access levels. As figure 3, 4, 5 below shows there are three different primary users in SkySpecs: director, drone operator and data analyst. And their customers are the secondary users of this system, as shown in figure 6. Therefore, designing for primary users has the highest priority. The major responsibility of the director is to schedule with their customers and assign inspections to the operator.  
+                                      </div>
+                                      <div class="col-sm-6 col-md-3 persona">
+                                      	<br><img src="img/portfolio/persona1.png" class="img-responsive img-centered" alt="">
+                                      	<br><p class="figures"><b>figure 3.</b>Director Persona</p>
+                                      </div>
+                                      <div class="col-sm-6 col-md-3 persona">
+                                      	<br><img src="img/portfolio/persona2.png" class="img-responsive img-centered" alt="">
+                                      	<br><p class="figures"><b>figure 4.</b>Operator Persona</p>
+                                      </div>
+                                      <div class="col-sm-6 col-md-3 persona">
+                                      	<br><img src="img/portfolio/persona3.png" class="img-responsive img-centered" alt="">
+                                      	<br><p class="figures"><b>figure 5.</b>Analyst Persona</p>
+                                      </div>
+                                      <div class="col-sm-6 col-md-3 persona">
+                                      	<br><img src="img/portfolio/persona4.png" class="img-responsive img-centered" alt="">
+                                      	<br><p class="figures"><b>figure 6.</b>Customer Persona</p>
+                                      </div>
+                                      <div ng-bind-html="project.description" class="ng-binding">
+                                      	The responsibility of the operator is to do inspections on wind farms and upload data. And what the analyst are responsible for is annotating the data in the web portal. Therefore in the work order system, they should have hierarchical access to different sections of this system.
+                                      </div>
+                                  </div>      
+                              </div>
+
+                            <div class="project-desc-title col-sm-12 ">
+                                <h2 class="ng-binding col-sm-11 text-left">Solution Overview</h2>
+                              </div>
+
+                              <div class="col-sm-12 project-infos">
+                                  <div class="project-description ">
+                                      <div ng-bind-html="project.description" class="ng-binding">
+                                      As you can see in figure 6, there are four main sections in work order system:  work order information,  customer information,  turbine information and agenda. The presentation of the information is using tables, which can contain all records.  When a request comes in,  users can add a new record and finish 4 steps to the confirmation.  Users can check their events in agenda and change the inspection status later.
+                                      </div>
+                                      <br><img src="img/portfolio/SkySpecs Work Order System.png" class="img-responsive img-centered" alt="">
+                                      <br><p class="figures"><b>figure 6.</b>SkySpecs Work Order System Structure</p>
+                                  </div>      
+                              </div>
+
+                              <div class="project-desc-title col-sm-12 ">
+                                <h2 class="ng-binding col-sm-11 text-left">Design Process</h2>
+                              </div>
+
+                              <div class="col-sm-12 project-infos">
+                                  <div class="project-description">
+                                      <div ng-bind-html="project.description" class="ng-binding">
+                                       We work closely with our stakeholders and update our progress each week. Therefore, we can gather instant feedback, change our pivot and refine our design efficiently.  
+                                      </div>
+
+                                      <div class="col-sm-12 heading3">
+                                        <h3>Initial Design</h3><br>
+                                       		Sceduling System.<br><br>
+                                      </div>
+                                      	<div class="w3-content w3-display-container end">
+										  <img class="mySlides" src="img/portfolio/schedule1.png" style="width:100%">
+										  <img class="mySlides" src="img/portfolio/schedule2.png" style="width:100%">
+										  <img class="mySlides" src="img/portfolio/schedule3a.png" style="width:100%">
+										  <img class="mySlides" src="img/portfolio/schedule3b.png" style="width:100%">
+										  <img class="mySlides" src="img/portfolio/schedule4.png" style="width:100%">
+										  <img class="mySlides" src="img/portfolio/schedule5.png" style="width:100%">
+										  <img class="mySlides" src="img/portfolio/schedule6.png" style="width:100%">
+										  <img class="mySlides" src="img/portfolio/schedule7.png" style="width:100%">
+
+										  <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+										  <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+										</div>
+                                         
+										<div class="col-sm-12 heading3">
+                                        <h3>In progress</h3><br>
+                                       		
+                                      </div>
+
+                                  </div>      
+                              </div>
+
+                              
+                               
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -450,7 +550,7 @@
                               <div class="col-sm-12 project-infos">
                                   <div class="project-description ">
                                       <div ng-bind-html="project.description" class="ng-binding">
-                                      Students often find books through three methods: borrowing in libraries, buying in bookstores or purchasing online. However, books in libraries are often in short supply, those in bookstores might be expensive, and it takes time for shipping if purchased online. What if students want to get books instantly and at low cost? Ai the same time, there are some students who want to get rid of unneeded books. So how could those students connect with each other?
+                                      Students often find books through three methods: borrowing in libraries, buying in bookstores or purchasing online. However, books in libraries are often in short supply, those in bookstores might be expensive, and it takes time for shipping if purchased online. What if students want to get books instantly and at low cost? At the same time, there are some students who want to get rid of unneeded books. So how could those students connect with each other?
                                       </div> 
                                   </div>      
                               </div>
@@ -1400,6 +1500,25 @@
 
     <!-- Lightbox -->
     <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+    <script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	     x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+	</script>
 
 </body>
 
