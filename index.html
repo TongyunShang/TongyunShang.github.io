@@ -154,7 +154,7 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="img/portfolio/skyspecs.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/drone.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -323,7 +323,7 @@
                         <div class="modal-body">
                             <h2>Work Order System Web Design</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/skyspecs.png" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/drone.png" class="img-responsive img-centered" alt="">
                             
                             <!--intro-->
                             <div class="col-sm-12 project-infos" id="intro">
@@ -445,29 +445,72 @@
 
                                       <div class="col-sm-12 heading3">
                                         <h3>Initial Design</h3><br>
-                                       		Sceduling System.<br><br>
-                                      </div>
-                                      	<div class="w3-content w3-display-container end">
-										  <img class="mySlides" src="img/portfolio/schedule1.png" style="width:100%">
-										  <img class="mySlides" src="img/portfolio/schedule2.png" style="width:100%">
-										  <img class="mySlides" src="img/portfolio/schedule3a.png" style="width:100%">
-										  <img class="mySlides" src="img/portfolio/schedule3b.png" style="width:100%">
-										  <img class="mySlides" src="img/portfolio/schedule4.png" style="width:100%">
-										  <img class="mySlides" src="img/portfolio/schedule5.png" style="width:100%">
-										  <img class="mySlides" src="img/portfolio/schedule6.png" style="width:100%">
-										  <img class="mySlides" src="img/portfolio/schedule7.png" style="width:100%">
-
-										  <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-										  <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
-										</div>
-                                         
-										<div class="col-sm-12 heading3">
-                                        <h3>In progress</h3><br>
-                                       		
+                                            <b><font size="5" face="Josefin Sans">1.</font>Prioritization:</b>According to stakeholders' requirements, we prioritized their needs: schedule inspections > calendar integration > ticket system > inventory tracking > weather integration > shortest path caculation > order history analysis > order prioritization > notification system > quote generation.
+                                            <br><br><b><font size="5" face="Josefin Sans">2.</font>Compararive Evaluation:</b> To gain insights of how does work order system function, we did the comparative evaluation of existing work order platforms: NetFacilities, eMaint, etc.  We also did the analogous comparison with scheduling systems: Google Calendar, Doodle, etc.  For the overall layout of this system, we chose to keep it consistent with the looks of SkySpecs existing web portal. The mockups are shown below in the slider.
                                       </div>
 
                                   </div>      
                               </div>
+
+                              <div class="col-sm-12 project-infos">
+                                  <div class="project-description">
+                                    <div class="w3-content w3-display-container">
+                                          <br>
+                                          <div class="w3-display-container mySlides">
+                                              <img src="img/portfolio/schedule1.png" style="width:100%">
+                                              <div class="caption">
+                                                Homepage of Work Order System - Schedule feature  
+                                              </div>
+                                          </div>
+                                          <div class="w3-display-container mySlides">
+                                              <img src="img/portfolio/schedule2.png" style="width:100%">
+                                              <div class="caption">
+                                                Step 1 - Add a new request  
+                                              </div>
+                                          </div>
+                                          <div class="w3-display-container mySlides">
+                                              <img src="img/portfolio/schedule3a.png" style="width:100%">
+                                              <div class="caption">
+                                                Step 2.a - Time proposals  
+                                              </div>
+                                          </div>
+                                          <div class="w3-display-container mySlides">
+                                              <img src="img/portfolio/schedule3b.png" style="width:100%">
+                                              <div class="caption">
+                                                Step 2.b - Time proposals  
+                                              </div>
+                                          </div>
+                                          <div class="w3-display-container mySlides">
+                                              <img src="img/portfolio/schedule4.png" style="width:100%">
+                                              <div class="caption">
+                                                Step 3 - Send to client  
+                                              </div>
+                                          </div>
+                                          <div class="w3-display-container mySlides">
+                                              <img src="img/portfolio/schedule5.png" style="width:100%">
+                                              <div class="caption">
+                                                Step 5 - Finalize time  
+                                              </div>
+                                          </div>
+                                          <div class="w3-display-container mySlides">
+                                              <img src="img/portfolio/schedule6.png" style="width:100%">
+                                              <div class="caption">
+                                                Step 6.a - Confirmation  
+                                              </div>
+                                          </div>
+                                          <div class="w3-display-container mySlides">
+                                              <img src="img/portfolio/schedule7.png" style="width:100%">
+                                              <div class="caption">
+                                                Step 6.b - Send confirmation to client  
+                                              </div>
+                                          </div>
+                                          
+                                          <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                                          <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+                                      </div>
+                                  </div>
+                              </div>
+                                
 
                               
                                
@@ -1500,25 +1543,26 @@
 
     <!-- Lightbox -->
     <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+    
     <script>
-	var slideIndex = 1;
-	showDivs(slideIndex);
+    var slideIndex = 1;
+    showDivs(slideIndex);
 
-	function plusDivs(n) {
-	  showDivs(slideIndex += n);
-	}
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
 
-	function showDivs(n) {
-	  var i;
-	  var x = document.getElementsByClassName("mySlides");
-	  if (n > x.length) {slideIndex = 1}    
-	  if (n < 1) {slideIndex = x.length}
-	  for (i = 0; i < x.length; i++) {
-	     x[i].style.display = "none";  
-	  }
-	  x[slideIndex-1].style.display = "block";  
-	}
-	</script>
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
 
 </body>
 
