@@ -24,6 +24,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Karla|Lora|Questrial|Quicksand:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <!-- Lightbox -->
     <link rel="stylesheet" href="dist/css/lightbox.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
@@ -445,7 +446,7 @@
 
                                       <div class="col-sm-12 heading3">
                                         <h3>Initial Design</h3><br>
-                                            <b><font size="5" face="Josefin Sans">1.</font>Prioritization:</b>According to stakeholders' requirements, we prioritized their needs: schedule inspections > calendar integration > ticket system > inventory tracking > weather integration > shortest path caculation > order history analysis > order prioritization > notification system > quote generation.
+                                            <b><font size="5" face="Josefin Sans">1.</font>Prioritization:</b> According to stakeholders' requirements, we prioritized their needs: schedule inspections > calendar integration > ticket system > inventory tracking > weather integration > shortest path caculation > order history analysis > order prioritization > notification system > quote generation.
                                             <br><br><b><font size="5" face="Josefin Sans">2.</font>Compararive Evaluation:</b> To gain insights of how does work order system function, we did the comparative evaluation of existing work order platforms: NetFacilities, eMaint, etc.  We also did the analogous comparison with scheduling systems: Google Calendar, Doodle, etc.  For the overall layout of this system, we chose to keep it consistent with the looks of SkySpecs existing web portal. The mockups are shown below in the slider.
                                       </div>
 
@@ -511,8 +512,97 @@
                                   </div>
                               </div>
                                 
+                              <div class="col-sm-12 project-infos">
+                                  <div class="project-description">
+                                      <br>
+                                      <div class="col-sm-12 heading3">
+                                        <h3>Design Iterations</h3><br>
+                                            At the earlier phase, we only separated users into SkySpecs crew and their customer, which was too general. To better understand their expectations, we interviewed people from different teams -- management, development, technique, etc. And we came up with three more accurate personas that we should design for: they are directors, drone operators, and data analysts. Therefore, we determined our first round of iteration would be focusing on the first persona -- SkySpecs directors.
+                                      </div>
+                                      
+                                      <p class="col-sm-12 quote">
+                                          "We always phone back and forth for many times to schedule, because there are too many conditions we have to consider."
+                                      </p>
+                                      <div class="col-sm-12 heading3">
+                                            <b><font size="5" face="Josefin Sans">1.</font>No more scheduling system:</b> Client's requirements are always changing. As the quote shows above, our client thought the scheduling process was too complicated to be done simply in a system, so they would not finalize the inspection date just for one single time. Instead, they prefer a system that can simplify the subsequent workflow, after the inspection dates have been scheduled. We reconsider the structure of the system: the information should be encompassed in one work order and the relevant steps, as shown below.
 
-                              
+                                      </div>
+                                  </div>      
+                              </div>
+                              <div class="col-sm-12 project-infos">
+                                  <div class="project-description">
+                                    <div class="w3-content w3-section">
+                                          <div class="w3-display-container mySlide">
+                                              <img src="img/portfolio/s1.png" style="width:100%">
+                                              <div class="caption">
+                                                Homepage of New Work Order System - Work order table  
+                                              </div>
+                                          </div>
+                                          <div class="w3-display-container mySlide">
+                                              <img src="img/portfolio/s2.png" style="width:100%">
+                                              <div class="caption">
+                                                Step 1 - Add a new work order  
+                                              </div>
+                                          </div>
+                                          <div class="w3-display-container mySlide">
+                                              <img src="img/portfolio/s3.png" style="width:100%">
+                                              <div class="caption">
+                                                Step 2 - Add inspection dates 
+                                              </div>
+                                          </div>
+                                          <div class="w3-display-container mySlide">
+                                              <img src="img/portfolio/s4.png" style="width:100%">
+                                              <div class="caption">
+                                                Step 3 - Add inspection details  
+                                              </div>
+                                          </div>
+                                          <div class="w3-display-container mySlide">
+                                              <img src="img/portfolio/s5.png" style="width:100%">
+                                              <div class="caption">
+                                                Step 4 - Confirmation page with inspection table 
+                                              </div>
+                                          </div>                                          
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-sm-12 project-infos">
+                                  <div class="project-description">
+                                      <br>
+                                      <div class="col-sm-12 heading3">
+                                            <b><font size="5" face="Josefin Sans">2.</font>"Assign to" feature:</b> One of the subsequent work is to assign inspections to operators. I designed a pop-up window to simplify interaction.
+                                      </div>
+                                      <img src="img/portfolio/assign.gif" style="width:100%">
+                                  </div>      
+                              </div>
+
+                              <div class="col-sm-12 project-infos">
+                                  <div class="project-description">
+                                      <br>
+                                      <p class="col-sm-12 quote">
+                                          "We also need subtables for other information like customer and inspections."
+                                      </p>
+                                      <div class="col-sm-12 heading3">
+                                            <b><font size="5" face="Josefin Sans">3.</font>Customer information table:</b> We added a customer section in the global navigation bar. And its main content is a customer table. Users can check customers information here or direct to add-new-customer progress by clicking on the button in the add-new-work-order progress. This table also serves as the dropdown content in any customer related form.
+                                      </div>
+                                      <div class="col-sm-12 heading3">
+                                            <br><b><font size="5" face="Josefin Sans">4.</font>Turbine information table:</b> We added a turbine section in the global navigation bar. And its main content is a turbine table. Users can check turbines information here or direct to add-new-turbine progress by clicking on the button in the add-new-work-order progress. This table also serves as the dropdown content in any turbine related form.
+                                      </div>
+                                  </div>      
+                              </div>
+                              <div class="col-sm-12 project-infos">
+                                  <div class="project-description">
+                                      <br>
+                                      <p class="col-sm-12 quote">
+                                          "We use agenda more frequently than calendar."
+                                      </p>
+                                      <div class="col-sm-12 heading3">
+                                            <b><font size="5" face="Josefin Sans">5.</font>Agenda:</b> We moved the calendar from the previous place (scheduling system) to a separate section in global navigation, where users can switch between calendar view and agenda view. The event will be added to agenda automatically once the creation of a new work order is done.
+                                      </div>
+                                      <img src="img/portfolio/calendar.gif" style="width:100%">
+                                      </div>
+                                      <br><h3 class="end">Still in progress</h3>
+                                  </div>      
+                              </div>
                                
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -1563,7 +1653,22 @@
       x[slideIndex-1].style.display = "block";  
     }
     </script>
+    <script>
+    var myIndex = 0;
+    carousel();
 
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlide");
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
 </body>
 
 </html>
