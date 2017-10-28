@@ -150,7 +150,7 @@
  section{padding:0; padding-top: 70px; padding-bottom: 50px; margin-bottom:0px; position: relative; top: 50px;}
  section h2{margin:0;font-size:3em}
  section.success{background:#f8f8f8;color:#555555; padding-top: 5%}
- #portfolio{background: #f8f8f8;}
+ #portfolio{background: #f8f8f8;padding-top: 8%}
  section.success h2{color:#000;}
 
  @media (max-width:767px){
@@ -186,10 +186,11 @@
  	}
  @media (min-width: 768px){
  	#portfolio .portfolio-item .portfolio-link .caption .caption-content .project-category{
- 		font-size: 16px;
+ 		font-size: 14px;
  	}
  	#portfolio .portfolio-item .portfolio-link .caption .caption-content .project-name{
- 		font-size: 20px;
+ 		font-size: 18px;
+        line-height: 1;
  	}
  }
  .text-faded {
