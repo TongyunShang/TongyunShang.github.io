@@ -186,11 +186,11 @@
  	}
  @media (min-width: 768px){
  	#portfolio .portfolio-item .portfolio-link .caption .caption-content .project-category{
- 		font-size: 14px;
+ 		font-size: 15px;
  	}
  	#portfolio .portfolio-item .portfolio-link .caption .caption-content .project-name{
- 		font-size: 18px;
-        line-height: 1;
+ 		font-size: 19px;
+        line-height: 1.2;
  	}
  }
  .text-faded {
