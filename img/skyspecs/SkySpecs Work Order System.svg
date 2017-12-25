@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2067px" height="890px" viewBox="0 0 2067 890" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>SkySpecs Work Order System</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24,97.0000014 L648.693284,97.0002183 C650.902423,97.0002191 652.693283,98.7910799 652.693283,101.000218 L652.693284,248.307239 C652.693284,250.516378 654.484145,252.307239 656.693284,252.307239 C656.698067,252.307239 656.702849,252.307231 656.707632,252.307214 L2045.98565,247.324004 C2048.19478,247.31608 2049.99205,249.100506 2049.99997,251.309631 C2049.99999,251.314413 2050,251.319196 2050,251.323978 L2050,827 C2050,829.209139 2048.20914,831 2046,831 L24,831 C21.790861,831 20,829.209139 20,827 L19.9999986,101 C19.9999986,98.790861 21.7908596,97 23.9999986,97 C23.9999991,97 23.9999995,97 24,97 Z" id="path-1"></path>
+        <rect id="path-2" x="0" y="0" width="143" height="64" rx="4"></rect>
+        <rect id="path-3" x="0" y="0" width="196" height="104" rx="4"></rect>
+        <rect id="path-4" x="0" y="0" width="225" height="151" rx="4"></rect>
+        <rect id="path-5" x="0" y="0" width="217" height="128" rx="4"></rect>
+        <rect id="path-6" x="0" y="0" width="217" height="110" rx="4"></rect>
+        <rect id="path-7" x="0" y="0" width="220" height="110" rx="4"></rect>
+        <rect id="path-8" x="0" y="0" width="143" height="64" rx="4"></rect>
+        <rect id="path-9" x="0" y="0" width="143" height="64" rx="4"></rect>
+        <rect id="path-10" x="0" y="0" width="143" height="64" rx="4"></rect>
+        <rect id="path-11" x="679" y="97" width="722" height="128" rx="4"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="722" height="128" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="0" y="0" width="60" height="27" rx="4"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SkySpecs-Work-Order-System">
+            <g id="Rectangle-4-Copy">
+                <use fill-opacity="0.203209918" fill="#D7D7D7" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#4626FF" stroke-width="3" d="M23.9999986,98.5 C22.6192867,98.5 21.4999986,99.6192881 21.4999986,101 L21.5,827 C21.5,828.380712 22.6192881,829.5 24,829.5 L2046,829.5 C2047.38071,829.5 2048.5,828.380712 2048.5,827 L2048.5,251.323978 C2048.5,251.319495 2048.5,251.319495 2048.49998,251.315011 C2048.49503,249.934308 2047.37174,248.819042 2045.99103,248.823994 L656.713012,253.807204 C656.703148,253.807234 656.703148,253.807234 656.693284,253.807239 C653.655718,253.807239 651.193284,251.344806 651.193284,248.307239 L651.193283,101.000218 C651.193283,99.6195068 650.073995,98.5002188 648.693284,98.5002183 L23.9999995,98.5000014 Z"></path>
+            </g>
+            <g id="Group" transform="translate(434.000000, 122.000000)">
+                <g id="Rectangle-7-Copy">
+                    <use fill-opacity="0.495244565" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#979797" stroke-width="0.9" x="0.45" y="0.45" width="142.1" height="63.1" rx="4"></rect>
+                </g>
+                <text id="Work-Order" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" letter-spacing="0.555555522" fill="#666666">
+                    <tspan x="15" y="39">Work Order</tspan>
+                </text>
+            </g>
+            <g id="Group-Copy-4" transform="translate(421.000000, 286.000000)">
+                <g id="Rectangle-7-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#979797" stroke-width="2" x="1" y="1" width="194" height="102" rx="4"></rect>
+                </g>
+                <text id="Work-Order-Table/-Ca" font-family="Helvetica-Bold, Helvetica" font-size="18" font-weight="bold" letter-spacing="0.49999997" fill="#666666">
+                    <tspan x="46.1494142" y="37">Work Order </tspan>
+                    <tspan x="27.8925783" y="59">Table/ Calendar </tspan>
+                    <tspan x="76.6489258" y="81">View</tspan>
+                </text>
+            </g>
+            <g id="Group-Copy-5" transform="translate(406.000000, 515.000000)">
+                <g id="Rectangle-7-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#979797" stroke-width="2" x="1" y="1" width="223" height="149" rx="4"></rect>
+                </g>
+                <text id="Create-New-WO-Page-1" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="24" letter-spacing="0.49999997" fill="#666666">
+                    <tspan x="23" y="35">Create New WO Page 1</tspan>
+                    <tspan x="197.223632" y="35" font-family="Helvetica" font-size="18" font-weight="normal"></tspan>
+                    <tspan x="23" y="59" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="22">1. Select Wind Farm/ </tspan>
+                    <tspan x="23" y="81" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="22">Import CSV;</tspan>
+                    <tspan x="23" y="103" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="22">2. Turbine Quantity;</tspan>
+                    <tspan x="23" y="125" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="22">3. Select Turbines.</tspan>
+                </text>
+            </g>
+            <g id="Group-Copy-6" transform="translate(897.000000, 523.000000)">
+                <g id="Rectangle-7-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#979797" stroke-width="2" x="1" y="1" width="215" height="126" rx="4"></rect>
+                </g>
+                <text id="Create-New-WO-Page-2" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="24" letter-spacing="0.49999997" fill="#666666">
+                    <tspan x="21" y="34">Create New WO Page 2</tspan>
+                    <tspan x="21" y="58" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="22">1. Add Estimated </tspan>
+                    <tspan x="21" y="80" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="22">Date Range;</tspan>
+                    <tspan x="21" y="102" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="22">2. Add Assignee.</tspan>
+                </text>
+            </g>
+            <g id="Group-Copy-7" transform="translate(1324.000000, 523.000000)">
+                <g id="Rectangle-7-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <rect stroke="#979797" stroke-width="2" x="1" y="1" width="215" height="108" rx="4"></rect>
+                </g>
+                <text id="WO-Summary-Page-Summ" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="24" letter-spacing="0.49999997" fill="#666666">
+                    <tspan x="21" y="34">WO Summary Page</tspan>
+                    <tspan x="21" y="58" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="22">Summary </tspan>
+                    <tspan x="21" y="80" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="22">Information Review</tspan>
+                </text>
+            </g>
+            <g id="Group-Copy-8" transform="translate(1800.000000, 523.000000)">
+                <g id="Rectangle-7-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <rect stroke="#979797" stroke-width="2" x="1" y="1" width="218" height="108" rx="4"></rect>
+                </g>
+                <text id="Send-Notification-Mo" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="24" letter-spacing="0.49999997" fill="#666666">
+                    <tspan x="21" y="34">Send Notification Modal</tspan>
+                    <tspan x="21" y="58" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="22">1. Customer Contact;</tspan>
+                    <tspan x="21" y="80" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="22">2. Summary.</tspan>
+                </text>
+            </g>
+            <g id="Group-Copy" transform="translate(702.000000, 122.000000)">
+                <g id="Rectangle-7-Copy">
+                    <use fill-opacity="0.495244565" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    <rect stroke="#979797" stroke-width="0.9" x="0.45" y="0.45" width="142.1" height="63.1" rx="4"></rect>
+                </g>
+                <text id="Turbine" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" letter-spacing="0.555555522" fill="#666666">
+                    <tspan x="32" y="39">Turbine</tspan>
+                </text>
+            </g>
+            <g id="Group-Copy-2" transform="translate(969.000000, 122.000000)">
+                <g id="Rectangle-7-Copy">
+                    <use fill-opacity="0.495244565" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    <rect stroke="#979797" stroke-width="0.9" x="0.45" y="0.45" width="142.1" height="63.1" rx="4"></rect>
+                </g>
+                <text id="Portfolio" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" letter-spacing="0.555555522" fill="#666666">
+                    <tspan x="27" y="39">Portfolio</tspan>
+                </text>
+            </g>
+            <g id="Group-Copy-3" transform="translate(1237.000000, 122.000000)">
+                <g id="Rectangle-7-Copy">
+                    <use fill-opacity="0.495244565" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-10"></use>
+                    <rect stroke="#979797" stroke-width="0.9" x="0.45" y="0.45" width="142.1" height="63.1" rx="4"></rect>
+                </g>
+                <text id="Dashboard" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" letter-spacing="0.555555522" fill="#666666">
+                    <tspan x="14" y="39">Dashboard</tspan>
+                </text>
+            </g>
+            <text id="Existing-Web-Portal" font-family="Helvetica" font-size="25" font-weight="normal" letter-spacing="0.625" fill="#272626">
+                <tspan x="925" y="63">Existing Web Portal</tspan>
+            </text>
+            <polyline id="Line-3-Copy-14" stroke="#979797" stroke-width="2" stroke-linecap="square" stroke-dasharray="5,5" transform="translate(434.500000, 242.500000) scale(1, -1) rotate(90.000000) translate(-434.500000, -242.500000) " points="405 485 464 485 464 0"></polyline>
+            <path id="Line-3-Copy-14-decoration-1" d="M464,0 L461,10.8 L467,10.8 L464,0 Z" stroke="#979797" stroke-width="2" stroke-linecap="square" stroke-dasharray="5,5"></path>
+            <polyline id="Line-3-Copy-15" stroke="#979797" stroke-width="2" stroke-linecap="square" stroke-dasharray="5,5" points="634 539 777 539 777 184"></polyline>
+            <path id="Line-3-Copy-15-decoration-1" d="M634,539 L644.8,536 L644.8,542 L634,539 Z" stroke="#979797" stroke-width="2" stroke-linecap="square" stroke-dasharray="5,5"></path>
+            <path id="Line-3-Copy-15-decoration-2" d="M777,184 L774,194.8 L780,194.8 L777,184 Z" stroke="#979797" stroke-width="2" stroke-linecap="square" stroke-dasharray="5,5"></path>
+            <path d="M278,339 L419.5,339" id="Line-3-Copy-12" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(349.000000, 339.000000) rotate(180.000000) translate(-349.000000, -339.000000) "></path>
+            <path id="Line-3-Copy-12-decoration-1" d="M419.5,339 L408.7,336 L408.7,342 L419.5,339 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M456,451.5 L578.5,451.5" id="Line-3-Copy-5" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(517.500000, 451.500000) rotate(90.000000) translate(-517.500000, -451.500000) "></path>
+            <path id="Line-3-Copy-5-decoration-1" d="M578.5,451.5 L567.7,448.5 L567.7,454.5 L578.5,451.5 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M421,453.5 L540.5,453.5" id="Line-3-Copy-16" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(481.000000, 453.500000) scale(1, -1) rotate(90.000000) translate(-481.000000, -453.500000) "></path>
+            <path id="Line-3-Copy-16-decoration-1" d="M540.5,453.5 L529.7,450.5 L529.7,456.5 L540.5,453.5 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <polyline id="Line-3-Copy-4" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(819.500000, 426.500000) rotate(-90.000000) translate(-819.500000, -426.500000) " points="723 626 916 626 916 227"></polyline>
+            <path id="Line-3-Copy-4-decoration-1" d="M916,227 L913,237.8 L919,237.8 L916,227 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <polyline id="Line-3-Copy-13" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(313.000000, 306.000000) rotate(-90.000000) translate(-313.000000, -306.000000) " points="283 341 343 341 343 271"></polyline>
+            <path id="Line-3-Copy-13-decoration-1" d="M343,271 L340,281.8 L346,281.8 L343,271 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <polyline id="Line-3-Copy-17" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(313.000000, 371.000000) scale(1, -1) rotate(-90.000000) translate(-313.000000, -371.000000) " points="283 406 343 406 343 336"></polyline>
+            <path id="Line-3-Copy-17-decoration-1" d="M343,336 L340,346.8 L346,346.8 L343,336 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <polyline id="Line-3-Copy-18" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(313.000000, 434.000000) scale(1, -1) rotate(-90.000000) translate(-313.000000, -434.000000) " points="283 469 343 469 343 399"></polyline>
+            <path id="Line-3-Copy-18-decoration-1" d="M343,399 L340,409.8 L346,409.8 L343,399 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <polyline id="Line-3-Copy-19" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(313.000000, 497.000000) scale(1, -1) rotate(-90.000000) translate(-313.000000, -497.000000) " points="283 532 343 532 343 462"></polyline>
+            <path id="Line-3-Copy-19-decoration-1" d="M343,462 L340,472.8 L346,472.8 L343,462 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <polyline id="Line-3-Copy-10" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(802.500000, 438.500000) scale(1, -1) translate(-802.500000, -438.500000) " points="617 521 988 521 988 356"></polyline>
+            <path id="Line-3-Copy-10-decoration-1" d="M988,356 L985,366.8 L991,366.8 L988,356 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <polyline id="Line-3-Copy-11" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(1206.000000, 438.500000) scale(1, -1) translate(-1206.000000, -438.500000) " points="991 521 1421 521 1421 356"></polyline>
+            <path id="Line-3-Copy-11-decoration-1" d="M1421,356 L1418,366.8 L1424,366.8 L1421,356 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <use id="Rectangle-2-Copy-2" stroke="#969799" mask="url(#mask-12)" stroke-width="4" stroke-dasharray="5,5" xlink:href="#path-11"></use>
+            <g id="Group-11" transform="translate(418.000000, 413.000000)">
+                <ellipse id="Oval" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" cx="99" cy="25" rx="99" ry="25"></ellipse>
+                <text id="New-Work-Order" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                    <tspan x="36" y="31">New Work Order</tspan>
+                </text>
+            </g>
+            <g id="Group-10" transform="translate(911.000000, 413.000000)">
+                <ellipse id="Oval-Copy-3" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" cx="112.5" cy="25" rx="112.5" ry="25"></ellipse>
+                <text id="Save-&amp;-Edit-Later" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                    <tspan x="46" y="31">Save &amp; Edit Later</tspan>
+                </text>
+            </g>
+            <g id="Group-23" transform="translate(634.000000, 613.000000)">
+                <path d="M0,10.5 L261.321244,10.5" id="Line-3-Copy-3" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(131.000000, 10.500000) scale(-1, 1) translate(-131.000000, -10.500000) "></path>
+                <path id="Line-3-Copy-3-decoration-1" d="M261.321244,10.5 L250.521244,7.5 L250.521244,13.5 L261.321244,10.5 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                <g id="Group-26" transform="translate(93.000000, 0.000000)">
+                    <rect id="Rectangle-2" fill="#F7F7F7" x="0" y="0" width="67" height="20"></rect>
+                    <text id="Back" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                        <tspan x="14.3259549" y="16">Back</tspan>
+                    </text>
+                </g>
+            </g>
+            <polyline id="Line-3-Copy-9" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(1687.500000, 427.000000) rotate(-90.000000) translate(-1687.500000, -427.000000) " points="1591 651 1784 651 1784 203"></polyline>
+            <path id="Line-3-Copy-9-decoration-1" d="M1784,203 L1781,213.8 L1787,213.8 L1784,203 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <g id="Group-8" transform="translate(1797.000000, 413.000000)">
+                <ellipse id="Oval-Copy-6" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" cx="112.5" cy="25" rx="112.5" ry="25"></ellipse>
+                <text id="Back-to-WO-table" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                    <tspan x="46" y="31">Back to WO table</tspan>
+                </text>
+            </g>
+            <polyline id="Line-3-Copy-7" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(1241.500000, 427.000000) rotate(-90.000000) translate(-1241.500000, -427.000000) " points="1145 645 1338 645 1338 209"></polyline>
+            <path id="Line-3-Copy-7-decoration-1" d="M1338,209 L1335,219.8 L1341,219.8 L1338,209 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <g id="Group-9" transform="translate(1380.000000, 413.000000)">
+                <ellipse id="Oval-Copy-4" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" cx="80.5" cy="25" rx="80.5" ry="25"></ellipse>
+                <text id="Confirm" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                    <tspan x="51" y="31">Confirm</tspan>
+                </text>
+            </g>
+            <g id="Group-21" transform="translate(631.000000, 553.000000)">
+                <path d="M0,25.5 L261.5,25.5" id="Line-3-Copy-2" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                <path id="Line-3-Copy-2-decoration-1" d="M261.5,25.5 L250.7,22.5 L250.7,28.5 L261.5,25.5 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                <g id="Group-12" transform="translate(66.000000, 0.000000)">
+                    <ellipse id="Oval-Copy" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" cx="65" cy="25" rx="65" ry="25"></ellipse>
+                    <text id="Next" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                        <tspan x="48" y="31">Next</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-5" transform="translate(48.000000, 439.000000)">
+                <ellipse id="Oval-Copy-7" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" cx="112.5" cy="25" rx="112.5" ry="25"></ellipse>
+                <text id="Assign-to" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                    <tspan x="78" y="31">Assign to</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(48.000000, 502.000000)">
+                <ellipse id="Oval-Copy-9" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" cx="112.5" cy="25" rx="112.5" ry="25"></ellipse>
+                <text id="Delete" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                    <tspan x="88" y="31">Delete</tspan>
+                </text>
+            </g>
+            <g id="Group-2" transform="translate(48.000000, 251.000000)">
+                <ellipse id="Oval-Copy-10" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" cx="112.5" cy="25" rx="112.5" ry="25"></ellipse>
+                <text id="View-Report" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                    <tspan x="67" y="31">View Report</tspan>
+                </text>
+            </g>
+            <g id="Group-3" transform="translate(48.000000, 314.000000)">
+                <ellipse id="Oval-Copy-11" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" cx="112.5" cy="25" rx="112.5" ry="25"></ellipse>
+                <text id="Add-Actual-Dates" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                    <tspan x="48" y="31">Add Actual Dates</tspan>
+                </text>
+            </g>
+            <g id="Group-6" transform="translate(48.000000, 376.000000)">
+                <ellipse id="Oval-Copy-8" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" cx="112.5" cy="25" rx="112.5" ry="25"></ellipse>
+                <text id="Estimated-Date-Range" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                    <tspan x="28" y="31">Estimated Date Range</tspan>
+                </text>
+            </g>
+            <g id="Group-20" transform="translate(1114.000000, 553.000000)">
+                <path d="M0,25.5 L205.5,25.5" id="Line-3-Copy-6" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                <path id="Line-3-Copy-6-decoration-1" d="M205.5,25.5 L194.7,22.5 L194.7,28.5 L205.5,25.5 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                <g id="Group-13" transform="translate(32.000000, 0.000000)">
+                    <ellipse id="Oval-Copy-2" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" cx="71.5" cy="25" rx="71.5" ry="25"></ellipse>
+                    <text id="Summary" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                        <tspan x="36" y="31">Summary</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-22" transform="translate(1541.000000, 553.000000)">
+                <path d="M0,25.5 L254.5,25.5" id="Line-3-Copy-8" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                <path id="Line-3-Copy-8-decoration-1" d="M254.5,25.5 L243.7,22.5 L243.7,28.5 L254.5,25.5 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                <g id="Group-7" transform="translate(30.000000, 0.000000)">
+                    <ellipse id="Oval-Copy-5" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" cx="98" cy="25" rx="98" ry="25"></ellipse>
+                    <text id="Send-to-the-customer" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                        <tspan x="21" y="31">Send to the customer</tspan>
+                    </text>
+                </g>
+            </g>
+            <rect id="Rectangle" fill="#D8D8D8" x="48" y="757" width="340" height="52"></rect>
+            <text id="Additional-Action" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" letter-spacing="0.555555463" fill="#000000">
+                <tspan x="130.875435" y="789">Additional Action</tspan>
+            </text>
+            <rect id="Rectangle-Copy-2" fill="#D8D8D8" x="1565" y="757" width="455" height="52"></rect>
+            <text id="Send-Notification" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" letter-spacing="0.555555463" fill="#000000">
+                <tspan x="1706.33388" y="789">Send Notification</tspan>
+            </text>
+            <rect id="Rectangle-Copy" fill="#D8D8D8" x="398" y="757" width="1157" height="52"></rect>
+            <text id="Create-a-New-Work-Or" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" letter-spacing="0.555555463" fill="#000000">
+                <tspan x="849.69119" y="789">Create a New Work Order</tspan>
+            </text>
+            <g id="Group-24" transform="translate(678.000000, 271.000000)">
+                <rect id="Rectangle-2" fill="#F7F7F7" x="0" y="0" width="202" height="20"></rect>
+                <text id="Turbine-Information" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                    <tspan x="0" y="15">Turbine Information Sync</tspan>
+                </text>
+            </g>
+            <g id="Group-25" transform="translate(446.000000, 475.000000)">
+                <rect id="Rectangle-2" fill="#F7F7F7" x="0" y="0" width="67" height="20"></rect>
+                <text id="Cancel" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                    <tspan x="7" y="15">Cancel</tspan>
+                </text>
+            </g>
+            <g id="Group-27" transform="translate(800.000000, 346.000000)">
+                <rect id="Rectangle-2" fill="#F7F7F7" x="0" y="0" width="167" height="20"></rect>
+                <text id="Click-on-the-WO-row" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                    <tspan x="6" y="16">Click on the WO row</tspan>
+                </text>
+            </g>
+            <circle id="Oval-2" fill="#979797" cx="988" cy="356" r="6"></circle>
+            <g id="Group-28" transform="translate(294.000000, 204.000000)">
+                <rect id="Rectangle-2" fill="#F7F7F7" x="0" y="0" width="281" height="20"></rect>
+                <text id="Link-to-Analysis-Rep" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#000000">
+                    <tspan x="9" y="15">Link to Analysis Report of this WO </tspan>
+                </text>
+            </g>
+            <g id="Group-30" transform="translate(1470.000000, 36.000000)">
+                <g id="Group-29" transform="translate(20.000000, 53.000000)">
+                    <g id="Group-17" transform="translate(322.000000, 4.000000)" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418">
+                        <text id="Inline-text" fill="#000000">
+                            <tspan x="0" y="15">Inline text</tspan>
+                        </text>
+                        <text id="Secondary-Action" fill="#444444">
+                            <tspan x="86" y="15">Secondary Action</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-16" transform="translate(0.000000, 94.000000)">
+                        <text id="Action-(button)" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#444444">
+                            <tspan x="79" y="16">Action (button)</tspan>
+                        </text>
+                        <ellipse id="Oval-Copy-12" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" cx="30" cy="10.2272727" rx="30" ry="10.2272727"></ellipse>
+                    </g>
+                    <g id="Group-14">
+                        <text id="Web-Navigation" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#444444">
+                            <tspan x="79" y="19">Web Navigation</tspan>
+                        </text>
+                        <g id="Rectangle-7-Copy">
+                            <use fill-opacity="0.495244565" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-13"></use>
+                            <rect stroke="#979797" stroke-width="0.9" x="0.45" y="0.45" width="59.1" height="26.1" rx="4"></rect>
+                        </g>
+                    </g>
+                    <g id="Group-15" transform="translate(0.000000, 47.000000)">
+                        <text id="Key-Page-with-main-c" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#444444">
+                            <tspan x="79" y="19">Key Page with main content</tspan>
+                        </text>
+                        <rect id="Rectangle-7-Copy-2" stroke="#979797" stroke-width="0.9" x="0.45" y="0.45" width="59.1" height="26.1" rx="4"></rect>
+                    </g>
+                    <g id="Group-18" transform="translate(334.000000, 51.000000)">
+                        <text id="External-link" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#444444">
+                            <tspan x="74" y="15">External link</tspan>
+                        </text>
+                        <path d="M0.5,10 L50.5,10" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square" stroke-dasharray="5,5"></path>
+                    </g>
+                    <g id="Group-19" transform="translate(334.000000, 95.000000)">
+                        <text id="Internal-link" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.444444418" fill="#444444">
+                            <tspan x="74" y="15">Internal link</tspan>
+                        </text>
+                        <path d="M0.5,9.5 L50.5,9.5" id="Line-Copy" stroke="#979797" stroke-width="3" stroke-linecap="square" stroke-dasharray="1"></path>
+                    </g>
+                </g>
+                <text id="Legend" font-family="Helvetica-Bold, Helvetica" font-size="16.2" font-weight="bold" letter-spacing="0.45" fill="#666666">
+                    <tspan x="20" y="29">Legend</tspan>
+                </text>
+                <rect id="Rectangle-3" stroke="#979797" x="0.5" y="0.5" width="579" height="188" rx="10"></rect>
+            </g>
+            <text id="Our-focus:-Work-Orde" font-family="Helvetica" font-size="25" font-weight="normal" fill="#3715FF">
+                <tspan x="165" y="63">Our focus: Work Order System</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
