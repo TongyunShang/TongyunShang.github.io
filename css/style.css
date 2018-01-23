@@ -3577,6 +3577,17 @@ p.form-footer {
   left: 27px;
 }
 
+div.row.add-padding{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.indentation{
+  padding: 2rem 5rem;
+  padding-right: 0rem;
+  padding-top: 0;
+}
+
 .form-inline {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
