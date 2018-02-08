@@ -8889,7 +8889,19 @@ img.img-responsive.space-wrapper{
 img.img-responsive.img-centered{
   padding-right: 4rem;
 }
-
+.giff{
+  padding-top: 10%;
+  padding-left: 7rem;
+  padding-right: 5rem;
+  width: 60%;
+}
+img.img-responsive.giff{
+  padding-top: 0;
+  /*padding-left: 1rem;
+  padding-right: 7rem;*/
+  width: 75%;
+  margin-bottom: 17%;
+}
 .page-comingsoon .count-down .tab-metr {
   margin-top: -65px;
   font-size: 16px;
