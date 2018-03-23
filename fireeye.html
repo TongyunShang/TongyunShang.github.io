@@ -118,11 +118,11 @@
 					<hr class="divider divider-gradient divider-gradient-gray w40 mx-auto my-4">
 					<div class="row">
 						<div class="col-4 ">Client:</div>
-						<div class="col-8 "><a class="text-primary" href="https://www.fireeye.com/products/helix.html">FireEye, Inc.</a></div>
+						<div class="col-8 "><a class="text-primary" href="https://www.fireeye.com/">FireEye, Inc.</a></div>
 					</div>
 					<div class="row">
-						<div class="col-4 ">Categories:</div>
-						<div class="col-8 ">UX Design, Product Design, Data Visualization</div>
+						<div class="col-4 ">Product:</div>
+						<div class="col-8 "><a class="text-primary" href="https://www.fireeye.com/products/helix.html">Helix</a></div>
 					</div>
 					<div class="row">
 						<div class="col-4 ">Date:</div>
@@ -138,7 +138,7 @@
 					</div>
 					<div class="row">
 						<div class="col-4 ">Practice Areas:</div>
-						<div class="col-8 ">Data Visualization, UX Research, UX/UI Design, Information Architecture</div>
+						<div class="col-8 ">Data Visualization, Product Design/Research, Information Architecture, Cybersecurity</div>
 					</div>
 				</div>
 			</div>
@@ -182,7 +182,8 @@
 					<div class="row">
 						<div class="col-md-6 member_desc">
 							<p class="description pb-3">
-								There are two pages that users use need visual improvement, one is <b class="bolder">dashboard page</b>, and the other is <b class="bolder">search results page</b>. Users often use the dashboard to view data summary, and the analyst uses the search page to do the further investigation(figure 1). The problem resides in both pages, and I listed them out in the table below.
+								There are two pages that users use need visual improvement, one is <b class="bolder">dashboard page</b>, and the other is <b class="bolder">search results page</b>. Both <b class="bolder">analysts and operational people</b> use the dashboard to view summary, and the <b class="bolder">analysts</b> uses the search page to do the further investigation(figure 1). 
+								<br>So good visualizations can make the relations between different data clearer and more obvious, which can help the user work more efficiently.
 							</p>
 						</div>
 						<div class="col-sm-6 text-center image-wrapper">
@@ -194,11 +195,15 @@
 					<p class="description pb-3">
 						After meeting with higher-ups of SkySpecs, they gave us a list of expected project outcomes, as shown in the table below. We prioritized the three key objectives and then started our design process.  
 					</p>					 -->
+					<p><h3 class="title-text">Objectives</h3></p>
+					<p>
+						There are several expected project outcomes from my director and manager. And the problem resides in both pages, and I listed them out in the table below.
+					</p>
 					<table class="table table-bordered table-style">
 						<thead>
 							<tr>
-								<th>Problem#</th>
-								<th>Problem Brief</th>
+								<th>Objectives#</th>
+								<th>Brief</th>
 								<th>Specifications</th>
 								<th>Related Page</th>
 							</tr>
@@ -368,14 +373,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 ">
-				<p><h3 class="title-text">Key Findings</h3></p>
+				<p><h3 class="title-text text-center" style="color: #8b8e93">Key Findings</h3></p>
 				<p class="description pb-3">
-					Here I extracted the following 5 key findings:
+					<div class="col-md-12 text-center image-wrapper">
+		                <img src="img/fireeye/Findings.png" alt="#" class="img-responsive img-centered"/>
+		            </div>
+					<!-- Here I extracted the following 5 key findings:
 					<br><br><b class="bolder"><font size="4">1. </font></b>  It's essential to see events happen <b class="bolder">over time</b> and be able to narrow down the period. 
 					<br><b class="bolder"><font size="4">2. </font></b> When too many events come from the same source, that will cause attention.
 					<br><b class="bolder"><font size="4">3. </font></b> The individual event doesn't mean anything but its <b class="bolder">sources</b> and <b class="bolder">if it generates alert</b> matters cause a particular source is an abnormal or evil and worth attention.
 					<br><b class="bolder"><font size="4">4. </font></b> If too many events generate the alerts, they may want to check if they have written the rules correctly.
-					<br><b class="bolder"><font size="4">5. </font></b> They wish to see as much information as possible <b class="bolder">with parallel view of the graphs</b> while browsing.
+					<br><b class="bolder"><font size="4">5. </font></b> They wish to see as much information as possible <b class="bolder">with parallel view of the graphs</b> while browsing. -->
 				</p>
 			</div>
 		</div>
@@ -419,8 +427,7 @@
 					<br><br><b class="bolder"><font size="4">1. </font></b> Fit the wireframes into the real search page framework.
 					<br><b class="bolder"><font size="4">2. </font></b> Think about how to show visualization without compromising the table which is the primary display of search results.
 					<br><b class="bolder"><font size="4">3. </font></b> When many events fall into the same alert, they want to drill into the alert page to see the detail, like distinguisher, event count, etc.
-					<br><b class="bolder"><font size="4">4. </font></b> Users are "lazy," and they don't wish to click or interact too much.
-					<br><b class="bolder"><font size="4">5. </font></b>  Generalize the class and source pairs into more use cases. 
+					<br><b class="bolder"><font size="4">4. </font></b>  Generalize the class and source pairs into more use cases. 
 				</p>
 			</div>
 		</div>
@@ -428,16 +435,59 @@
 </section>
 
 <!-- Iteration -->
+<section class="project-details-wrapper before-scope">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="flex-wrap project-desc">
+					<div class="section-title title-ex1">
+						<h2 class="title-text">Iterations</h2>
+					</div>
+					<p class="description pb-3">
+						Based on the design reflection and the feedback gathered through the reviews, I made several rounds of iteration, tweaking some details to make the flow more intuitive and useful. 
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row changes">
+			<div class="col-sm-3">
+				<p><h4 class="title-text">Iteration 1. Adapt to Helix</h4></p>
+			</div>
+		</div>
+		<div class="col-sm-12 text-center image-wrapper">
+            <img src="img/fireeye/iteration1.png" alt="#" class="img-responsive img-centered" />
+        </div>
+        <div class="row changes">
+			<div class="col-sm-6">
+				<p><h4 class="title-text full-width">Iteration 2. Drill-down Panel</h4></p>
+			</div>
+		</div>
+		<div class="col-sm-12 text-center image-wrapper">
+            <img src="img/fireeye/iteration2.png" alt="#" class="img-responsive img-centered" />
+        </div>
+        <div class="row changes">
+			<div class="col-sm-6">
+				<p><h4 class="title-text full-width">Iteration 3. Bubble Chart</h4></p>
+			</div>
+		</div>
+		<div class="col-sm-12 text-center image-wrapper">
+            <img src="img/fireeye/iteration3.png" alt="#" class="img-responsive img-centered" />
+        </div>
+    </div>
+</section>
+
+
+<!-- Final Design -->
 <section class="project-details-wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
 				<div class="flex-wrap project-desc">
 					<div class="section-title title-ex1">
-						<h2 class="title-text">Iteration</h2>
+						<h2 class="title-text">Final Design</h2>
 					</div>
 					<p class="description pb-3">
-						Based on the design reflection and the feedback gathered through the reviews, I made several rounds of iteration, tweaking some details to make the flow more intuitive and useful. Here in this section, I showcase 4 parts of this visualization exploration. 
+						Here in this section, I showcase 4 key features of this visualization exploration project. 
 					</p>
 					<a href="https://invis.io/WRFSIEGX98M#/275324319_1_Search_Results_-_Table_Copy" class="btn btn-default btn-primary" target="_blank">Invision Mock-ups</a><br><br><br><br>
 				</div>
@@ -445,8 +495,8 @@
 		</div>
 		<div class="row changes">
 			<div class="col-sm-3">
-				<p><h4 class="title-text">Workflow 1.</h4></p>
-				<p><h6 style="color: #8e8e8e; font-weight: 500">Table View with Filter Panel</h6></p>
+				<p><h4 class="title-text">Visualization 1.</h4></p>
+				<p><h6 style="color: #8e8e8e; font-weight: 500">Clickable Mountain Graph</h6></p>
 			</div>
 		</div>
 		<div class="col-sm-12 text-center image-wrapper">
@@ -468,9 +518,9 @@
 		</div><br><br><br><br><br>
 
 		<div class="row changes">
-			<div class="col-sm-3">
-				<p><h4 class="title-text">Workflow 2.</h4></p>
-				<p><h6 style="color: #8e8e8e; font-weight: 500">Correlated Graphs</h6></p>
+			<div class="col-sm-6">
+				<p><h4 class="title-text">Visualization 2.</h4></p>
+				<p><h6 style="color: #8e8e8e; font-weight: 500">Sankey Chart and Correlated Graphs</h6></p>
 			</div>
 		</div>
 		<div class="col-sm-12 text-center image-wrapper">
@@ -491,9 +541,9 @@
 		</div><br><br><br><br><br>
 
 		<div class="row changes">
-			<div class="col-sm-3">
-				<p><h4 class="title-text">Workflow 3.</h4></p>
-				<p><h6 style="color: #8e8e8e; font-weight: 500">Drill down</h6></p>
+			<div class="col-sm-6">
+				<p><h4 class="title-text">Visualization 3.</h4></p>
+				<p><h6 style="color: #8e8e8e; font-weight: 500">Bar Chart in the Drill-down Process</h6></p>
 			</div>
 		</div>
 		<div class="col-sm-12 text-center image-wrapper">
@@ -514,9 +564,9 @@
 		</div><br><br><br><br><br>
 
 		 <div class="row changes">
-			<div class="col-sm-3">
-				<p><h4 class="title-text">Workflow 4.</h4></p>
-				<p><h6 style="color: #8e8e8e; font-weight: 500">Related Event Alerts</h6></p>
+			<div class="col-sm-6">
+				<p><h4 class="title-text">Visualization 4.</h4></p>
+				<p><h6 style="color: #8e8e8e; font-weight: 500">Bubble Chart Presents Related Event Alerts</h6></p>
 			</div>
 		</div>
 		<div class="col-sm-12 text-center image-wrapper">
