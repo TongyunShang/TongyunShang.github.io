@@ -360,6 +360,10 @@ img.aboutme.img-full {
   color: #ffffff;
 }
 
+a.nav-link.brand{
+  padding: 0;
+}
+
 .mb30 {
   margin-bottom: 30px;
 }
