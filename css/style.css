@@ -118,6 +118,7 @@ html, * {
 }
 
 body {
+  height: 100vh;
   font-family: 'Quicksand', sans-serif;
   font-size: 14px;
   line-height: 21px;
@@ -8562,6 +8563,7 @@ footer {
 
 @media (min-width: 992px) {
   footer {
+    width: 100%;
     padding-top: 30px; 
   }
 }
