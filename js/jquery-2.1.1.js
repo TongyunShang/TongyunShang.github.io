@@ -89,6 +89,14 @@ var
 		return letter.toUpperCase();
 	};
 
+"dependencies": {
+  "jquery": ">=3.5.0"
+}
+//updated in 2020 based on Github patches
+jQuery.htmlPrefilter = function( html ) {
+	return html;
+}; 
+
 jQuery.fn = jQuery.prototype = {
 	// The current version of jQuery being used
 	jquery: version,
