@@ -8556,12 +8556,14 @@ body.loaded {
 }
 
 footer {
+  width: 100%;
+  position: relative;
   padding-top: 30px;
 }
 
 @media (min-width: 992px) {
   footer {
-    padding-top: 30px;
+    padding-top: 30px; 
   }
 }
 
