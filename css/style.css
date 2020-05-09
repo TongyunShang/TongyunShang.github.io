@@ -292,6 +292,31 @@ body.boxed {
   }
 }
 
+section.member-details.thindivider{
+  padding: 0;
+}
+
+section.member-details.thinbottom{
+  padding-bottom: 50px;
+}
+
+section.member-details.thintop{
+  padding-top: 25px;
+}
+
+div.row.pictop{
+  padding-top: 15px;
+}
+
+div.row.sidethick{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+div.member_desc{
+  padding: 15px;
+}
+
 .list-inline li {
   display: inline-block;
 }
@@ -345,7 +370,7 @@ body.boxed {
   width: 100%;
 }
 img.aboutme.img-full {
-  padding: 10px 2rem;
+  padding: 15px 5rem;
 }
 
 .img-circle {
