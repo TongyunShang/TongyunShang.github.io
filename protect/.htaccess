@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Protected Site"
-AuthUserFile /Users/i869510/Documents/GitHub/TongyunShang.github.io/.htpasswd
+AuthUserFile /Users/i869510/Documents/GitHub/TongyunShang.github.io/protect/.htpasswd
 require valid-user
