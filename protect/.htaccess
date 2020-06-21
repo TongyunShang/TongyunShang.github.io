@@ -1,4 +1,4 @@
-AuthType Basic
-AuthName "restricted area"
 AuthUserFile /Users/i869510/Documents/GitHub/TongyunShang.github.io/protect/do.htpasswd
+AuthName "restricted area"
+AuthType Basic
 require valid-user
