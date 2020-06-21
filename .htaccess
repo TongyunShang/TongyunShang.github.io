@@ -1,0 +1,3 @@
+Authen Basic
+AuthenName "Protected Site"
+AuthenUserFile /Users/i869510/Documents/GitHub/TongyunShang.github.io/.htpasswd
