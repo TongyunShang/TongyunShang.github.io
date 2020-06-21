@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript">
+		// PASSWORD PROTECTION SCRIPT
+		// document.getElementById("pw")
+		//     .addEventListener("keyup", function(event) {
+		//     event.preventDefault();
+		//     if (event.keyCode === 13) {
+		//         document.getElementById("myButton").click();
+		//     }
+		// });
+
+		// function buttonCode()
+		// {
+		//   alert("Button code executed.");
+		// }
+		
+		function TheLogin() {
+
+		var password = '2020';
+
+		if (this.document.login.pass.value == password) {
+		  top.location.href="saparibacorrect.html";
+		}
+		else {
+		  window.alert("Incorrect password, please try again.");
+		  }
+		}
+
+
+	</script>
+</head>
+
+<body>
+	
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+	Username:<input id="username" type="text"><br>
+	Password:&nbsp;<input id="pw" type="password"><br>
+	<button id="myButton" onclick="buttonCode()">Submit</button> -->
+	
+	<div style="text-align: center; margin: 0 auto; color: #0000FF; font: normal 13px arial, sans-serif;">
+		Please enter password:<br>
+		<form name="login" style="margin: 5px 0px 0px 0px;">
+			<input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) event.keyCode=9;" style="width: 130px;"><br>
+			<input id="myButton" type="button" value="Submit" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)">		
+		</form>
+	</div>
+	
+
+
+</body>
+
+</html>
