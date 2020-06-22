@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+</head>
+
+<body>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+	<!-- Username:<input id="username" type="text"><br>
+	Password:&nbsp;<input id="pw" type="password"><br>
+	<button id="hmyButton" onclick="buttonCode(this)">Submit</button> -->
+	
+	<div style="text-align: center; margin: 0 auto; color: #0000FF; font: normal 13px arial, sans-serif;">
+		Please enter password:<br>
+		<form name="login" style="margin: 5px 0px 0px 0px;">
+			
+			<!-- <input id="pw" type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) document.getElementById('myButton').onclick = TheLogin(this.form);" style="width: 130px;"><br> -->
+			<input id="pw" type="password"><br>
+			<button id="myButton" onclick="TheLogin()">Submit</button><br>
+			<!-- <input id="myButton" type="button" value="Submit" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)"> -->		
+		</form>
+	</div>
+	<script type="text/javascript">
+		// PASSWORD PROTECTION SCRIPT
+		
+		
+		function TheLogin() {
+
+		var x=document.getElementById("pw").value;
+
+		if (x == "2020") {
+		  top.location.href="https://www.w3schools.com";
+		}
+		// else if (this.document.login.pass.value == password + 'Enter') {
+		//   top.location.href="saparibacorrect.html";
+		// }
+		else{
+		  alert("Incorrect password, please try again.");
+		  }
+		}
+
+		
+
+		// 	document.getElementById("pw")
+		//     .addEventListener("keyup", function(event) {
+		//     event.preventDefault();
+		//     if (event.keyCode === 13) {
+		//         document.getElementById("hmyButton").click();
+		//     }
+		// });
+		//  function buttonCode()
+		// {
+		//   alert("Button code executed.");
+		// }
+
+
+	</script>
+
+
+</body>
+
+</html>
