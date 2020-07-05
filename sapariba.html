@@ -4,22 +4,30 @@
 
 <h2>Please enter password:</h2>
 
-<form name="login">
-	<input id="pw" type="password" name="pass"><br>
-	<button onclick="TheLogin()">Submit</button>
-</form>
+<div name="login">
+	<input id="pw" type="password" name="pass" value=""><br><br>
+	<button id="checkpw" onclick="TheLogin()">Submit</button>
+</div>
 
 
 <script type="text/javascript">
 function TheLogin() {
-	if (this.document.login.pass.value == "2020") {
-		window.open("saparibacorrect.html");
+	if (document.getElementById("pw").value == "2020") {
+		window.location.href = "skyspecs.html";
 		// self.close();
 	}
   	else{
 		alert("Incorrect password, please try again.");
 	}
 }
+var inputpw = document.getElementById("pw");
+
+inputpw.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();  
+    document.getElementById("checkpw").click();
+  }
+});
 </script>
 
 </body>
