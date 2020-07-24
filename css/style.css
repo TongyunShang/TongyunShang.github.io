@@ -139,11 +139,7 @@ div.project_specification{
   top: 3rem;
   left: -15px;
 }
-a.
-/*hr.mx-4{
-  margin-top: 2.5rem !important !important;
-  margin-bottom: 2.5rem !important !important;
-}*/
+
 
 b.bolder{
   font-weight: bold;
@@ -184,9 +180,10 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 22px;
   line-height: 1.1;
   padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 h3.insight{
  position: relative;
@@ -252,7 +249,7 @@ h6 {
 }
 
 a {
-  color: #8b8e93;
+  color: #C8AD92;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -878,7 +875,7 @@ a.nav-link.brand{
 
 @media (min-width: 768px) {
   .element_single .card.single-block .card-header h3 {
-    font-size: 25px;
+    font-size: 20px;
     max-width: 100%;
   }
 }
@@ -7024,7 +7021,7 @@ p.devider.devider_primary {
 
 @media (min-width: 992px) {
   .section-title h2 {
-    font-size: 34px;
+    font-size: 30px;/*34px*/
   }
 }
 

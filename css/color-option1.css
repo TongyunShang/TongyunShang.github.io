@@ -4,7 +4,7 @@ a:hover, a:focus, .bredcrumb .pager.middle a, .element-sidenav .nav-item > a.nav
 .services .tooltip-inner, .kit .tooltip-inner, .services-details .tooltip-inner, .member-details-page .tooltip-inner, .home-portfolio ul#filters li.active a, .home-portfolio ul#filters li:hover a, .footer .social-icons .btn-social-o:hover, .page-comingsoon .form_subscribe i, .service_single-area .service_details-desc ul.styled_list i, .sidebar .list-group .list-group-item a:hover, .block .carousel-item .overlay-link i, .tags a:hover, .member-details .member_desc li i, .blog-sidebar .media .media-body h6 a:hover, .comment_title .btn, .reply_title .btn {
   color: #C8AD92;
 }
-a:hover, a:focus,.btn.btn-circle.page-scroll{
+a.btn.btn-circle.page-scroll:hover, a.btn.btn-circle.page-scroll:focus{
   color: #ffffff;
 }
 
