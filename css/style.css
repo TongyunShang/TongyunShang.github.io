@@ -8938,7 +8938,7 @@ img.img-responsive.space-wrapper{
 }
 
 img.img-responsive.img-centered{
-  padding-right: 4rem;
+  padding-right: 0;/*4rem;*/
 }
 .giff{
   padding-top: 10%;
