@@ -449,12 +449,13 @@
 					<p class="description pb-3">
 						We broke the feature into phases. In phase 1, we only need to include team buying and receiving stories. For team management, users will have to go to P2P. And in P2P, users can only own one team but can be teammates of multiple teams. However, they can only start a requisition with the team they own.
 					</p>
+
 					<div class="row col-md-12" style="padding: 0; padding-top: 2rem; color:#555555;" >
 						<div class="col-md-6 text-center" style="padding: 0; margin-right: 0;">
 							<div class="col-md-12 text-center image-wrapper"><img src="img/teambuying/requester.png" alt="#" class="img-responsive img-centered" /></div>
 						</div>
 						<div class="col-md-6 text-center" style="padding: 0; margin-right: 0;">
-							<div class="col-md-12 text-center image-wrapper"><img src="img/teambuying/team members.png" alt="#" class="img-responsive img-centered" /></div>
+							<div class="col-md-12 text-center image-wrapper"><img src="img/teambuying/team member.png" alt="#" class="img-responsive img-centered" /></div>
 						</div>
 					</div>
 					
@@ -485,44 +486,29 @@
 					
 					<h3>Design</h3>
 					<p class="description pb-3">
-						There are four types of users: admin, team owner, contributor, and viewer.  There is an admin page in GB, and that would be where admins create and manage teams. They will not participate in the requisitioning process.
+						In a GB requisition flow, there are 5 main stages: 
+						<br><b class="bolder">1. shop -> 2. checkout -> 3. send for approval -> 4. approved -> 5. receive</b>
 					</p>
-				
+					<p class="description pb-3">
+						In this section, you can see the critical screens of requester flow and team members' flow. On the left side is the highlighted widgets of each step. 
+					</p>
+					<!-- <br><br> <a href="https://sapariba.invisionapp.com/share/S6XY40JD4TJ#/424032831_Homepage-Work_Order-Static" class="btn btn-default btn-primary" target="_blank">Invision Mock-ups</a> -->
+					<div class="row">
+						<div class="col-lg-12 member_desc text-center image-wrapper">
+							<img src="img/teambuying/initial design.png" alt="#" class="img-responsive img-centered"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 member_desc text-center image-wrapper">
+							<img src="img/teambuying/team members.png" alt="#" class="img-responsive img-centered"/>
+						</div>
+					</div>
 
 				</div>
 			</div>
 		</div>
 
 			
-	</div>
-</section>
-
-
-<!-- Initial Design -->
-<section class="project-details-wrapper before-scope" id="description">
-	<div class="container">		
-		<div class="row">
-			<div class="col-12">
-				<div class="flex-wrap project-desc">
-					<div class="section-title title-ex1">
-						<h2 class="title-text">Initial Design</h2>
-					</div>
-					<div class="row ">
-						<div class="col-lg-12 member_desc">
-							<p class="description with-list">
-								With the high-level guide, I created logical flowcharts and started prototyping accordingly. At this stage, I work closely with PM for requirements check, design lead for critique, and devs for feasibility, visual designers for style guide alignment, and content. Based on the collected feedback, I iterated the design constantly and had group reviews monthly. The project is currently under development and is updated weekly.
-							</p>							
-							<br><br> <a href="https://sapariba.invisionapp.com/share/S6XY40JD4TJ#/424032831_Homepage-Work_Order-Static" class="btn btn-default btn-primary" target="_blank">Invision Mock-ups</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12 member_desc text-center image-wrapper">
-							<img src="img/skyspecs/Initial Design.png" alt="#" class="img-responsive img-centered"/>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
 </section>
 
@@ -570,46 +556,21 @@
 					<div class="section-title title-ex1">
 						<h2 class="title-text">Iteration</h2>
 					</div>
+					<h3>New user stories</h3>
 					<p class="description pb-3">
-						Our project continued after the summer when the SkySpecs made a lot of changes to their existing web portal. Because the Work Order System is not a standalone website and will be integrated into their current site, we need to consider these changes and tweak our design. 
-					</p><br><br>
-		            <p><h3>Validation</h3><p>
+						We broke the feature into phases. In phase 1, we only need to include team buying and receiving stories. For team management, users will have to go to P2P. And in P2P, users can only own one team but can be teammates of multiple teams. However, they can only start a requisition with the team they own.
+					</p>
+					<div class="row">
+						<div class="col-lg-12 member_desc text-center image-wrapper">
+							<img src="img/teambuying/iterated user stories.png" alt="#" class="img-responsive img-centered"/>
+						</div>
+					</div>
+					<br><br>
+		            <h3>Validation</h3>
 					<p class="description pb-3">
 						We have worked closely with our sponsor through weekly meetings and to identify what features they need to consolidate in a work order system. We also had three design reviews to evaluate the design at each stage and iterated based on received feedback. We conducted late-stage usability testing to validate the work order system, testing the functionality, efficiency, flexibility of the work order system and made some tweaks.  
 					</p>					
-					<table class="table table-bordered table-style">
-						<thead>
-							<tr>
-								<th>#</th>
-								<th>Criteria</th>
-								<th>Features</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<th scope="row">1</th>
-								<td>Efficiency</td>
-								<td>Turbines can be programmatically brought up, not manually anymore. The process of creating new work order has been simplified too.</td>
-							</tr>
-							<tr>
-								<th scope="row">2</th>
-								<td>Flexibility</td>
-								<td>Users not only can save and edit the work order later, but they now can fill in the turbine number for inspection without selecting the exact turbine.</td>
-							</tr>
-							<tr>
-								<th scope="row">3</th>
-								<td>Calendar</td>
-								<td>The calendar now becomes a visual view of the work order table.</td>
-							</tr>
-						</tbody>
-					</table>
-					<p class="description pb-3">
-						We previously planned to set separate accounts for different users (director, analyst, operator, and customer). As SpySpecs set up the login user account as each customer, we no longer needed to consider different user views and customer information section. And they also built the turbine section we design into their system, so we no need to worry about turbine information too.  The final narrowed-down project scope is shown below:  
-					</p>
-					<div class="col-sm-12 text-center image-wrapper">
-		                <a  href="img/skyspecs/SkySpecs WorkFlow.png" data-lightbox="example-set" data-title="SkySpecs Workflow"><img src="img/skyspecs/SkySpecs WorkFlow.png" alt="#" class="img-responsive img-centered" /></a>
-		                <br><br><p class="figures"><b>figure 4.</b> Final Project Scope</p><br><br>
-		            </div>
+					
 				</div>
 			</div>
 		</div>
