@@ -487,7 +487,7 @@
 					<h3>Design</h3>
 					<p class="description pb-3">
 						In a GB requisition flow, there are 5 main stages: 
-						<br><b class="bolder">1. shop -> 2. checkout -> 3. send for approval -> 4. approved -> 5. receive</b>
+						<br><b class="bolder">1. shop -> 2. checkout -> 3. send for approval -> 4. approved -> 5. PO generated -> 6. confirm & ship -> 7. receive</b>
 					</p>
 					<p class="description pb-3">
 						In this section, you can see the critical screens of requester flow and team members' flow. On the left side is the highlighted widgets of each step. 
@@ -554,11 +554,14 @@
 			<div class="col-12">
 				<div class="flex-wrap project-desc">
 					<div class="section-title title-ex1">
-						<h2 class="title-text">Iteration</h2>
+						<h2 class="title-text">Iterations</h2>
 					</div>
-					<h3>New user stories</h3>
+					<h3>User stories</h3>
 					<p class="description pb-3">
-						We broke the feature into phases. In phase 1, we only need to include team buying and receiving stories. For team management, users will have to go to P2P. And in P2P, users can only own one team but can be teammates of multiple teams. However, they can only start a requisition with the team they own.
+						We expanded the user roles from just team owner and team members to the <b class="bolder"> owner, contributor, and viewer(describe the roles in the buying process)</b>. And grouped user stories based on contexts, either in team management page or team buying/receiving experience.  
+					</p>
+					<p class="description pb-3">
+						We also added one <b class="bolder">superuser - admin</b>. Admin can create and manage teams but doesn't participate in team buying.  
 					</p>
 					<div class="row">
 						<div class="col-lg-12 member_desc text-center image-wrapper">
@@ -566,69 +569,24 @@
 						</div>
 					</div>
 					<br><br>
-		            <h3>Validation</h3>
+		            <h3>Design iterations</h3>
 					<p class="description pb-3">
 						We have worked closely with our sponsor through weekly meetings and to identify what features they need to consolidate in a work order system. We also had three design reviews to evaluate the design at each stage and iterated based on received feedback. We conducted late-stage usability testing to validate the work order system, testing the functionality, efficiency, flexibility of the work order system and made some tweaks.  
-					</p>					
-					
+					</p>
+					<!-- <div class="col-sm-12 text-center image-wrapper">
+                        <a  href="img/skyspecs/Problem Statement.png" data-lightbox="example-set" data-title="SkySpecs Workflow"><img src="img/skyspecs/Problem Statement.png" alt="#" class="img-responsive img-centered" /></a>
+                        <br><br><p class="figures"><b>figure 1.</b> SkySpecs Workflow and the Problem</p>
+                    </div> -->
+					<div class="row">					
+						<div class="col-lg-12 member_desc text-center image-wrapper">
+							<a  href="img/teambuying/Admin iteration.png" data-lightbox="example-set" data-title="admin iteration"><img src="img/teambuying/Admin iteration.png" alt="#" class="img-responsive img-centered"/></a>
+						</div>
+					<div class="row">
+
 				</div>
 			</div>
 		</div>
-		<div class="row changes">
-			<div class="col-sm-3">
-				<p><h4 class="title-text">Key Change 1.</h4></p>
-				<p><h6 style="color: #8e8e8e; font-weight: 300">System Structure</h6></p>
-			</div>
-			<div class="col-sm-9 description pb-3 vertical-line">
-				<p class="description pb-3">
-					<b class="bolder">1. </b> Users log in to the individual customer account, so the customer section is removed. 
-					<br><b class="bolder">2. </b> SkySpecs added the turbine information under each wind farm, so we removed the turbine section from work order system too.
-					<br><b class="bolder">3. </b> As the calendar/agenda shows the same information as the work order table, so the agenda section has been merged into the work order system as a parallel calendar view.
-				</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-12 text-center image-wrapper">
-                <img src="img/skyspecs/change1.png" alt="#" class="img-responsive img-centered"/>
-            </div>
-		</div>
-		<div class="row changes">
-			<div class="col-sm-3">
-				<p><h4 class="title-text">Key Change 2.</h4></p>
-				<p><h6 style="color: #8e8e8e; font-weight: 300">Turbine Selection Process</h6></p>
-			</div>
-			<div class="col-sm-9 description pb-3 vertical-line">
-				<p>
-					In the previous design, users had to enter the inspected turbine information one by one manually. With the technical support, the turbine information can now populate by <b class="bolder">importing from CSV file</b> or <b class="bolder">bringing up from the existing wind farm database</b>. The new turbine information will be added to the database programmatically from the CSV file as well.
-				</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-12 text-center image-wrapper">
-                <img src="img/skyspecs/change2.png" alt="#" class="img-responsive img-centered"/>
-            </div>
-		</div>
-		<div class="row changes">
-			<div class="col-sm-3">
-				<p><h4 class="title-text">Key Change 3.</h4></p>
-				<p><h6 style="color: #8e8e8e; font-weight: 300">Create New Work Order Steps</h6></p>
-			</div>
-			<div class="col-sm-9 description pb-3 vertical-line">
-				<p>
-					The <b class="bolder">4-step-process</b> of creating new work order has been reorganized and <b class="bolder">reduced to 3 steps</b>. And some repetitive details, like the windfarm address and contact information which already exist in the database, have been removed. Either does the turbine details. 
-				</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-6 image-wrapper">
-				<p class="figures"><b style="color: #444; font-weight: 600">Create New Work Order 4-step Process (Before)</b></p>
-                <br><img src="img/skyspecs/old flow.gif" alt="#" class="img-responsive img-centered"/>
-            </div>
-            <div class="col-sm-6 image-wrapper">
-            	<p class="figures"><b style="color: #444; font-weight: 600">Simplified 3-step Process (After)</b></p>
-                <br><img src="img/skyspecs/new flow.gif" alt="#" class="img-responsive img-centered"/>
-            </div>
-		</div>
+		
 	</div>
 </section>
 <section class="project-details-wrapper bg-sand hero-block home-about" id="present-final">
