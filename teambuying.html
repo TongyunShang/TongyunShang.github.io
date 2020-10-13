@@ -445,9 +445,12 @@
 					<div class="section-title title-ex1">
 						<h2 class="title-text">Initial design</h2>
 					</div>
+					<p class="description pb-3">
+						In the initial design, we only need to include team buying and receiving stories. Since they are the core of this feature and team management can be accessed in P2P.
+					</p>
 					<h3>User stories</h3>
 					<p class="description pb-3">
-						We broke the feature into phases. In phase 1, we only need to include team buying and receiving stories. For team management, users will have to go to P2P. And in P2P, users can only own one team but can be teammates of multiple teams. However, they can only start a requisition with the team they own.
+						Since the team management is in P2P, we will have to follow the availabilities and restrictions. In P2P logic, users can only own one team but can be team members of multiple teams. However, they can only start a requisition with the team they own.
 					</p>
 
 					<div class="row col-md-12" style="padding: 0; padding-top: 2rem; color:#555555;" >
@@ -512,7 +515,7 @@
 	</div>
 </section>
 
-<!-- <section class="project-details-wrapper bg-sand hero-block home-about"">
+<!-- <section class="project-details-wrapper bg-sand hero-block home-about">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 ">
@@ -534,7 +537,7 @@
 					<div id="project-carousel" class="element_row">
 						<div class="image_single">
 							<div class="card_img">
-								<img class="img-full" src="img/portfolio/pd1.jpg" alt="Card image">
+								<img class="img-full" src="img/teambuying/.jpg" alt="Card image">
 							</div>
 						</div>
 						<div class="image_single">
@@ -548,7 +551,36 @@
 		</div>	
 	</div>
 </section> -->
-<section class="project-details-wrapper after-scope">
+<section class="project-details-wrapper bg-sand hero-block home-about" id="present-final">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<p><h3 class="title-text">Requirement changes</h3></p>
+				<p class="description with-list">
+					After the initial design, we expanded the scope. So, I revisited some studies we conducted earlier, and here are some changes: 
+				</p>	
+			</div>			
+			<div class="col-md-6 ">				
+				<ol class="styled_list full-width">
+					<li class="">Fringilla dolor ullamcorper.</li>
+				</ol>
+			</div>
+			<div class="col-md-6">
+				<ol class="styled_list full-width">
+					<li class="">Fringilla dolor ullamcorper.</li>
+				</ol>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 member_desc text-center image-wrapper">
+				<img src="img/teambuying/iterated user stories.png" alt="#" class="img-responsive img-centered"/>
+			</div>
+		</div>	
+	</div>
+</section>
+
+
+<section class="project-details-wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -556,31 +588,23 @@
 					<div class="section-title title-ex1">
 						<h2 class="title-text">Iterations</h2>
 					</div>
-					<h3>User stories</h3>
-					<p class="description pb-3">
+					<!-- <p class="description pb-3">
 						We expanded the user roles from just team owner and team members to the <b class="bolder"> owner, contributor, and viewer(describe the roles in the buying process)</b>. And grouped user stories based on contexts, either in team management page or team buying/receiving experience.  
 					</p>
 					<p class="description pb-3">
 						We also added one <b class="bolder">superuser - admin</b>. Admin can create and manage teams but doesn't participate in team buying.  
-					</p>
-					<div class="row">
-						<div class="col-lg-12 member_desc text-center image-wrapper">
-							<img src="img/teambuying/iterated user stories.png" alt="#" class="img-responsive img-centered"/>
-						</div>
-					</div>
-					<br><br>
-		            <h3>Design iterations</h3>
+					</p> -->
+
 					<p class="description pb-3">
-						I did multiple iterations after each design review, content and visual check. We had one follow-up research survey with clients to clarify questions and validate the use cases that came up during the design.
-						<br><br>
-						And the design is becoming more fleshed out with complete interactions and edge cases when the implementation got started in June 2020. We have daily stand-ups and weekly scrum meetings to keep development closely aligned with the design updates. Many tweaks were being made due to technical considerations thereafter.
-						<br><br>
+						I made multiple iterations based on the feedback from design reviews, content, and visual checks. We also conducted one follow-up research survey with clients to clarify questions and validate the use cases that came up during the design.						
 						In this section, I'm going to walk you through some critical changes I made: <b class="bolder">admin's team management page, end-user's team management page, team buying flow, and team receiving flow.</b>    
 					</p>
+					<br>
 					<!-- <div class="col-sm-12 text-center image-wrapper">
                         <a  href="img/skyspecs/Problem Statement.png" data-lightbox="example-set" data-title="SkySpecs Workflow"><img src="img/skyspecs/Problem Statement.png" alt="#" class="img-responsive img-centered" /></a>
                         <br><br><p class="figures"><b>figure 1.</b> SkySpecs Workflow and the Problem</p>
                     </div> -->
+                    <h3 style="color: #C8AD92"><b>Story 1.</b> Admin uploads a CSV file to create a team</h3>
 					<div class="row">					
 						<div class="col-lg-12 member_desc text-center image-wrapper" style="margin-bottom: 0px; padding-bottom: 0px">
 							<a  href="img/teambuying/Admin iteration.png" data-lightbox="example-set" data-title="admin team management iteration"><img src="img/teambuying/Admin iteration.png" alt="#" class="img-responsive img-centered"/></a>
@@ -596,7 +620,9 @@
 							<a  href="img/teambuying/Admin iteration3.png" data-lightbox="example-set" data-title="admin team management iteration"><img src="img/teambuying/Admin iteration3.png" alt="#" class="img-responsive img-centered"/></a>
 						</div>
 					</div>
+					<br><br>
 
+					<h3 style="color: #C8AD92"><b>Story 2.</b> End-user team management page</h3>
 					<div class="row">					
 						<div class="col-lg-12 member_desc text-center image-wrapper" style="margin-bottom: 0px; padding-bottom: 0px">
 							<a  href="img/teambuying/End-user iteration.png" data-lightbox="example-set" data-title="end-user team management iteration"><img src="img/teambuying/End-user iteration.png" alt="#" class="img-responsive img-centered"/></a>
@@ -607,7 +633,9 @@
 							<a  href="img/teambuying/End-user iteration2.png" data-lightbox="example-set" data-title="end-user team management iteration"><img src="img/teambuying/End-user iteration2.png" alt="#" class="img-responsive img-centered"/></a>
 						</div>
 					</div>
+					<br><br>
 
+					<h3 style="color: #C8AD92"><b>Story 3.</b> Shop with a team</h3>
 					<div class="row">					
 						<div class="col-lg-12 member_desc text-center image-wrapper">
 							<a  href="img/teambuying/Team buying iteration.png" data-lightbox="example-set" data-title="end-user team management iteration"><img src="img/teambuying/Team buying iteration.png" alt="#" class="img-responsive img-centered"/></a>
@@ -629,7 +657,7 @@
 <section class="project-details-wrapper bg-sand hero-block home-about" id="present-final">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 " >
+			<div class="col-md-12">
 				<p><h3 class="title-text">New System Structure</h3></p>
 				<!-- <p class="description with-list">
 					The new system structure now contains two main parts: <b class="bolder">the functional work order table</b> and <b class="bolder">creating new work order process</b>, starting from selecting turbines to adding dates and assignees to sending a notification to the client. 
@@ -652,7 +680,7 @@
 						<h2 class="title-text">Final Design</h2>
 					</div>
 					<p class="description pb-3">
-						In this section, I showcase three critical features of the work order system and some other features at the end.
+						And the design is becoming more fleshed out with complete interactions and edge cases when the implementation got started in June 2020. We have daily stand-ups and weekly scrum meetings to keep development closely aligned with the design updates. Many tweaks were being made due to technical considerations thereafter.
 					</p>
 					<a href="https://sapariba.invisionapp.com/share/YSXY40T5G6E#/423872590_1_WOS_Homepage_-table-" class="btn btn-default btn-primary" target="_blank">Invision Mock-ups</a><br><br><br><br>
 				</div>
