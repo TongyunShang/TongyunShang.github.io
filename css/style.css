@@ -5565,9 +5565,9 @@ p.devider.devider_primary {
 }
 
 .hover-overlay.effect-scale .overlay-content span {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 1px;
 }
 
@@ -8259,14 +8259,16 @@ body.loaded {
 
 @media (min-width: 992px) {
   .home-portfolio .card .hover-overlay h6.overlay-title {
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 500px;
     padding: 5px 0 0;
   }
 }
 
 @media (min-width: 1200px) {
   .home-portfolio .card .hover-overlay h6.overlay-title {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 500px;
   }
 }
 
@@ -9294,16 +9296,22 @@ img.img-responsive.giff{
 }
 
 .project-details-wrapper .project_specification {
-  padding: 40px 30px;
+  /*padding: 40px 30px;*/
   color: #ffffff;
   position: relative;
+}
+.projectintro{
+  padding-left: 4rem;
+}
+.nopad{
+  padding-right: 0;
 }
 
 .bredcrumb .project-details-wrapper .project_specification {
   /*border:1px solid white;
   background-color: white; 
   border-radius: 10px;*/
-  padding: 50px 15px;
+  padding-top: 20%;
 }
 .bredcrumb .project-details-wrapper .project_specification h2{
   font-size: 30px;

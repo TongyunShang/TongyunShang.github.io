@@ -44,7 +44,8 @@ ul.nav-tabs .nav-item .nav-link.active {
 }
 
 .hover-overlay.effect-scale:before, .media.blog-media > a:before {
-  background-color: rgba(0,0,0, 0.7) !important;
+  /*background-color: rgba(0,0,0, 0.7) !important;*/
+  background-color: #C8AD92;
   /*display: block;
   position: absolute;
   left: 0px;
