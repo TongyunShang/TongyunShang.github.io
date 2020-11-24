@@ -170,12 +170,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 40px;
   line-height: 1.77;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 32px;
   line-height: 1.77;
 }
 
@@ -5303,7 +5303,7 @@ p.devider.devider_primary {
   color: #ffffff;
   font-size: 28px;
   line-height: 45px;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
 }
 
 @media (min-width: 768px) {
@@ -7010,6 +7010,15 @@ p.devider.devider_primary {
   border-color: #C8AD92;
 }
 
+/*@media (min-width: 425px) {
+  .bredcrumb .project-details-wrapper .project_specification h2 {
+    font-size: 28px;
+  }
+  .bredcrumb .project-details-wrapper .project_specification h3 {
+    font-size: 18px;
+    color: #aaaaaa; font-weight: 300; line-height: 1.5;
+  }
+}*/
 /* ================================================
 --> Section title
 ================================================== */
@@ -7032,7 +7041,7 @@ p.devider.devider_primary {
 
 @media (min-width: 992px) {
   .section-title h2 {
-    font-size: 30px;/*34px*/
+    font-size: 32px;/*34px*/
   }
 }
 
@@ -9314,9 +9323,13 @@ img.img-responsive.giff{
   padding-top: 30%;
 }
 .bredcrumb .project-details-wrapper .project_specification h2{
-  font-size: 30px;
+  font-size: 36px;
   margin-bottom: 0px;
   padding-bottom: 0px; 
+}
+.bredcrumb .project-details-wrapper .project_specification h3{
+  font-size: 24px;
+  
 }
 
 .project-details-wrapper .project_specification h2 {
