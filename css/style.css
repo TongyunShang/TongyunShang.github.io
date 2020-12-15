@@ -9324,6 +9324,9 @@ img.img-responsive.giff{
   border-radius: 10px;*/
   padding-top: 10%;
 }
+.projectcover .project-details-wrapper .project_specification {
+  padding-top: 10%;
+  }
 .bredcrumb .project-details-wrapper .project_specification h2{
   font-size: 36px;
   margin-bottom: 0px;
@@ -9333,7 +9336,9 @@ img.img-responsive.giff{
   font-size: 24px;
   
 }
-
+p.subtitle{
+  color: #aaaaaa; font-weight: 300; line-height: 1.5; padding-top: 24px; font-size: 20px;
+}
 .project-details-wrapper .project_specification h2 {
   color: #4B3F34;
   margin-bottom: 30px;
