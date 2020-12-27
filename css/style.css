@@ -134,10 +134,58 @@ div.project_specification{
   margin-left: auto;
   margin-right: auto;
 }
+div.col-sm-8.inthemid{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+div.col-sm-4.inthemid{
+  padding:2rem;
+}
+h3.withtoptag{
+  padding-top: 3rem;
+}
+p.subtitle{
+  color: #aaaaaa; 
+  font-weight: 300; 
+  line-height: 1.5; 
+  padding-top: 3rem; 
+  font-size: 20px;
+}
+p.subtitle.userneed{
+  color: #C8AD92; 
+  font-weight: 500; 
+  line-height: 1.5; 
+  padding-top: 3rem; 
+  font-size: 20px;
+}
 .scrolldown_btn{
   position: relative;
   top: 3rem;
   left: -15px;
+}
+p.col-sm-6.dialog{
+ font-size: 24px;
+ line-height: 1.5;
+ margin-top: 3rem;
+}
+h3.userneed{
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 24px;
+}
+p.userneed{
+  color: #aaaaaa;/*#4B3F34;*/
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.5; 
+}
+div.row.slider{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+div.col-sm-6.persona{
+  padding-left:5rem;
+  padding-right: 5rem;
 }
 
 b{
@@ -199,9 +247,11 @@ div.homepageintro{
   padding: 0;
 }
 h3.insight{
- position: relative;
+ /*position: relative;
  top: 20%;
- left: 5%;
+ left: 5%;*/
+ padding: 0;
+ padding-top: 8px;
  color: white;
  font-weight: 700;
 }
@@ -5423,6 +5473,7 @@ p.devider.devider_primary {
 .countUp.counter2 .counter, .countUp.counter2 .counter-static {
   color: #4B3F34;
   font-weight: 500;
+  line-height: 1.25;
 }
 
 .countUp.counter2 .count-text {
@@ -5431,6 +5482,7 @@ p.devider.devider_primary {
 
 .countUp.counter2 .info-count {
   background: #ffffff;
+  height: 450px;
 }
 
 .countUp.counter2 .info-count .icon-circle {
@@ -5440,7 +5492,7 @@ p.devider.devider_primary {
   background: #C8AD92;
   border: 0px solid transparent;
   color: #ffffff;
-  line-height: 48px;
+  line-height: 50px;
 }
 
 .countUp.counter2 .info-count:hover .icon-circle {
@@ -7243,7 +7295,7 @@ div.row.changes{
 .info.info-boxed {
   background-color: #f5f5f6;
   padding: 0px 20px 30px;
-  border-radius: 2px;
+  border-radius: 18px;
   transition: all 0.3s ease;
 }
 
@@ -8091,14 +8143,14 @@ body.loaded {
 --> COUNTER UP SECTION
 ================================================*/
 .countup-section {
-  padding-top: 50px;
-  padding-bottom: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media (min-width: 992px) {
   .countup-section {
-    padding-top: 50px;
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 
@@ -8969,6 +9021,10 @@ img.img-responsive.space-wrapper{
 img.img-responsive.img-centered{
   padding-right: 0;/*4rem;*/
 }
+img.img-responsive.img-centered.icon{
+  width: 60px;
+  margin-bottom: 0.7rem;
+}
 .giff{
   padding-top: 10%;
   padding-left: 7rem;
@@ -9336,9 +9392,7 @@ img.img-responsive.giff{
   font-size: 24px;
   
 }
-p.subtitle{
-  color: #aaaaaa; font-weight: 300; line-height: 1.5; padding-top: 24px; font-size: 20px;
-}
+
 .project-details-wrapper .project_specification h2 {
   color: #4B3F34;
   margin-bottom: 30px;
