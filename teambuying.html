@@ -394,7 +394,7 @@
 			<div class="col-md-2 col-sm-0"></div>
 			<div class="col-md-8 col-sm-12 ">		
 				<p class="subtitle" style="padding-top: 2rem">New scope</p>
-				<h3 style="padding-top: 0">Turn constraints in to opportunities</h3>
+				<h3 style="padding-top: 0">Turn constraints into opportunities</h3>
 				<p class="description pb-3">
 					While the initial design was going on, we sent out surveys to customers and did the competitive analysis. According to the results, we decided to give the project more time, expand the scope, and flesh out the full feature to be more powerful.
 				</p>
@@ -781,22 +781,30 @@
 		<div class="row slider">
 			<div class="col-sm-6 col-md-12 text-center space-wrapper">
 	            <img src="img/teambuying/admin table.png" alt="#" class="img-responsive img-centered" />
-	        </div>
-			<div class="col-sm-6 col-md-12">
-				<h4 style="padding-top: 3rem;">Initial design</h4>
+	        </div>			
+		</div>
+		<div class="row">	
+			<div class="col-md-2 col-sm-0"></div>
+			<div class="col-md-8 col-sm-12">
+				<h4>Initial design</h4>
 				<p class="description with-list">
 					✘ The open drawer made team members hidden and wasted a lot of space;
 					<br>
 					✘ All action items are hidden in dropdowns. 
 				</p>
-			</div>			
+			</div>
+			<div class="col-md-2 col-sm-0"></div>
 		</div>
+
 		<div class="row slider">	
-			<div class="col-sm-6 col-md-12 text-center space-wrapper">
+			<div class="col-md-12 text-center space-wrapper">
 	            <img src="img/teambuying/admin table new.png" alt="#" class="img-responsive img-centered" />
 	        </div>
-	        <div class="col-sm-6 col-md-12">
-				<h4 style="padding-top: 3rem;">New design</h4>
+	    </div>
+	    <div class="row">	
+			<div class="col-md-2 col-sm-0"></div>
+			<div class="col-md-8 col-sm-12">
+				<h4>Final design</h4>
 				<p class="description with-list">
 					✔ Support bulk actions;
 					<br>
@@ -805,17 +813,18 @@
 					✔ Lay out actions and place them to the directly associated content. 
 				</p>
 			</div>
-	    </div>
+			<div class="col-md-2 col-sm-0"></div>
+		</div>
 
-	    <!-- team creation -->
+	    <!-- admin team creation -->
 	    <div class="row">	
 			<div class="col-md-2 col-sm-0"></div>
 			<div class="col-md-8 col-sm-12">
 				<div class="flex-wrap project-desc dropcaps">
 					<p class="subtitle userneed">Iteration 4.</p>
-					<h3 class="userneed">Change the settings on the checkout page</h3>
+					<h3 class="userneed">Admin creates teams in 2 methods</h3>
 					<p class="userneed">
-						60% would change the settings(turn on/off team buying, change teams) in the later process.
+						The primary method for the admin to configure GB is through uploading CSV files, and we also want to provide the flexibility to edit through the UI.
 					</p>
 				</div>
 			</div>
@@ -823,40 +832,226 @@
 		</div>
 		<div class="row slider">
 			<div class="col-sm-6 col-md-8 text-center space-wrapper">
-	            <img src="img/teambuying/designevo/checkoutold.gif" alt="#" class="img-responsive img-centered" />
+	            <img src="img/teambuying/designevo/csvold.gif" alt="#" class="img-responsive img-centered" />
 	        </div>
 			<div class="col-sm-6 col-md-4">
 				<h4>Initial design</h4>
 				<br>
 				<p class="description with-list">					
-					✘ Toggle button plays both roles of action and visual cue, which doesn't meet users' mental model; 
+					✘ Loss of context when creating due to the old admin framework; 
 				</p>
 				<br>
 				<p class="description with-list">
-					✘ There was no friction when users turn off Team Buying. 
+					✘ Mixed uploading CSV and creating through UI in one process; 
+				</p>
+				<br>
+				<p class="description with-list">
+					✘ All edits happen in one dialog, which is not flexible or reusable for different roles. 
 				</p>
 			</div>		
 		</div>
-		<div class="row slider">	
-	        <div class="col-sm-6 col-md-12">
-				<h4>New design</h4>
+
+		<div class="row">	
+			<div class="col-md-2 col-sm-0"></div>
+			<div class="col-md-8 col-sm-12">
+				<h4>Final design</h4>
 				<p class="description with-list" style="padding-bottom: 3rem;">					
-					✔ Separate the action and visual cue;
+					✔ Move all the actions on the team management page;
 					<br>
-					✔ Use more obvious industry standardized circles as teams' visual cue;
+					✔ Admin can create a team either by uploading CSV file or through UI;
 					<br>
-					✔ Add friction to the settings' changes by hiding the action in "..." 
+					✔ The creation process is broken down into 2 steps, which gives more flexibility for separative edits and could be reusable for end-user management based on roles. 
 				</p>
 			</div>
+			<div class="col-md-2 col-sm-0"></div>
+		</div>
+
+		<div class="row">	
 			<div class="col-sm-6 space-wrapper text-center">				
-	            <img src="img/teambuying/designevo/checkoutold.gif" alt="#" class="img-responsive img-centered" />
+	            <img src="img/teambuying/designevo/csvnew.gif" alt="#" class="img-responsive img-centered" />
 	            <p style="padding-top: 1.5rem">Create teams by uploading CSV files</p>
 	        </div>
 	        <div class="col-sm-6 space-wrapper text-center">
-	            <img src="img/teambuying/designevo/checkoutold.gif" alt="#" class="img-responsive img-centered" />
+	            <img src="img/teambuying/designevo/adminui.gif" alt="#" class="img-responsive img-centered" />
 	            <p style="padding-top: 1.5rem">Create a team through UI</p>
 	        </div>
 	    </div>
+
+	    <!-- end-user management page -->
+	    <div class="row">	
+			<div class="col-md-2 col-sm-0"></div>
+			<div class="col-md-8 col-sm-12">
+				<div class="flex-wrap project-desc dropcaps">
+					<p class="subtitle userneed">Iteration 5.</p>
+					<h3 class="userneed">End-users manage their teams in a hierarchical structure.</h3>
+					<p class="userneed">
+						Most users wouldn't own more than 10 teams but can belong to as many as 30 teams.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-0"></div>
+		</div>
+		<div class="row slider">
+			<div class="col-sm-6 col-md-8 text-center space-wrapper">
+	            <img src="img/teambuying/designevo/end user page old.png" alt="#" class="img-responsive img-centered" />
+	        </div>
+			<div class="col-sm-6 col-md-4">
+				<h4>Initial design</h4>
+				<br>
+				<p class="description with-list">					
+					✘ The current GB list layout looked very busy; 
+				</p>
+				<br>
+				<p class="description with-list">
+					✘ All the teams(users own and belong to) are mixed with no hierarchy. 
+				</p>
+			</div>		
+		</div>
+		<div class="row slider">			
+			<div class="col-sm-6 col-md-4">
+				<h4>Final design</h4>
+				<br>
+				<p class="description with-list">					
+					✔ Use card components and add white space to create an airy feeling, and keep consistent across buying & admin experience; 
+				</p>
+				<br>
+				<p class="description with-list">
+					✔ Use carousel for teams users own and table for teams they participate. This not only makes sense based on different numbers of team allocation but also creates a visual hierarchy. 
+				</p>
+			</div>
+			<div class="col-sm-6 col-md-8 text-center space-wrapper">
+	            <img src="img/teambuying/designevo/end user page new.png" alt="#" class="img-responsive img-centered" />
+	        </div>		
+		</div>
+
+		<!-- end-user creates a team -->
+		<div class="row">	
+			<div class="col-md-2 col-sm-0"></div>
+			<div class="col-md-8 col-sm-12">
+				<div class="flex-wrap project-desc dropcaps">
+					<p class="subtitle userneed">Iteration 6.</p>
+					<h3 class="userneed">End-user creates teams in 2 steps</h3>
+					<p class="userneed">
+						Break down the creation process into tasks in each step makes the management flexible and possible for different roles.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-0"></div>
+		</div>
+		<div class="row slider">
+			<div class="col-sm-6 col-md-8 text-center space-wrapper">
+	            <img src="img/teambuying/designevo/endusercreatesteamold.gif" alt="#" class="img-responsive img-centered" />
+	        </div>
+			<div class="col-sm-6 col-md-4">
+				<h4>Initial design</h4>
+				<br>
+				<p class="description with-list">					
+					✘ Team information and team members assignments all in one modal; 
+				</p>
+				<br>
+				<p class="description with-list">
+					✘ Contributors can not reuse the same modal since they could only add and manage team members but not the team information. 
+				</p>
+			</div>		
+		</div>
+		<div class="row slider">			
+			<div class="col-sm-6 col-md-4">
+				<h4>Final design</h4>
+				<br>
+				<p class="description with-list">					
+					✔ Enter team information in the first step, and select team members and assign roles in the second step; 
+				</p>				
+				<br>
+				<p class="description with-list">					
+					✔ During the management, users could only choose to edit specific fields; 
+				</p>
+				<br>
+				<p class="description with-list">					
+					✔ No need to redesign a different modal for the contributor who can only add and manage team members. 
+				</p>
+			</div>
+			<div class="col-sm-6 col-md-8 text-center space-wrapper">
+	            <img src="img/teambuying/designevo/endusercreatesteamnew.gif" alt="#" class="img-responsive img-centered" />
+	        </div>		
+		</div>
+
+		<!-- auto TB -->
+		<div class="row">	
+			<div class="col-md-2 col-sm-0"></div>
+			<div class="col-md-8 col-sm-12">
+				<div class="flex-wrap project-desc dropcaps">
+					<p class="subtitle userneed">Iteration 7.</p>
+					<h3 class="userneed">Automatic team buying for professional buyers and default team concept</h3>
+					<p class="userneed">
+						It's a special use case from some clients where their employees purchase with teams 95% of the time.
+					</p>
+					<img src="img/teambuying/designevo/explanation.png" alt="#" class="img-responsive img-centered" style="padding-top: 3rem;padding-bottom: 3rem;" />
+				</div>
+				<h4 style="padding-top: 3rem">Initial design</h4>
+				<p class="description with-list" style="padding-bottom: 3rem;">					
+					✘ Introduce the automatic TB in the first-day-experience modal, which was very interruptive and made other clients who have no such use case confused;
+					<br>
+					✘ The edit was in a modal and hidden in the gear icon, which added an extra click. 
+				</p>
+			</div>
+			<div class="col-md-2 col-sm-0"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 space-wrapper text-center">				
+	            <img src="img/teambuying/designevo/First day experience modal.png" alt="#" class="img-responsive img-centered" />
+	            <p style="padding-top: 1.5rem">Introduction modal</p>
+	        </div>
+	        <div class="col-sm-6 space-wrapper text-center">
+	            <img src="img/teambuying/designevo/team settings.gif" alt="#" class="img-responsive img-centered" />
+	            <p style="padding-top: 1.5rem">Automatic TB settings modal on team management page</p>
+	        </div>
+        </div>
+
+        <div class="row">	
+			<div class="col-md-2 col-sm-0"></div>
+			<div class="col-md-8 col-sm-12" style="padding-top: 3rem;">
+				<p class="description with-list" style="padding-bottom: 3rem;">					
+					✘ According to the follow-up survey, "71% of users indicate they would add items upon request creation", making the fields unnecessary. 
+				</p>
+				<div class="space-wrapper text-center">
+		            <img src="img/teambuying/designevo/autotbold.gif" alt="#" class="img-responsive img-centered" />
+		            <p style="padding-top: 1.5rem">Turn on Automatic TB on the Homepage</p>
+		        </div>
+			</div>
+			<div class="col-md-2 col-sm-0"></div>
+		</div>
+
+		<div class="row">	
+			<div class="col-md-2 col-sm-0"></div>
+			<div class="col-md-8 col-sm-12" style="padding-top: 5rem;">
+				<h4>Final design</h4>
+				<p class="description with-list" style="padding-bottom: 3rem;">					
+					✔ Users can set their default team in 3 methods. 
+				</p>
+				<div class="space-wrapper text-center">
+		            <img src="img/teambuying/designevo/set default team.png" alt="#" class="img-responsive img-centered" />
+		        </div>
+		        <p class="description with-list" style="padding-top:3rem; padding-bottom: 3rem;">					
+					✔ Use a toggle button on the management page instead of a radio button in a modal, making the experience less interruptive and more intuitive;
+					<br>
+					✔ Once it's turned on, the contextual banner would stick to the top once the user logs in. No extra click is needed.
+					<br>
+					✔ Have a tooltip for the quick view of team members. 
+				</p>
+			</div>
+			<div class="col-md-2 col-sm-0"></div>
+		</div>
+        <div class="row">	
+			<div class="col-sm-6 space-wrapper text-center">				
+	            <img src="img/teambuying/designevo/turnonautotbnew.gif" alt="#" class="img-responsive img-centered" />
+	            <p style="padding-top: 1.5rem">Turn on auto TB when there is no default team</p>
+	        </div>
+	        <div class="col-sm-6 space-wrapper text-center">
+	            <img src="img/teambuying/designevo/tooltip.gif" alt="#" class="img-responsive img-centered" />
+	            <p style="padding-top: 1.5rem">Login with the Team Buying on</p>
+	        </div>
+        </div>
+
 	</div>
 </section>
 
@@ -929,7 +1124,7 @@
 </section>
 
 <!-- Final Design -->
-<section class="project-details-wrapper">
+<!-- <section class="project-details-wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -948,15 +1143,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="row">
-			<div class="col-12">
-				<div class="flex-wrap project-desc" style="padding-bottom: 40px;">
-					
-					<br>
-					
-				</div>
-			</div>
-		</div> -->
+		
 		<div class="row changes" style="padding-bottom: 10rem">
 			<div class="col-sm-3">
 				<h4 class="title-text" style="color: #C8AD92; font-weight: 400">Story 1. </h4>
@@ -972,7 +1159,6 @@
 				<a href="https://sapariba.invisionapp.com/share/YSXY40T5G6E#/423872590_1_WOS_Homepage_-table-" class="btn btn-default btn-primary" target="_blank">Prototype</a>
 			</div>
 			<div class="col-sm-9 description pb-3 vertical-line">
-				<!-- <h5>"Manage teams" page</h5> -->
 				<p style="color: #32363A">
 		            <img src="img/teambuying/Admin UI final.png" alt="#" class="img-responsive img-centered" style="padding-bottom: 80px"/>
 					<br>
@@ -985,7 +1171,6 @@
 
 		<div class="row changes" style="padding-bottom: 10rem">			
 			<div class="col-sm-9 description pb-3 ">
-				<!-- <h5>"Manage teams" page</h5> -->
 				<p style="color: #32363A">
 		            <img src="img/teambuying/End-user UI final.png" alt="#" class="img-responsive img-centered" style="padding-bottom: 60px"/>
 					<br>
@@ -1009,7 +1194,7 @@
 		
 		
 	</div>
-</section>
+</section> -->
 
 <section class="project-details-wrapper after-scope">
 	<div class="container">
@@ -1027,7 +1212,7 @@
 					<p class="description pb-3">
 						Firstly, understand the pain points without direct access to end-users is always the hardest for 2B products. Secondly, technical dependencies are a unique challenge for GB. The limitations of P2P and Sourcing engines restrict what GB could achieve and build. However, we maximized and grew this feature with the best we could as a team. We hosted CEI workshops, conducted surveys, etc.,  trying to understand the real problems. And at the same time, we made many innovative changes that could potentially influence the future roadmap. 
 					</p>
-					<h3>Next steps</h3>
+					<!-- <h3>Next steps</h3>
 					<p class="description pb-3">
 						We didn't solve some pain points in the first phase, which we'd love to focus on as the enhancements. 
 						<br><br>
@@ -1036,7 +1221,7 @@
 						<b class="bolder">2.</b>  According to the survey, "34% of users would like to receive items/service as a team, and 23% prefer to receive by individuals, and 12% think it should be configurable." However, we only support individual receiving now.
 						<br>
 						<b class="bolder">3.</b>  We only allow the users to see the team owner's catalog items due to some companies' policies. However, this limits users from different departments to contribute their knowledge. The next step would be to work with other companies with less restricted policies and figure out how to expand its capabilities.  
-					</p>					
+					</p>	 -->				
 				</div>
 			</div>
 		</div>				
