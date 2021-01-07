@@ -1,68 +1,198 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
-	<style type="text/css">
-		body{
-			/*height: 100vh;*/
-		  font-family: 'Inter', sans-serif;
-		  font-size: 18px;
-		  line-height: 36px;		 
-			position: absolute;
-			top: 30%;
-			left: 50%;
-			margin-right: -50%;
-			transform: translate(-50%,-50%);
-		}
-		p{
-			font-size: 24px;
-			font-weight: 300;
-			font-family: 'Inter', sans-serif;
-			color: #8e8e93;
-		}
-		input{
-			width: 200px;
-			font-size: 16px;
-			height: 50px;
-			line-height: 45px;
-			padding: 0 20px;
-			font-family: 'Inter', sans-serif;
-			border: 0.5px solid #efefef;
-			border-radius: 4px;
-			-webkit-transition: 0.5s;
-		  	transition: 0.5s;
-		  	outline: none;
-		}		
-		input:focus {
-		  border: 1px solid #C8AD92;
-		}
-		button#checkpw{
-			font-size: 18px;
-			font-family: 'Inter', sans-serif;
-			line-height: 45px;
-			height: 45px;
-			padding: 0 20px;
-			color: white;
- 			font-weight: 500;
- 			background-color: #C8AD92;
- 			border-radius: 4px;
- 			border: none;
- 			cursor: pointer;
- 			transition: all 0.3s ease-in-out;
-		}
-	</style>
+	<!-- SITE TITTLE -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio | Team Buying</title>
+
+	<!-- Points -->
+	<link rel="stylesheet" href="css/style-points.css"> <!-- Resource style -->
+
+	<!-- Lightbox -->
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+	<!-- PLUGINS CSS STYLE -->
+	<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="plugins/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+	<link rel="icon" href="img/tslogo.png" type="image/x-icon">
+	<link href="plugins/selectbox/select_option1.css" rel="stylesheet">
+	<link href="plugins/slick/slick.css" rel="stylesheet" media="screen">
+	<link href="plugins/slick/slick-theme.css" rel="stylesheet" media="screen">
+	<link href="plugins/prismjs/prism.css" rel="stylesheet">
+	<link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css" />
+	<link href="plugins/selectbox/select_option1.css" rel="stylesheet">
+	<link href="plugins/isotope/isotope.min.css" rel="stylesheet">
+	<link href="plugins/animate.css" rel="stylesheet">
+
+	<!-- REVOLUTION SLIDER -->
+	<link rel="stylesheet" href="plugins/revolution/css/settings.css">
+	<link rel="stylesheet" href="plugins/revolution/css/layers.css">
+	<link rel="stylesheet" href="plugins/revolution/css/navigation.css">
+	
+	<!-- CUSTOM CSS -->
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/color-option1.css" id="option_color">
+	<!-- FAVICON -->
+	<link href="img/favicon.png" rel="shortcut icon">
+
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-91008209-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- Lightbox -->
+	<script src="dist/js/lightbox-plus-jquery.min.js"></script>
 
 </head>
-<body>
 
-<p>Please enter password:</p>
+<body id="body" class="portfolio-project-details">
 
-<div name="login">
-	<input id="pw" type="password" name="pass" value=""><br><br>
-	<button id="checkpw" onclick="TheLogin()">Submit</button>
+	<!-- HEADER -->
+	<header id="pageTop" class="header">
+	
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-md main-nav navbar-sticky header-transparent">
+			<div class="container">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="burger-menu icon-toggle"><i class="icon-menu icons"></i></i></span>
+				</button>
+				<a class="nav-link brand" href="index.html">
+					<img src="img/tslogo.png" height="40px" width="40px">
+				</a>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">						
+						<li class="nav-item navbar-nav ml-auto active">
+							<a class="nav-link" href="index.html">Portfolio.</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">Visual.</a>
+						</li>
+
+						<li class="nav-item ">
+							<a class="nav-link" href="resume2020.pdf" target="_blank">Resume.</a>
+						</li>
+						
+					</ul>
+				</div>
+				<!-- header search ends-->
+			</div>
+		</nav>
+	</header>
+	<div class="main-wrapper ">
+
+<!-- Project intro --><!-- style="background-image: url('img/teambuying/teambuying.png')" -->
+<div class="projectcover">
+	<section class=" project-details-wrapper" id="description" style="padding-bottom: 0">
+		<div class="container">
+			<div class="row">		
+				<div class="col-sm-12">
+					<div class="project_specification">
+						<h2 style="font-size:36px; font-weight: 500;padding: 0; line-height: 1.2;margin-bottom: 0">Team Buying Experience</h2>
+						<h3 style="color: #aaaaaa; font-weight: 300; line-height: 1.5;">Makes team collaboration in procurement possible</h3>
+						<!-- <hr class="divider divider-gradient divider-gradient-gray w40 mx-auto my-4"> -->					
+						<div class="col-sm-12 text-center image-wrapper">
+	                        <img src="img/teambuying/teambuying.png" alt="#" class="img-responsive img-centered" />
+	                    </div>
+	                    <div class="row">
+	                    	<div class="col-sm-12 col-md-6">
+		                    	<div class="row">
+									<div class="col-sm-2 nopad">Company:</div>
+									<div class="col-sm-10 projectintro"><a class="text-primary" href="https://www.ariba.com/">SAP Ariba, Inc.</a></div>
+								</div>
+								<div class="row">
+									<div class="col-sm-2 nopad">Product:</div>
+									<div class="col-sm-10 projectintro"><a class="text-primary" href="https://www.ariba.com/">Guided Buying(GB)</a></div>
+								</div>
+		                    </div>
+		                    <div class="col-sm-12 col-md-6">
+		                    	<div class="row">
+									<div class="col-sm-2">Industry:</div>
+									<div class="col-sm-10 projectintro">B2B, Procurement, Enterprise software</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-2">Period:</div>
+									<div class="col-sm-10 projectintro">10/2019 - now, Full-time</div>
+								</div>
+		                    </div>
+
+	                    </div>	                    						
+	                </div>  
+	            </div>
+	        </div>	
+		</div>
+	</section>
 </div>
 
 
+<!-- Project Overview & Problem Statement -->
+<section class="project-details-wrapper" id="description">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 col-sm-0"></div>
+			<div class="col-md-8 col-sm-12">
+				<div class="flex-wrap project-desc dropcaps">
+					<div class="section-title title-ex1">
+						<h2 class="title-text">Project overview</h2>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<p class="subtitle">The product</p>
+							<h3 style="padding-top: 0">Guided Buying(GB) guides employees through the buying process</h3>					
+							<p class="description pb-3">
+								Guided Buying(GB) is a professional procurement platform for employees to buy materials and services and provides users guidance with policies and compliance through the experience. 
+							</p>
+							<p class="description pb-3">
+								<b>GB's users</b> include both <u>professional</u> and <u>casual</u> buyers. Professional buyers frequently buy for the company. Causal buyers buy occasionally. 
+							</p>
+							<p class="subtitle">The feature</p>
+							<h3 style="padding-top: 0">Contribute to the same requisitions together with your team</h3>
+							<p class="description pb-3">
+								Team Buying is a collaborative feature that allows multiple users to work on the same requisition. Now, buyers can create a team of experts in different fields and assign roles to each team member, and everyone will have access and pool their knowledge to the same requisitions.
+							</p>
+							<img src="img/teambuying/Project scope.png" alt="#" class="img-responsive img-centered" />
+							<h3 class="withtoptag">My role</h3>
+							<p class="description pb-3">
+								As the <b>sole designer</b>, I designed the end-to-end experience from <u>creation</u> and <u>management</u> to <u>buying</u> and <u>receiving</u>. I collaborated with the researcher to define questions and analyze findings, PMs on project scope and requirements, visual designer to create new components, and engineers to tackle technical challenges. 
+							</p>	
+							<br><br>
+							<p class="description pb-3">
+								<b> To see the full project, please <a href="mailto:tongyuns@umich.edu" target="_blank">contact me</a> to learn more :)</b>
+							</p>
+							<br>					
+							<p class="psw">Enter password here:</p>
+							<br>
+							<div name="login">
+								<input id="pw" type="password" name="pass" value=""><br><br>
+								<button id="checkpw" onclick="TheLogin()">Submit</button>
+							</div>
+
+						</div>						
+					</div>
+					               	
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-0"></div>
+		</div>	
+	</div>
+</section>
+	
+
+</div>
+
+
+<!-- JAVASCRIPTS -->
 <script type="text/javascript">
 function TheLogin() {
 	if (document.getElementById("pw").value == "2020") {
@@ -84,4 +214,6 @@ inputpw.addEventListener("keyup", function(event) {
 </script>
 
 </body>
-</html> 
+
+</html>
+
