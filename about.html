@@ -1,5 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Slideshow -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	body {
+	  font-family: Arial;
+	  margin: 0;
+	}
+
+	* {
+	  box-sizing: border-box;
+	}
+
+	img {
+	  vertical-align: middle;
+	}
+
+	/* Position the image container (needed to position the left and right arrows) */
+	.viewport {
+	  position: relative;
+	  margin: auto;
+	  justify-content: center;
+	  width: 50%;
+	}
+
+	/* Hide the images by default */
+	.mySlides {
+	  display: none;
+	}
+
+	/* Add a pointer when hovering over the thumbnail images */
+	.cursor {
+	  cursor: pointer;
+	}
+
+	/* Next & previous buttons */
+	.prev,
+	.next {
+	  cursor: pointer;
+	  position: absolute;
+	  top: 40%;
+	  width: auto;
+	  padding: 16px;
+	  margin-top: -50px;
+	  color: white;
+	  font-weight: bold;
+	  font-size: 20px;
+	  border-radius: 0 3px 3px 0;
+	  user-select: none;
+	  -webkit-user-select: none;
+	}
+
+	/* Position the "next button" to the right */
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
+
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover,
+	.next:hover {
+	  background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	/* Number text (1/3 etc) */
+	.numbertext {
+	  color: #f2f2f2;
+	  font-size: 12px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  top: 0;
+	}
+
+	/* Container for image text */
+	.caption-container {
+	  text-align: center;
+	  background-color: #222;
+	  padding: 2px 16px;
+	  color: white;
+	}
+
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	/* Six columns side by side */
+	.column {
+	  float: center;
+	  width: 5%;
+	}
+
+	/* Add a transparency effect for thumnbail images */
+	.demo {
+	  opacity: 0.6;
+	}
+
+	.active,
+	.demo:hover {
+	  opacity: 1;
+	}
+</style>
 <head>
 
 	<!-- SITE TITTLE -->
@@ -98,29 +200,236 @@
 		</nav>
 	</header>
 
-<div class="main-wrapper">
-<!-- BREDCRUMB -->
-<!-- <div class="bredcrumb bg-image text-center"  style="background-image: url('img/bredcrumb.jpg');">
-	<div class="row bredcrumb-inner">
-		<div class="col-sm-12  align-self-center">
-			<h2>Member Details </h2>
-			<ul class="">
-				<li><a href="" class="bread_link">Home</a></li>
-				<li>Member Details</li>
-			</ul>
-		</div>
-	</div>
-</div> -->
+<!-- <section class="member-details thintop">
+				<div class="container">
+					<div class="col-lg-12">
+						<div class="row sidethick">
+							<h4>Drawing.</h4>
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12">
+						<div class="row pictop">
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container ">
+									<img class="img-full" src="img/visual/candle.png" alt="Candle">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/skull.jpg" alt="skull">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/universe.png" alt="universe">
+								</div>
+							</div>
 
-<!-- Member details -->
-	<section class="member-details thinbottom">
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/flower.jpg" alt="flower">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/icecream2.JPG" alt="icecream">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/fruit.jpg" alt="fruit">
+								</div>
+							</div>					
+							
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/black.jpg" alt="lynn">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/Frodo_At_Mordor_.jpg" alt="Frodo_At_Mordor">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/flora.jpg" alt="flora">
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section> -->
+
+			<!-- <section class="member-details thintop">
+				<div class="container">
+					<div class="col-lg-12">
+						<div class="row sidethick">
+							<h4>Digital art.</h4>
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12">
+						<div class="row pictop">
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container ">
+									<img class="img-full" src="img/visual/yen.jpg" alt="Yennefer">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/skull.jpg" alt="skull">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/universe.png" alt="universe">
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/flower.jpg" alt="flower">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/icecream1.png" alt="icecream">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/fruit.jpg" alt="fruit">
+								</div>
+							</div>					
+							
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/black.jpg" alt="lynn">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/Frodo_At_Mordor_.jpg" alt="Frodo_At_Mordor">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/flora.jpg" alt="flora">
+								</div>
+							</div>
+							
+						</div>
+					</div>
+
+				</div>
+			</section> -->
+
+			<!-- <section class="member-details thintop" style="padding-bottom: 0;">
+				<div class="container">
+					<div class="col-lg-12">
+						<div class="row sidethick">
+							<h4>Photography.</h4>
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12">
+						<div class="row pictop">
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/swi3.png" alt="lecorbusier">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/swi6.jpg" alt="lecorbusier">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/swi9.png" alt="lecorbusier">
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/swi4.png" alt="lecorbusier">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/swi5.png" alt="lecorbusier">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/swi7.png" alt="lecorbusier">
+								</div>
+							</div>
+
+							
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/par2.png" alt="Paris">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/par4.png" alt="Paris">
+								</div>
+							</div> 
+
+							
+							<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
+								<div class="img-container">
+									<img class="img-full" src="img/visual/par3.png" alt="Paris">
+								</div>
+							</div>
+							
+												
+							
+							
+						</div>
+					</div>
+
+				</div>
+			</section> -->
+
+			<!-- <section class="member-details thintop">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-4">
+							<h4>Digital Art.</h4>
+						</div>
+
+						<div class="col-lg-9 col-md-8">
+							<div class="row">
+								<div class="col-lg-6 member_desc">															
+									<div class="img-container">
+										<img class="aboutme img-full" src="img/visual/Lily.png" alt="lily">
+									</div>
+								</div>
+								<div class="col-lg-6 member_desc">															
+									<div class="img-container">
+										<img class="aboutme img-full" src="img/visual/Lily.png" alt="lily">
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> -->
+
+<div class="main-wrapper">	
+	<div class="member-details thinbottom">
 		<div class="container">
-			<div class="row" style="padding-top: 10%;">
-				<div class="col-lg-4 col-md-4">
+				<div class="row" style="padding-top: 10%;">
+							<div class="col-lg-4 col-md-4">
 					<div class="img-container">
 						<img class="aboutme img-full" src="img/tongyun.png" alt="aboutme">
 					</div>
 				</div>
+				
 				<div class="col-lg-8 col-md-8">
 					<div class="member_desc dropcaps">						
 						<h3 style="margin-top: 0px; padding-top: 0;">Welcome to my art space :)</h3>					
@@ -128,256 +437,179 @@
 							<li class=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> HCI graduate student <strong>@</strong>University of Michigan</li>
 							<li class=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>UX designer <strong>@</strong>SAP Ariba</li>
 						</ul> -->
-						<p style="color:#4B3F34">In my free time, I like to create digital art and watercolor paintings. I'm also an amateur woodworker, guitarist, architecture enthusiast, and a big adventurer.
-						<br>🏂🏄‍♀️⛷️✈️🏖🏕 
-						<br>You can find me <b><a href="https://www.instagram.com/iamlynns.art/" target="_blank">here</a></b> if you are interested in more of my artworks. Thanks for stopping by! </p>
-											
+						<p style="color:#4B3F34">Hi there! When I’m not busy being a responsible adult, you’ll probably find me elbow-deep in paint, sketching figures, or making a digital mess on my tablet. I dabble in oil painting, watercolor, and digital art—basically, if it involves colors and chaos, I’m in.
+						<br>
+						<br>You can check out a few of my favorite pieces here, and if you're hungry for more, head over to my <b><a href="https://www.instagram.com/iamlynns.arts/" target="_blank">Instagram.</a></b> There you'll find not just art, but also my side quests in knitting, crocheting, and sewing—aka grandma hobbies with millennial flair.
+						<br>
+
+						<br>Bonus facts: I play guitar and bass, geek out over architecture, and occasionally try not to lose a finger while woodworking. Thanks for stopping by—enjoy the scroll!
+						
 						<!-- <p style="color:#4B3F34"><strong>My design principles:</strong> Understand the real problem ➡️ Diverge before converge ➡️ Start simple and then dive deep ➡️ And repeat.</p> -->
 						<br><br>
-						
-					</div>											
-										
-					<!-- <div class="member_desc">
-						<h4>Persional Information</h4>
-						<p>
-							Vinteger eu libero rutrum, imperdiet arcueniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit volup tatem. accusantium doloremque laudantium.
-						</p>
-
-						<h4>Skills</h4>
-						
-						<div class="progress-holder">
-							<div class="barWrapper">
-								<span class="progressText"><B>Javascript</B></span>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>  
-							        <span  class="popOver" data-toggle="tooltip" data-placement="top" title="80%"> </span>     
-								</div>
-							</div>
-							<div class="barWrapper">
-								<span class="progressText"><B>Photoshop</B></span>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>  
-							        <span  class="popOver" data-toggle="tooltip" data-placement="top" title="95%"> </span>     
-								</div>
-							</div>
-							<div class="barWrapper">
-								<span class="progressText"><B>Web Design</B></span>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>  
-							        <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span>     
-								</div>
-							</div>
-							<div class="barWrapper">
-								<span class="progressText"><B>Wordpress</B></span>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>  
-							        <span  class="popOver" data-toggle="tooltip" data-placement="top" title="75%"> </span>     
-								</div>
-							</div>
-						</div>
-						
-					</div> -->
-										
-				</div>
-			</div>
+					</div>
+				</div>											
 		</div>
-	</section>
+	</div>
+
 	<section class="member-details thindivider">
 		<div class="container">
 			<hr>
 		</div>
 	</section>
+	
+	<br>
+	<!-- Slideshow -->
+	<div class="container">
+		<div class="viewport">
+			  <div class="mySlides">
+			    <!--<div class="numbertext">2 / 6</div>-->
+			    <img src="img/visual/Andromeda and the Sea Monster.png" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/Head Study.png" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/Cezanne Still Life remade.png" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/Still life - Green.png" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/Still life - Red.png" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/Phil - Yellow.png" style="width:100%">
+			  </div>			  
+			 <div class="mySlides">
+			    <img src="img/visual/Male Figure Drawing - Charcoal (2).png" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/Male Figure Drawing - Charcoal (1).png" style="width:100%">
+			  </div>
 
-	<section class="member-details thintop">
-		<div class="container">
-			<div class="col-lg-12">
-				<div class="row sidethick">
-					<h4>Digital art.</h4>
-				</div>
-			</div>
-			<div class="col-lg-12 col-md-12">
-				<div class="row pictop">
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container ">
-							<img class="img-full" src="img/visual/yen.jpg" alt="Yennefer">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/skull.jpg" alt="skull">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/universe.png" alt="universe">
-						</div>
-					</div>
+			  
+			  <div class="mySlides">
+			    <img src="img/visual/Female Figure Drawing - Charcoal (1).png" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/Female Figure Drawing - Charcoal (2).png" style="width:100%">
+			  </div>
 
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/flower.jpg" alt="flower">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/icecream1.png" alt="icecream">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/fruit.jpg" alt="fruit">
-						</div>
-					</div>					
-					
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/black.jpg" alt="lynn">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/Frodo_At_Mordor_.jpg" alt="Frodo_At_Mordor">
-						</div>
-					</div>
-					<!-- <div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">														
-						<div class="img-container">
-							<img class="img-full" src="img/visual/Lily.jpg" alt="lily">
-						</div>
-					</div> -->
-					
-					<!-- <div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/runningman.png" alt="runningman">
-						</div>
-					</div> -->
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/flora.jpg" alt="flora">
-						</div>
-					</div>
-					<!-- <div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/kiwipenguine.jpg" alt="kiwipenguine">
-						</div>
-					</div> -->
-				</div>
-			</div>
+			  <div class="mySlides">
+			    <img src="img/visual/Hand.png" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/Still Life.png" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/Candle.png" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/Hats.png" style="width:100%">
+			  </div>
+			  
+			  <div class="mySlides">
+			    <img src="img/visual/skull.PNG" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/yen 2.png" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/flora.png" style="width:100%">
+			  </div>
 
-		</div>
-	</section>
+			  <div class="mySlides">
+			    <img src="img/visual/Acrylic Painting.png" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/Orange - Pointillism.png" style="width:100%">
+			  </div>
+			  <div class="mySlides">
+			    <img src="img/visual/Degas Horses - color pencil remade.png" style="width:100%">
+			  </div>
 
-	<section class="member-details thintop" style="padding-bottom: 0;">
-		<div class="container">
-			<div class="col-lg-12">
-				<div class="row sidethick">
-					<h4>Photography.</h4>
-				</div>
-			</div>
-			<div class="col-lg-12 col-md-12">
-				<div class="row pictop">
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/swi3.png" alt="lecorbusier">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/swi6.jpg" alt="lecorbusier">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/swi9.png" alt="lecorbusier">
-						</div>
-					</div>
 
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/swi4.png" alt="lecorbusier">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/swi5.png" alt="lecorbusier">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/swi7.png" alt="lecorbusier">
-						</div>
-					</div>
+	  	</div>
+		
+	  
+	    
+	  <a class="prev" onclick="plusSlides(-1)">❮</a>
+	  <a class="next" onclick="plusSlides(1)">❯</a>
 
-					<!-- <div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/swi2.png" alt="ZTH">
-						</div>
-					</div> -->
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/par2.png" alt="Paris">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/par4.png" alt="Paris">
-						</div>
-					</div>
+	  <div class="caption-container">
+	    <p id="caption"></p>
+	  </div>
 
-					<!-- <div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">													
-						<div class="img-container ">
-							<img class="img-full" src="img/visual/swi1.png" alt="ZTH">
-						</div>
-					</div> -->
-					<!-- <div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/swi8.png" alt="ZTH">
-						</div>
-					</div> -->
-					<div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/par3.png" alt="Paris">
-						</div>
-					</div>
-					
-					<!-- <div class="col-lg-4 col-md-6 col-sm-12 member_desc align-self-center">															
-						<div class="img-container">
-							<img class="img-full" src="img/visual/par1.png" alt="Paris">
-						</div>
-					</div> -->					
-					
-					
-				</div>
-			</div>
+	  <br>
+	  <div class="row">
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Andromeda and the Sea Monster.png" style="width:100%" onclick="currentSlide(1)" alt="Andromeda and the Sea Monster">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Head Study.png" style="width:100%" onclick="currentSlide(2)" alt="Andromeda and the Sea Monster Head Study">
+	    </div>
+	    <div class="column">	
+	      <img class="demo cursor" src="img/visual/Cezanne Still Life remade.png" style="width:100%" onclick="currentSlide(3)" alt="Cezanne Still Life Copy- Oild Painting">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Still life - Green.png" style="width:100%" onclick="currentSlide(4)" alt="Green Still life - Oil Painting">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Still life - Red.png" style="width:100%" onclick="currentSlide(5)" alt="Red Still Life - Oil Painting">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Phil - Yellow.png" style="width:100%" onclick="currentSlide(6)" alt="Phil - Oil Painting">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Male Figure Drawing - Charcoal (2).png" style="width:100%" onclick="currentSlide(7)" alt="Phil - Charcoal Study">
+	    </div>	    	    
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Male Figure Drawing - Charcoal (1).png" style="width:100%" onclick="currentSlide(8)" alt="Male Figure Drawing - Charcoal">
+	    </div>
 
-		</div>
-	</section>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Female Figure Drawing - Charcoal (1).png" style="width:100%" onclick="currentSlide(9)" alt="Female Figure Drawing - Charcoal (1)">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Female Figure Drawing - Charcoal (2).png" style="width:100%" onclick="currentSlide(10)" alt="Female Figure Drawing - Charcoal (2)">
+	    </div>
+	    
+<br><br>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Hand.png" style="width:100%" onclick="currentSlide(11)" alt="Hand - Charcoal">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Still Life.png" style="width:100%" onclick="currentSlide(12)" alt="Still Life">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Candle.png" style="width:100%" onclick="currentSlide(13)" alt="Candle">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Hats.png" style="width:100%" onclick="currentSlide(14)" alt="Hats">
+	    </div>
 
-	<!-- <section class="member-details thintop">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-4">
-					<h4>Digital Art.</h4>
-				</div>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/skull.PNG" style="width:100%" onclick="currentSlide(15)" alt="Skull - digital art">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/yen 2.png" style="width:100%" onclick="currentSlide(16)" alt="Yennifer - Digital Art">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/flora.png" style="width:100%" onclick="currentSlide(17)" alt="Snowy Mountains">
+	    </div>
+	    
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Acrylic Painting.png" style="width:100%" onclick="currentSlide(18)" alt="Acrylic Painting">
+	    </div>	    
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Orange - Pointillism.png" style="width:100%" onclick="currentSlide(19)" alt="Orange(Pointillism) - Acrylic">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="img/visual/Degas Horses - color pencil remade.png" style="width:100%" onclick="currentSlide(20)" alt="Degas Horses - color pencil">
+	    </div>	    
 
-				<div class="col-lg-9 col-md-8">
-					<div class="row">
-						<div class="col-lg-6 member_desc">															
-							<div class="img-container">
-								<img class="aboutme img-full" src="img/visual/Lily.png" alt="lily">
-							</div>
-						</div>
-						<div class="col-lg-6 member_desc">															
-							<div class="img-container">
-								<img class="aboutme img-full" src="img/visual/Lily.png" alt="lily">
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-
+	  </div>
+	</div>
 
 	<!-- FOOTER -->
 	<footer class="footer footer-classic bg-dark">
@@ -392,7 +624,7 @@
 				<div class="row justify-content-center">
 					<div class="col-sm-12">
 						<div class="copyRight_text">
-							<p> © 2020 Copyright Tongyun Shang.</p>
+							<p> © 2025 Copyright Tongyun Shang.</p>
 						</div>
 					</div>
 				</div>
@@ -401,6 +633,7 @@
 	</footer>
 
 </div>
+
 <!-- Modal -->
 <!-- <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
 	<div class="modal-dialog" role="document">
@@ -416,31 +649,61 @@
 	</div>
 </div> -->
 
-<!-- JAVASCRIPTS -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsQdSlW4vj5RvXp2_pLnv1s1ErfxjM5_o"></script>
-<script src="plugins/jquery/jquery.min.js"></script>
-<script src="plugins/jquery/jquery-migrate-3.0.0.min.js"></script>
-<script src="plugins/bootstrap/js/tether.min.js"></script>
-<script src="plugins/bootstrap/js/popper.min.js" ></script>
-<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>
-<script src="plugins/slick/slick.min.js"></script>
-<script src="plugins/circle-progress/jquery.appear.js"></script>
-<script src="plugins/isotope/isotope.min.js"></script>
-<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
-<script src="plugins/counterUp/waypoint.js"></script>
-<script src="plugins/counterUp/jquery.counterup.js"></script>
-<script src="plugins/smoothscroll/SmoothScroll.js"></script>
+	<!-- JAVASCRIPTS -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsQdSlW4vj5RvXp2_pLnv1s1ErfxjM5_o"></script>
+	<script src="plugins/jquery/jquery.min.js"></script>
+	<script src="plugins/jquery/jquery-migrate-3.0.0.min.js"></script>
+	<script src="plugins/bootstrap/js/tether.min.js"></script>
+	<script src="plugins/bootstrap/js/popper.min.js" ></script>
+	<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>
+	<script src="plugins/slick/slick.min.js"></script>
+	<script src="plugins/circle-progress/jquery.appear.js"></script>
+	<script src="plugins/isotope/isotope.min.js"></script>
+	<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+	<script src="plugins/counterUp/waypoint.js"></script>
+	<script src="plugins/counterUp/jquery.counterup.js"></script>
+	<script src="plugins/smoothscroll/SmoothScroll.js"></script>
 
-<script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+	<script src="plugins/syotimer/jquery.syotimer.min.js"></script>
 
-<script type="text/javascript" src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-<script type="text/javascript" src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
 
+	<script src="js/custom.js"></script>
 
-<script src="js/custom.js"></script>
+	<!-- Slideshow -->
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  let i;
+		  let slides = document.getElementsByClassName("mySlides");
+		  let dots = document.getElementsByClassName("demo");
+		  let captionText = document.getElementById("caption");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		    slides[i].style.display = "none";
+		  }
+		  for (i = 0; i < dots.length; i++) {
+		    dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";
+		  dots[slideIndex-1].className += " active";
+		  captionText.innerHTML = dots[slideIndex-1].alt;
+		}
+	</script>
 
 </body>
-
 </html>
 
